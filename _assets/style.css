@@ -1,0 +1,178 @@
+/* Global */
+html {
+  font-size: 62.5%;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.back {
+  font-size: 2rem;
+  text-decoration: none;
+  margin-top: 5px;
+  margin-left: 5px;
+  display: inline-block;
+  color: #000;
+}
+
+.back::before {
+  content: "<";
+}
+
+.back:hover {
+  color: #f8b232;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  box-sizing: border-box;
+}
+
+
+/* Home Page */
+
+header {
+  text-align: center;
+  background: #25AAE1;
+  background-size: cover;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  /*position: relative;*/
+}
+
+header h1 {
+  font-size: 3rem;
+  font-weight: 700;
+}
+
+header .logo {
+  margin-bottom: 10px;
+  width: 50px;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 50px;
+}
+
+main a {
+  text-align: center;
+  text-decoration: none;
+  color: #000;
+  background: #f8b232;
+  border: 1px solid #f7a61b;
+  border-radius: 5px;
+  padding: 10px;
+  width: 200px;
+  margin: 10px 0;
+  font-size: 2rem;
+  font-weight: 500;
+}
+
+main a:hover {
+  background: #000;
+  border: 1px solid #000;
+  color: #fff;
+}
+
+
+/* Homework Page */
+
+main.homework {
+  padding-top: 5px;
+}
+
+main h1 {
+  text-align: center;
+  font-size: 3rem;
+  font-weight: 500;
+}
+
+main .links {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Checkpoints Page */
+main.checkpoints {
+  padding-top: 5px;
+}
+
+/* Portfolio Page */
+main.portfolio {
+  padding-top: 5px;
+}
+
+/**
+ * Media Queries
+ **/
+
+@media screen and (min-width: 320px) {
+  .page::before {
+    content: "320px";
+    font-family: Arial, sans-serif;
+    color: green;
+    position: fixed;
+    top: 0;
+    right: 0;
+    font-weight: 700;
+    margin: 5px;
+    font-size: 2rem;
+    z-index: 9999;
+  }
+}
+
+@media screen and (min-width: 480px) {
+  .page::before {
+    content: "480px";
+    color: maroon;
+  }
+}
+
+@media screen and (min-width: 620px) {
+  .page::before {
+    content: "620px";
+    color: orange;
+  }
+}
+
+@media screen and (min-width: 810px) {
+  .page::before {
+    content: "810px";
+    color: black;
+  }
+  body {
+    width: 80rem;
+    margin: 0 auto;
+    background: lightgray;
+  }
+  header {
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+  }
+  .page {
+    background: #fff;
+    margin-top: 30px;
+    min-height: 90vh;
+    border-radius: 5px;
+    box-shadow: 0 0 6px 0 #696363;
+  }
+}
+
+@media screen and (min-width: 1400px) {
+  .page::before {
+    content: "1400px";
+    color: red;
+  }
+}
