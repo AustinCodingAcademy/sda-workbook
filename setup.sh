@@ -1,4 +1,4 @@
-#!/bin/bash         
+g#!/bin/bash         
 
 npm install --global gulp-cli
 npm install
