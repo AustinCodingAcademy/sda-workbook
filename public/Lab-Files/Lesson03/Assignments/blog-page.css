@@ -1,0 +1,78 @@
+body {
+    background-image: url(travelbackground.jpg);
+    
+}
+
+
+h1 {
+    color: #e0dce8;
+    text-align: center;
+    font-family: Arial Black;
+}
+
+
+h2 {
+    color: #67AECA;
+    padding-left: 50px;
+    font-family: cursive;
+    font-size: 50px
+}
+
+h3 {
+    color: #5F0F4E;
+    font-family: Arial Black;
+
+}
+
+
+li {
+    display:inline;
+    color: #5F0F4E;
+    border: 3px solid #E52A6F;
+    font-family: Arial Black;
+    padding: 3px;
+}
+
+p {
+    font-family: sans-serif;
+    ;padding-left: 100px;
+    padding-right: 100px;
+    text-align: left;
+}
+
+
+.align-center {
+    text-align: center;
+}
+
+
+.width {
+    width: 300px;
+}
+
+
+.new-york {
+    text-align: center;
+    background-color: #EEB6B7;
+    padding: 5px;
+    border-radius: 20px;
+    margin: 200px;
+}
+
+
+.denver {
+    text-align: center;
+    background-color: #A7D2CB;
+    padding: 5px;
+    border-radius: 20px;
+    margin: 200px;
+}
+
+
+.playa {
+    text-align: center;
+    background-color: #FFFFB7;
+    padding: 5px;
+    border-radius: 20px;
+    margin: 200px;
+}
