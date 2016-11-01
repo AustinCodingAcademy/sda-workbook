@@ -1,0 +1,86 @@
+
+.header{
+    font-family:"Lucida Console", Monaco, monospace;
+
+}
+
+.intro{
+    font-family:"Optima";
+    text-align: "center";
+    
+}
+
+.hr1{
+    width:75%;
+}
+.hr2{
+    width:50%;
+}
+
+.img1 {
+    float:right;
+    height:300px;
+    width:250px;
+    margin-left:20px;
+}
+
+
+.claire {
+    
+    width:75%;
+    font-family:"Tahoma";
+    border-radius:10px;
+    color:#f25ca2;
+    border:10px;
+    margin:auto;
+    padding-top:50px;
+    padding-bottom:150px;
+    padding-right:75px;
+    padding-left:75px;
+    
+}
+
+
+.sandy{
+    font-family:"Geneva";
+    width:75%;
+    border-radius:15px;
+    color:#ef1536;
+    border:10px;
+    margin:auto;
+    padding-top:50px;
+    padding-bottom:150px;
+    padding-right:75px;
+    padding-left:75px;
+}
+
+.img2 {
+    float:right;
+    height:350px;
+    width:300px;
+    
+    margin-left:50px;
+}
+
+.wednesday{
+    font-family:"Futura";
+    width:75%;
+    border-radius:15px;
+    color:#75726e;
+    border:10px ;
+    margin:auto;
+    padding-top:50px;
+    padding-bottom:150px;
+    padding-right:75px;
+    padding-left:75px;
+}
+
+.img3{
+    float:right;
+    height:300px;
+    width:250px;
+}
+
+.footer{
+    text-align:center;
+}
