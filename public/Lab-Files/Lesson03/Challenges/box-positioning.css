@@ -1,0 +1,30 @@
+[class^="box"] {
+    color:black;
+    height: 50px;
+    width: 50px;
+    border: 1px solid black;
+    margin: 30px;
+    padding: 10px;
+    font-weight: bold;
+}
+.box1, .box3, .box5 {
+    background: black;
+    color: white;
+}
+
+.box1, .box2, .box3{
+    float: left;
+
+}
+    
+.box4, .box5 {
+    clear: left;
+    
+}
+
+
+.box5, .box6 {
+    float: left;
+    
+
+}
