@@ -1,0 +1,97 @@
+.container {
+    display: flex;
+    height: 170px;
+    width: 880px;
+}
+
+.germany, .colombia {
+    border: 1px solid grey;
+    height: 150px;
+    width: 200px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.italy, .france {
+    border: 1px solid grey;
+    height: 150px;
+    width: 200px;
+    margin: 10px;
+    display: flex;
+    flex-direction: row;
+}
+
+
+
+.g1 {
+    height: 100%;
+    width: 100%;
+    background-color: #000;
+}
+
+.g2 {
+    height: 100%;
+    width: 100%;
+    background-color: red;
+}
+
+.g3 {
+    height: 100%;
+    width: 100%;
+    background-color: yellow;
+}
+.i1 {
+    height: 100%;
+    width: 100%;
+    background-color: green;
+    
+}
+
+.i2 {
+    height: 100%;
+    width: 100%;
+    background-color: #fff;
+}
+
+.i3 {
+    height: 100%;
+    width: 100%;
+    background-color: red;
+}
+
+.f1 {
+    height: 100%;
+    width: 100%;
+    background-color: blue;
+}
+
+.f2 {
+    height: 100%;
+    width: 100%;
+    background-color: #fff;
+}
+
+.f3 {
+    height: 100%;
+    width: 100%;
+    background-color: red;
+}
+
+.c1 {
+    height: 100%;
+    width: 100%;
+    background-color: yellow;
+}
+
+.c2 {
+    height: 100%;
+    width: 100%;
+    background-color: blue;
+}
+
+.c3 {
+    height: 100%;
+    width: 100%;
+    background-color: red;
+}
