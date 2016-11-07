@@ -1,0 +1,135 @@
+/*CSS Rules*/
+
+
+header {
+    background-color: #FFF;
+    height: auto;
+    width: 100%;
+    text-align: center;
+}
+
+/* -- article --*/
+article {
+    width: 48%;
+    height: 440px;
+    float: left;
+    margin-top: 50px;
+    padding: 20px;
+    margin-bottom: 40px;
+    clear: right;
+    background: #f7f7f7;
+}
+
+.art-img {
+    width: 95%;
+    height: auto;
+    margin: auto;
+    padding: 8px;
+    display: block;
+}
+
+.read {
+    display:block;
+    text-align: right;
+}
+
+/* -- aside -- */ 
+aside {
+    width:48%;
+    height: 455px;
+    float: right;
+    clear: right;
+    margin-top: 33px; 
+    margin-bottom: 40px;
+}
+
+.aside-box1, .aside-box2, .aside-box3 {
+    padding: 20px;
+    background: #f7f7f7;
+    margin: 15px;
+    height: 110px; 
+    overflow: hidden;
+}
+
+.aside-box3 {
+    height: 110px;
+    margin-bottom: 20px;
+}
+
+/* aside images */
+.asideimg1 {
+    display: block;
+    width: 33%;
+    height: auto;
+    float: left;
+    padding: 1px;
+    margin: 10px;
+}
+
+.asideimg2 {
+    display: block;
+    width: 33%;
+    height: auto;
+    float: left;
+    padding: 1px;
+    margin: 10px;
+    vertical-align: middle;
+}
+
+.asideimg3 {
+    display: block;
+    width: 33%;
+    height: auto;
+    float: left;
+    padding: 1px;
+    margin: 10px;
+    vertical-align: middle;
+}
+
+.aside-txt {
+    padding-left: 10px;
+    text-align: left;
+    vertical-align: text-bottom;
+}
+
+.aside-box3 p {
+    margin-top: 35px;
+}
+
+/* -- footer -- */
+footer {
+    clear: both;
+}
+
+.profession, .features, .price {
+    width: 25%;
+    height: auto;
+    float: left;
+    padding: 50px;
+    overflow: hidden;
+}
+
+.profession, .features {
+    border-right: 1px solid;
+}
+
+/* footer images / checks */
+.check {
+    margin-top: 5px;
+    height: auto;
+    width: 12px;
+    margin-right: 3px;
+}
+
+.checklink {
+    display: block;
+    margin-top: 60px;
+    text-align: right;
+}
+
+/*  targets both anchors on page */
+a {
+    color:green;
+    
+}
+
