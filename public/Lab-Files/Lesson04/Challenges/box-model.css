@@ -1,0 +1,33 @@
+.box1, .box2, .box3, .box4, .box5, .box6 {
+  border: 1px solid;
+  width: 150px;
+  height: 50px;
+  margin: 10px;
+  padding: 10px;
+  font-style: bold;
+}
+
+.box1, .box3, .box5 {
+  background: #000;
+  color: #FFF;
+}
+
+.box2 {
+  margin-left: 40px;
+}
+
+.box3 {
+  margin-left: 70px;
+}
+
+.box4 {
+  margin-left: 100px;
+}
+
+.box5 {
+  margin-left: 130px;
+}
+
+.box6 {
+  margin-left: 160px;
+}

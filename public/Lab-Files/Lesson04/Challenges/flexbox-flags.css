@@ -1,0 +1,71 @@
+.flags {
+    display: flex;
+    justify-content: space-around;
+}
+
+.german-flag {
+    display: flex;
+    width: 200px;
+    height: 150px;
+    border: 1px solid;
+    flex-direction: column;
+}
+
+.black {
+    background: #000;
+    width: 100%;
+    height: 100%;
+}
+
+.red {
+    background: red;
+    width: 100%;
+    height: 100%;
+}
+
+.yellow {
+    background: yellow;
+    width: 100%;
+    height: 100%;
+}
+
+.italian-flag {
+    display: flex;
+    width: 200px;
+    height: 150px;
+    border: 1px solid;
+}
+
+.green {
+    background: green;
+    width: 100%;
+    height: 100%;
+}
+
+.white {
+    background: white;
+    width: 100%;
+    height: 100%;
+}
+
+.french-flag {
+    display: flex;
+    width: 200px;
+    height: 150px;
+    border: 1px solid;
+}
+
+.blue {
+    background: blue;
+    width: 100%;
+    height: 100%;
+}
+
+.colombian-flag {
+    display: flex;
+    width: 200px;
+    height: 150px;
+    border: 1px solid;
+    flex-direction: column;
+}
+
