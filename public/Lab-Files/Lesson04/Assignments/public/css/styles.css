@@ -1,0 +1,150 @@
+body {
+    font-family: "Optima";
+}
+
+h1 {
+    text-align: center;
+    font-size: 30px;
+    color: gray;
+    margin: 20px;
+}
+
+nav {
+    text-align: center;
+    margin-left: 250px;
+    margin-right: 250px;
+    color: gray;
+    padding-bottom: 30px;
+    padding-top: 10px;
+}
+
+main {
+    margin: 0 auto;
+    height: 400px;
+    width: 1000px;
+    display: flex;
+    justify-content: center;
+}
+
+article {
+    float: left;
+}
+
+.section1 {
+    background-color: #d3d3d3;
+    height: 365px;
+    width: 450px;
+    color: gray;
+    border-radius: 5px;
+    margin: 20px;
+    padding-left: 10px;
+}
+
+.rightbox {
+    width: 450px;
+    height: 300px;
+    float: left;
+    padding-bottom: 50px;
+}
+
+.img1 {
+    width: 400px;
+    padding: 1px;
+    padding-left: 10px;
+    border-radius:5px;
+    max-width:100%;
+    height:auto;
+}
+
+a {
+    color: green;
+}
+
+.read {
+    float: right;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 20px;
+}
+
+.box1,
+.box2,
+.box3 {
+    margin: 20px;
+    width: 450px;
+    height: 100px;
+    background-color: #d3d3d3;
+    border-radius: 5px;
+    color: gray;
+}
+
+h4 {
+    padding-top: 10px;
+}
+
+.img2 {
+    width: 125px;
+    padding: 10px;
+    float: left;
+    max-width:100%;
+    height:auto;
+}
+
+.img3 {
+    width: 125px;
+    padding: 10px;
+    float: left;
+    max-width:100%;
+    height:auto;
+}
+
+.img4 {
+    width: 125px;
+    padding: 10px;
+    float: left;
+    max-width:100%;
+    height:auto;
+}
+
+p {
+    color: gray;
+}
+
+hr {
+    color: #babfc4;
+}
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    color: gray;
+}
+
+ul {
+    list-style-image: url('../img/green_checkmark_small.png');
+}
+
+.column1 {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.column2 {
+    border-left: 1px solid;
+    border-left-color: #babfc4;
+    padding-left: 50px;
+    height: 60%;
+}
+
+.column3 {
+    border-left: 1px solid;
+    border-left-color: #babfc4;
+    padding-left: 30px;
+    padding-right: 30px;
+    height: 60%;
+}
+
+.price {
+    float: right;
+    padding-bottom:10px;
+}
