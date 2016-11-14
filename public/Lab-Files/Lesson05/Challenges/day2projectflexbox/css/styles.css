@@ -1,0 +1,271 @@
+/* CSS for team day 2 project */
+
+body * {  /* setting up body of page */
+	box-sizing: border-box;
+	font-family: Verdana, Arial, sans-serif;
+	font-size: 16px;
+	font-weight: inherit;
+	margin: 0px;
+	padding: 0px;
+	vertical-align: baseline;
+}
+
+body {
+	height: 100%;
+	margin: 0px;
+}
+
+h1, h2, h3, h4 {  /* setting colors and fonts options */
+	color: #333;
+}
+
+h1 {
+	font-size: 1.4rem;
+}
+
+h2 {
+	font-size: 1.3rem;
+	margin-bottom: 1rem;
+}
+
+h3 {
+	font-size: 1.2rem;
+}
+
+h4{
+	font-size: 1.1rem;
+}
+
+#container {   /* wrapper */
+	display: flex;
+	flex-flow: column wrap;
+	height: 100%;
+	margin: 0 auto;
+	width: 75%;
+}
+
+header, footer {  /* containers = header, footer, nav, section */
+	background-color: #99BEC3;
+	border: 1px solid #88A9AD;
+	flex: 1 100%;
+}
+
+header {
+	margin-bottom: 1.2rem;
+	min-height: 10rem;
+	padding: .75rem 1.4rem;
+	text-align: left;
+}
+
+#main_content {
+	align-content: flex-start;
+	align-items: flex-start;
+	display: flex;
+    flex-flow: column nowrap;
+	flex: 1 100%;
+	justify-content: space-between;
+}
+
+nav {
+	background-color: #8B7F97;
+	border: 1px solid #70687A;
+	flex: 1 100%;
+	width: 100%;
+	margin-right: 1.2rem;
+	min-height: 40rem;
+	padding: 1rem;
+	text-align: center;
+}
+
+section {
+	background-color: #C9D3D1;
+	border: 1px solid #B2BAB8;
+	display: flex;
+    flex-flow: row wrap; 
+    flex: 3.7 auto;
+	justify-content: space-between;
+	padding: 1.5rem;
+	text-align: left;
+}
+
+section div {
+	background-color: #94A5B3;
+	border: 1px solid #7A8893;
+}
+
+.featured_story { /* flex items */
+	flex: 4 100%;
+	min-height: 27rem;
+	padding: .75rem 1rem;
+	text-align: left;
+}
+
+.story {
+	flex: 1 20%;
+	justify-content: space-between;
+	margin-right: 1rem;
+	margin-top: 1rem;
+	min-height: 10.5rem;
+	text-align: center;
+}
+
+section div:nth-of-type(5), section div:nth-of-type(9) {
+	margin-right: 0;
+}
+
+footer {
+	font-size: 87%;
+	margin-top: 1.2rem;
+	min-height: 7rem;
+	padding: .75rem 1.4rem;
+	text-align: center;
+}
+
+	section {
+		flex: 2 60%;
+	}
+
+	.featured_story {
+		flex: 2 100%;
+	}
+
+	.story {
+		flex: 1 47%;
+	}
+
+	section div:nth-of-type(odd) {
+		margin-right: 0;
+	}
+
+
+	nav {
+		flex: 1 100%;
+		margin-right: 0;
+		margin-bottom: 1.2rem;
+		min-height: 20rem;
+	}
+
+	section {
+		flex: 1 100%;
+		padding: 1rem;
+	}
+
+	.featured_story {
+		flex: 2 100%;
+	}
+
+	.story {
+		flex: 1 47%;
+	}
+
+	section div:nth-of-type(odd) {
+		margin-right: 0;
+	}
+
+	nav {
+		flex: 1 100%;
+		margin-right: 0;
+		margin-bottom: 1.2rem;
+		min-height: 20rem;
+	}
+
+	section {
+		flex: 1 100%;
+		padding: 1rem;
+
+	}
+
+	.featured_story {
+		flex: 1 100%;
+	}
+
+	.story {
+		flex: 1 100%;
+		margin-right: 0;
+	}
+
+
+@media screen and (min-width: 320px) { /* iphone 5 */
+  #container::before {
+    content: "320px";
+    font-family: Arial, sans-serif;
+    color: green;
+    position: fixed;
+    top: 0;
+    left: 0;
+    font-weight: 700;
+    margin: 5px;
+    font-size: 2rem;
+    z-index: 9999;
+  }
+}
+  
+  
+  @media screen and (min-width: 480px) { /* iphone 6plus */
+  #container::before {
+    content: "480px";
+    color: maroon;
+  }
+	section div:nth-of-type(even) {
+		margin-right: auto;
+	}
+}
+
+@media screen and (min-width: 810px) { /* tablet size */
+  #container::before {
+    content: "810px";
+    color: orange;
+  }
+  .table-responsive {
+    max-width: 100%;
+    
+  } 
+  .story {
+     flex: 1 40%;
+ }
+	section div:nth-of-type(even) {
+		margin-right: 15px;
+	}
+	#main_content {
+		flex-direction: row;
+	}
+ 	section {
+		width: 60%;
+	} 
+	#main_content nav {
+		display: flex;
+	    flex: 1 33%; 
+	    margin-right: 2%;
+	    height: 100vh;
+		}
+}
+@media screen and (min-width: 1200px) { /* small computer screen */
+  #container::before {
+    content: "1200px";
+    color: blue;
+  }
+  .table-responsive {
+    max-width: 100%;
+  } 
+  .story {
+     flex: 1 20%;
+     max-height: 20%;
+ }
+
+	section div:nth-of-type(odd) {
+		margin-right: 1%;
+	}
+	#main_content {
+		flex-direction: row;
+	}
+ 
+  	section div {
+		margin-left: 1%;
+	}
+	#main_content nav {
+		display: flex;
+	    flex: 1 25%; 
+	    margin-right: 2%;
+	    height: 90vh;
+		}
+}
