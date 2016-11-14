@@ -1,0 +1,97 @@
+/*CSS Rules*/
+* {
+  margin: 0; /* soft reset */
+  padding: 0;
+}
+
+table {
+    margin-left: auto;  /* table */
+    margin-right: auto;
+    border-collapse: collapse;
+    max-width: 60%;
+    font-family: 'Roboto', sans-serif;
+}
+
+td, th {
+  min-height: 70px;   /* table alignment */
+  min-width: 135px;
+  padding: 10px;
+}
+
+.colheader {
+  background-color: #4285F4;
+  color: white;
+  height: 60px;
+  width: 135px;
+}
+
+.colheader i {
+  margin-right: 7px;
+}
+
+.storage, .bandwidth, .security, .support, .signup {
+  text-align: center;
+}
+
+td {
+  height: 50px;
+  width: 135px;
+}
+th {
+  height: 80px;
+  width: 135px;
+}
+
+.header {
+    background-color: #3D464D;  /* colors */
+    color: white;
+}
+
+.free i {
+  color: #E82110;
+}
+
+.basic i {
+  color: #10bc61;
+}
+
+.business i {
+  color: #47ade0;
+}
+
+.shade {
+  background-color: #dae4f2;
+}
+
+.signup {
+  color: white;
+}
+
+.freebutton {
+  background-color: #E82110;
+}
+
+.basicbutton {
+  background-color: #10bc61;
+}
+
+.businessbutton {
+  background-color: #47ade0;
+}
+
+
+
+@media only screen and (max-width: 414px) {
+  body::after {
+    content: "414px";
+    position: fixed;        /* media query / resize for iphone6 plus */
+    top: 0;
+    left: 0;
+    color: red;
+    font-weight: 700;
+  }
+  .table {
+    max-width: 80%;
+    overflow-y: scroll;
+  }
+}
