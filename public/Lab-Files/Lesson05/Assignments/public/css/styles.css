@@ -1,0 +1,72 @@
+/*CSS Rules*/
+table{
+    font-family: 'Open Sans', sans-serif;
+    border-collapse:collapse;
+    border-color: white;
+    width:700px;
+    height:700px;
+    text-align:center;
+    overflow-y:hidden;
+
+}
+i{
+    margin-top:20px;
+    margin-bottom:10px;
+
+}
+
+td i {
+    font-size: 100px;
+}
+.top-row{
+    background-color:#2F313A;
+    color:#EBEDF3;
+    font-weight: 500;
+    border-color: #42434c;
+}
+.left{
+    background-color:#5F97FB;
+    color:#EBEDF3;
+    font-weight:500;
+}
+.light-blue{
+    background-color: #f0f8ff;
+}
+.col1{
+    color:#E91E63;
+}
+
+.col2{
+    color:#4CAF50;
+}
+
+.col3{
+    color:#03A9F4;
+}
+.sign1{
+    background-color:#E91E63;
+    color:#EBEDF3;
+}
+.sign2{
+    background-color:#4CAF50;
+    color:#EBEDF3;
+}
+.sign3{
+    background-color:#03A9F4;
+    color:#EBEDF3;
+}
+
+/* Media Query */
+@media screen and (min-width: 320px) {
+  .page::before {
+    content: "320px";
+    position: fixed;
+    top: 0;
+    left: 0;
+    color: red;
+    font-weight: 700;
+  }
+.fa-hdd-o{
+    font-size:50px;
+    
+}
