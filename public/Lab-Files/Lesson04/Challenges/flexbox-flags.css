@@ -1,0 +1,71 @@
+.all{
+    display: flex;
+    
+}
+.germany{
+    display: flex;
+    flex-direction:column;
+    margin:10px;
+    border: 1px black solid;
+}
+
+.black{
+    height:50px;
+    width:200px;
+    background-color:black;
+}
+.red{
+    height:50px;
+    width:200px;
+    background-color:red;
+}
+.yellow{
+    height:50px;    
+    width:200px;
+    background-color:yellow;
+}
+.colombia{
+    display: flex;
+    flex-direction:column;
+    margin:10px;
+    border: 1px black solid;
+}
+
+.blue{
+    width:200px;
+    height:50px;
+    background-color:blue;
+}
+.italy{
+    display: flex;
+    margin:10px;
+    border: 1px black solid;
+    
+}
+.green{
+    background-color:green;
+    height:150px;
+    width:67px;
+}
+.white{
+    background-color:white;
+    height:150px;
+    width:66px;
+}
+.red2{
+    background-color:red;
+    height:150px;
+    width:67px;
+}
+.france{
+    display: flex;
+    margin:10px;
+    border: 1px black solid;
+    
+}
+.blue2{
+     background-color:blue;
+    height:150px;
+    width:67px;
+    
+}

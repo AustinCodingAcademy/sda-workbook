@@ -1,0 +1,36 @@
+div{
+  height:50px;
+  width:150px;
+  margin: 10px;
+  padding:10px;
+}
+.box1, .box3, .box5{
+  background-color:black;
+  color:white;
+  border-style:solid;
+  border-width:1px;
+}
+.box2, .box4, .box6{
+  background-color:white;
+  color:black;
+  border-style:solid;
+  border-width:1px;
+}
+.box2{
+  margin-left:30px;
+}
+.box3{
+  margin-left:60px;
+}
+.box4{
+  margin-left:90px;
+}
+.box5{
+  margin-left:120px;
+}
+.box6{
+  margin-left:150px;
+}
+p{
+  margin:10px;
+}
