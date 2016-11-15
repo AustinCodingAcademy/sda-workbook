@@ -1,0 +1,15 @@
+img{
+    width:250px;
+    height:250px;
+    float: left;
+}
+
+body{
+    background-color:#351516;
+}
+h1{
+    color: #CB6B1F;
+}
+p{
+    color: #57AEF3;
+}

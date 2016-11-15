@@ -1,0 +1,14 @@
+.post{
+    width: 50%;
+    float:left;
+}
+
+.info{
+    width:45%;
+    float:right;
+    background-color:gray;
+}
+
+body{
+    padding:100px;
+}
