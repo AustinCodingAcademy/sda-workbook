@@ -1,0 +1,143 @@
+/*CSS Rules*/
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.8rem;
+  /* 16px */
+  font-family: sans-serif;
+}
+
+.wrapper {
+  max-width: 60%;
+  margin: 0 auto;
+  overflow-y:hidden;
+}
+
+table {
+  min-width: 727px;
+  height: 600px;
+  border-collapse: collapse;
+  border-color: #c5c9cc;
+}
+
+th {
+  font-size: 2.0rem;
+  border: 1px solid;
+  border-right-color:#464750;
+}
+
+td {
+  font-size:1.3rem;
+}
+td .fa {
+  font-size: 2.6rem;
+  padding-bottom:20px;
+}
+
+.storage td {
+  background-color: #f0f8ff;
+}
+
+.security td {
+  background-color: #f0f8ff;
+}
+
+.th2,
+.th3,
+.th4,
+.th5,
+.th6 {
+  background-color: #519ad6;
+  color: white;
+  font-size: 1.8rem;
+  border-bottom-color:#f0f8ff;
+}
+
+.header {
+  background-color: #333131;
+  color: white;
+}
+
+.column1 i {
+  color: #f21072;
+  font-size: ;
+}
+
+.column2 i {
+  color: #27ad5d;
+}
+
+.column3 i {
+  color: #30c3e8;
+}
+
+.storage {
+  text-align: center;
+}
+
+.bandwidth {
+  text-align: center;
+}
+
+.security {
+  text-align: center;
+}
+
+.support {
+  text-align: center;
+}
+
+.signup {
+  text-align: center;
+  color: white;
+}
+
+.sign1 {
+  background-color: #f21072;
+  border-left-color: #f21072;
+  border-right-color: #f21072;
+}
+
+.sign2 {
+  background-color: #27ad5d;
+  border-right-color: #27ad5d;
+  border-left-color: #27ad5d;
+}
+
+.sign3 {
+  background-color: #30c3e8;
+  border-left-color: #30c3e8;
+  border-right-color: #30c3e8;
+}
+
+th i {
+  padding-top: .7rem;
+  padding-bottom: .7rem;
+}
+
+tr i {
+  padding-right: .7rem;
+}
+
+td i {
+  padding-bottom: .7rem;
+  height: 1.6rem;
+  width: 1.6rem;
+}
+
+.fa fa-hdd-o {
+  font-size: 1.8rem;
+}
+
+@media only screen and (max-width: 320px) {
+  body::after {
+    content: "320px";
+    position: fixed;
+    top: 0;
+    left: 0;
+    color: green;
+    font-weight: 700;
+  }
