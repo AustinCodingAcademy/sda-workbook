@@ -1,0 +1,123 @@
+
+.blk {background-color:black;}
+.blu {background-color:blue;}
+.grn {background-color:green;}
+.red {background-color:red;}
+.ylw {background-color:yellow;}
+.wht {background-color:whte;}
+
+.flx
+{
+	display:flex;
+    flex-direction: row;
+	height:150px;
+	width:720px;
+    /* 
+	flex-wrap: nowrap;
+    justify-content: center;
+    align-content: flex-start;
+    align-items: flex-start; 
+	*/
+}
+
+.flag
+{
+	
+	display:flex;
+	
+	border-style:solid;
+	border-color:black;
+	border-width:1px;
+	
+	position:absolute;
+	
+	
+	height:150px;
+	width:200px;
+	
+	/* padding:10px; */	
+	
+	/* 
+	margin-bottom:15px;
+	margin-top:15px; 
+	margin-left:15px;
+	margin-right:15px; 
+	*/
+	
+	
+}
+
+.clr
+{
+	display:flex;
+	height:150px;
+	width:200px;
+	/* top:0px;
+	 */
+}
+
+.hrz
+{
+	/* 
+	height:50px;
+	width:200px; 
+	*/
+}
+
+.hrz2
+{
+	/* 
+	height:50px;
+	width:200px; 
+	*/
+	/* top:50px; */
+}
+
+.vrt
+{
+	/* 
+	height:150px;
+	width:66px; 
+	*/
+}
+
+.germany-flag
+{	
+	display:flex;
+	flex-direction: column;
+	/* 
+	top:50px;
+	height:150px;
+	width:200px; 
+	*/
+	order:1;
+}
+
+/* 
+.germany-flag.clr2
+{
+	top:50px;
+	height:150px;
+	width:200px;
+} 
+*/
+
+.italy-flag
+{
+	left:240px;
+}
+
+.france-flag
+{
+	left:480px;
+	/* left:220px; */
+}
+
+.columbia-flag
+{
+	left:720px;
+	
+	display:flex;
+	flex-direction: column;
+	/* margin-left:20px; */	
+}
