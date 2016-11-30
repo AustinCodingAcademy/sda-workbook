@@ -1,0 +1,107 @@
+.wrapper{
+    display:flex;
+    height: 75%;
+    justify-content:space-around;
+    align-items:center;
+}
+
+.flag1{
+    height: 148px;
+    width: 198px;
+    display: flex;
+    flex-direction: column;
+    border:1px solid black;
+}
+.color1{
+    background-color: black;
+    width: 100%;
+    height:100%;
+}
+
+.color2{
+    background-color: yellow;
+    width: 100%;
+    height:100%;
+}
+
+.color3{
+    background-color:red;
+    height: 100%;
+    width:100%;
+}
+
+.flag2{
+    height: 148px;
+    width: 198px;
+    display:flex;
+    border:1px solid black;
+}
+
+.color1-1{
+    height:100%;
+    width:100%;
+    background-color: green;
+}
+
+.color2-2{
+    height:100%;
+    width:100%;
+    background-color: white;
+}
+
+.color3-3{
+    height:100%;
+    width: 100%;
+    background-color:red;
+}
+
+.flag3{
+    height:148px;
+    width: 198px;
+    display: flex;
+    border:1px solid black;
+}
+
+.color1-4{
+    height:100%;
+    width:100%;
+    background-color: blue;
+}
+
+.color2-5{
+    height:100%;
+    width:100%;
+    background-color:white;
+}
+
+.color3-6{
+    height:100%;
+    width:100%;
+    background-color: red;
+}
+.flag4{
+    height:148px;
+    width: 198px;
+    display: flex;
+    flex-direction:column;
+    border:1px solid black;
+}
+
+.color1-7{
+    width:100%;
+    height: 100%;
+    background-color: yellow;
+}
+
+.color2-8{
+    height: 100%;
+    width: 100%;
+    background-color: blue;
+}
+
+.color3-9{
+    height: 100%;
+    width:100%;
+    background-color: red;
+}
+
