@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<meta name="Keywords" content="CIW, Web Foundations Associate, Example"/>
+<meta name="Description" content="For the CIW Web Foundations Associate courses"/>
+<meta charset="utf-8"/>
+<!-- <link rel="stylesheet"  type="text/css" href="form.css"/> -->
+<title>Basic Form</title>
+</head>
+
+
+
+<body>
+
+<h1>Basic Form</h1>
+	
+<form   
+    method="post"
+    action="http://ss1.ciwcertified.com/cgi-bin/process.pl">
+    
+    Enter Your Name: <input type="text" name="Name" size="40" />
+    <br/>
+    <br/>
+    Enter Your E-mail: <input type="text" name="Email" size="40" />
+    <br/>
+    <br/>
+    Should we add you to our mailing list? <br/>
+    <input type="radio" name="AddToList" value="yes" checked="checked"/>Yes
+    <input type="radio" name="AddToList" value="no"/>No
+    <br/>
+    <br/>
+    What skills do you have that can help us at Habitat for Humanity? (check all
+    that apply):<br/>
+    <input type="checkbox" name="Carpentry"/> Carpentry<br/>
+    <input type="checkbox" name="Plumbing" /> Plumbing<br/>
+    <input type="checkbox" name="Financing"/> Financing<br/>
+    <br/>
+    <br/>
+    How often would you like to receive an e-mail from Habitat for Humanity? <br/>
+    <select name="EmailFreq">
+    <option>Once a week</option>
+    <option>Once or twice a month</option>
+    <option>Once a month</option>
+    <option value="Remove"> Never</option>
+    </select>
+    <br/>
+    <br/>
+    Where would you like to work? (choose all that apply):
+    <br/>
+    <select name="work" multiple="multiple" size="4">
+    <option>Australia</option>    
+    <option>Japan</option>
+    <option>India</option>
+    <option>England</option>
+    <option>United States</option>
+    </select>
+    <br/>
+    <br/>
+    Comments:<br/>
+    <textarea name="comments" cols="30" rows="3">
+    </textarea>
+    <br/>
+    <br/>
+    <input type="submit"/>
+    <input type="reset"/>
+</form>
+
+
+
+
+
+
+
+
+
+</body>
+</html>
