@@ -1,0 +1,393 @@
+/*CSS Mock-Up*/
+* {
+  /* Simple Reset */
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Black Ops One', cursive;
+  width: 100%;
+  height: 100%;
+}
+
+.wrapper {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+header {
+  min-height: 3em;
+}
+
+.headbar { /*blue bar on header*/
+  height: 3em;
+  background-color: #007EE5;
+}
+
+.title {
+  height: 70%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.site-nav {  /*menu icon*/
+  position: absolute;
+  top: 8em;
+  right: 15px; 
+  background-color: #fdfdfd;
+  border: 1px solid #e8e8e8;
+  border-radius: 5px;
+  text-align: right;
+}
+
+.site-nav .menu-icon {
+  display: block;
+  float: right;
+  width: 36px;
+  height: 26px;
+  padding-top: 10px;
+  text-align: center;
+}
+
+.site-nav .trigger {
+  clear: both;
+  display: none;
+}
+
+.site-nav:hover .trigger {
+  display: block;
+  padding-bottom: 5px;
+}
+
+.site-nav .page-link {
+  color: #111;
+  display: block;
+  padding: 5px 10px;
+  margin-left: 20px;
+}
+
+.site-nav .page-link:hover {
+  text-decoration: underline;
+}
+
+nav {
+  display: flex;
+  flex-basis: 100%;
+  height: 5em;
+  flex-direction: column;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.navbar { /* blue bar on Nav section */
+  min-height: .5em;
+  min-width: 100%;
+  background-color: #007EE5;
+}
+
+article {
+  display: flex;
+  max-width: 100;
+  flex-wrap: wrap;
+  padding: 0 1em 0 1em;
+}
+
+article h2 {
+  max-height: 3em;
+}
+
+.arttext { /* text formatting */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: center;
+  height: 20em;
+  margin: .5em;
+}
+
+p {
+  font-family: sans-serif, arial;
+}
+
+table { /* table used to present img grid */
+  margin-bottom: 1em;
+}
+
+table img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+.carl { /*will only appear at 620px & 810px screen size */
+  display: none;
+}
+
+.robert { /*will only appear at screen size 1210px or greater */
+  display: none;
+}
+
+.testimonials span { /* used to format color & style of author's name on testimonial*/
+  height: 2em;
+  color: #007EE5;
+}
+
+.testimonials {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 100%;
+  height: 13em;
+  text-align: center;
+  justify-content: center;
+  padding: 0 1em 0 1em;
+}
+
+.testimonials button { /*formatting the "prev" and "next" button */
+  display: flex;
+  justify-content: space-around;
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+}
+
+button {
+  margin: 2em 1em 2em 1em;
+  width: 4em;
+  height: 2em;
+  border-radius: 1em;
+}
+
+.uglyguys { /* employee pics */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  text-align: center;
+}
+
+.uglyguys h1 {
+  margin: 1em 0 1em 0;
+}
+
+.uglyguys p {
+  margin-bottom: 3em;
+}
+
+.uglyguys img {
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  padding: .5em;
+  border: 1px solid gray;
+  margin-bottom: 1em;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  background-color: #E8E8E8;
+}
+
+footer p {
+  padding: 0 1.5em 0 1.5em;
+}
+
+.f1 {
+  margin: 1em 2em 1em 0;
+}
+
+.f2 {
+  margin: 1em 1em .5em 0;
+}
+
+.f3 {
+  margin: 1em 1em 1em 0;
+}
+
+form {
+  width: 80%;
+}
+
+.input1 {
+  width: 100%;
+  height: 24px;
+  font-size: large;
+}
+
+.input2 {
+  color: white;
+  background-color: #7B8994;
+  width: 6em;
+  height: 3em;
+  margin-top: 1em;
+  font-size: large;
+}
+
+.frow3 {
+  margin-top: 1em;
+}
+
+.icon {
+  display: flex;
+  justify-content: space-between;
+  height: 4em;
+  width: 14em;
+  margin-bottom: 1em;
+}
+
+.icon i {
+  font-size: 55px;
+}
+
+.footbar { /*blue bar on bottom of footer */
+  height: 2em;
+  width: 100%;
+  background-color: #007EE5;
+}
+
+
+@media screen and (min-width: 320px) { /* 320px screen size */
+  .wrapper::before {
+    content: "320px";
+    font-family: Arial, sans-serif;
+    color: green;
+    position: fixed;
+    top: 0;
+    left: 0;
+    font-weight: 700;
+    margin: 5px;
+    font-size: 2.4rem;
+    z-index: 9999;
+  }
+}
+
+@media screen and (min-width: 480px) { /* 480px screen size */
+  .wrapper::before {
+    content: "480px";
+    color: maroon;
+  }
+}
+
+@media screen and (min-width: 620px) { /* 480px screen size */
+  .wrapper::before {
+    content: "620px";
+    color: orange;
+  }
+  .arttext {
+    height: 15em;
+  }
+  .carl {  /* displays carl's testimonial*/
+    display: flex;
+    flex: 1 1 100%;
+  }
+  .smith {
+    display: flex;
+    flex: 1 1 100%;
+  }
+  .testimonials {
+    display: flex;
+    flex-direction: row;
+  }
+  .testimonials p {
+    margin-left: .5em;
+  }
+  .testimonials h1 {
+    flex: 1 1 100%;
+  }
+  .testimonials div {
+    flex: 1 0 40%;
+  }
+  .button {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+@media screen and (min-width: 810px) { /* 820px screen size */
+  .wrapper::before {
+    content: "810px";
+    color: black;
+    text-align: center;
+  }
+  .site-nav {
+    right: 4em;
+  }
+  table {
+    justify-content: center;
+  }
+}
+
+@media screen and (min-width: 1210px) { /* 1210px screen size*/
+  .wrapper::before {
+    content: "1210px";
+    color: red;
+  }
+  .site-nav {
+    background-color: #fff;
+    border: 0;
+    border-radius: 0;
+    right: 20em;
+    line-height: 50px;
+  }
+  .site-nav .trigger {
+    display: block;
+  }
+  .site-nav .menu-icon {
+    display: none;
+  }
+  .site-nav .page-link {
+    display: inline;
+    color: #111;
+    line-height: 1.5;
+  }
+  .site-nav .page-link:not(:last-child) {
+    margin-right: 10px;
+  }
+  .testimonials div {
+    flex: 1 1 100%;
+  }
+  .robert { /* displays robert's testimonial */
+    display: flex;
+  }
+  .carl, .smith { /*hides carl and smith testimonial*/
+    display: none;
+  }
+  .uglyguys { /* formats section into row*/
+    flex-direction: row;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    height: 25em;
+  }
+  .uglyguys h1 {
+    flex: 1 1 100%;
+  }
+  footer { /*formats footer into row */
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 18em;
+  }
+  .frow1, .frow2, .frow3 {
+    flex: 1 1;
+  }
+  .frow2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .frow3 {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+  }
+}
