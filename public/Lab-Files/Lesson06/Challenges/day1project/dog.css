@@ -1,0 +1,371 @@
+/* Practice CSS */
+* {
+    margin: 0;  /* reset */
+    padding: 0;
+}
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: sans-serif;
+    height: auto;
+    width: 100%;
+}
+
+.wrapper {        /* mobile first setup */
+    display: flex;
+    flex-wrap: wrap;
+}
+
+header {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    background-color: #DDA42A;
+}
+
+.logo {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.paw {
+    display: flex;
+    flex: 1;
+    align-items: center;
+    font-size: 15px;
+    margin: 5px;
+    color: #fff;
+}
+
+.paw img {
+    display: flex;
+    height: 25px;
+    margin-right: 5px;
+}
+
+.search {
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 13px;
+    padding-left: 5px;
+    margin: 10px;
+    background-color: #885D02;
+    color: #fff;
+    border-radius: 5px;
+}
+
+.search img {
+    border: 1px solid #563c06;
+    padding: 10px;
+    height: 15px;
+    background-color: #563c06;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+article {
+    width: 100%;
+    background-color: #D0782A;
+}
+
+.ginger img {
+    display: block;
+    width: 100%;
+    height: 400px;
+}
+
+.pup {           /* hidden until screen above 620px */
+    display: none;
+}
+
+.text {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    margin: 5px;
+    color: #fff;
+    background-color: #D0782A;
+}
+h1 {
+    font-size: 30px;
+}
+h2 {
+    margin-top: 2px;
+    font-size: 17px;
+}
+.mobile {
+    display: flex;
+    justify-content: center;
+    
+}
+.mobile img {
+    display: block;
+    height: 40px;
+    margin: 5px;
+    margin-left: 20px;
+}
+
+footer { 
+    display: flex;
+    width: 100%;
+    height: 400px;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: #222;
+    color: #fff;
+}
+
+.footericons {
+    flex-direction: column;
+    justify-content: space-around;
+    margin-bottom: 5px;
+}
+
+.footericons img {
+    display: flex;
+    margin-bottom: 5px;
+    height: 40px;
+}
+
+.submit {
+        display: inline-block;
+        width: 210px;
+        height: 45px;
+}
+
+.domain {
+    height: 38px;
+    background-color: #000;
+    color: #fff;
+    border: 1px solid gray;
+    border-radius: 2px;
+}
+
+.button {
+    background-color: #D0782A;
+    color: white;
+    height: 40px;
+    width: 70px;
+}
+
+.footericons {
+    display: flex;
+    align-items: center;
+    height: 50px;
+    width: 250px;
+}
+
+footer .footericons, footer .donate {
+    display: flex;
+    justify-content: space-around; 
+}
+
+.donate {
+    display: flex;
+    align-items: center;
+    color: #47CF73;
+    background-color: #fff;
+    border-radius: 3px;
+}
+.heart {
+    background-color: #47CF73;
+    border-radius: 3px;
+}
+
+@media screen and (min-width: 320px) { /* iphone 5 screen */
+  .wrapper::before {
+    content: "320px";
+    font-family: Arial, sans-serif;
+    color: red;
+    position: fixed;
+    top: 0;
+    left: 0;
+    font-weight: 700;
+    margin: 5px;
+    font-size: 2rem;
+    z-index: 9999;
+  }
+}
+
+@media screen and (min-width: 480px) { /* iphone 6 screen */
+    .wrapper::before {
+        content:"480px";
+        font-family: Arial, sans-serif;
+        color: blue;
+        position: fixed;
+        top:0;
+        left: 0;
+        font-weight: 700;
+        margin: 5px;
+        font-size: 2rem;
+        z-index: 9999;
+    }
+    .wrapper {  
+        width: 100%;
+        justify-content: center;
+    }
+    header {
+        width: 90%;
+    }
+    article {
+        width: 90%;
+        height: 550px;
+    }
+    .ginger img {
+        width: 100%;
+    }
+    footer {
+        width: 90%;
+        flex-direction: column;
+    }
+}
+
+@media screen and (min-width: 620px) { /* tablet size */
+    .wrapper::before {
+        content:"620px";
+        color: red;
+    }
+    footer {         /* adjusting content - footer to the bottom horizontal */
+        display: flex;
+        flex-direction: row;
+        width: 90%;
+        height: 120px;
+        align-items: center;
+        justify-content: space-around;
+        background-color: #222;
+        color: #fff;
+    }
+    .submit {
+        display: inline-block;
+        width: 210px;
+        height: 45px;
+        }
+    .domain {
+        height: 38px;
+        background-color: #000;
+        color: #fff;
+        border: 1px solid gray;
+        border-radius: 2px;
+    }
+    .button {
+        background-color: #D0782A;
+        color: white;
+        height: 40px;
+        width: 70px;
+    }
+    .footericons {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap; 
+        height: 50px;
+        width: 260px;
+    }
+    .footericons img {
+        height: 40px;
+        width: 40px;
+        margin: 2px;
+        align-items: baseline;
+    }
+    footer .footericons, footer .donate {
+        display: flex;
+        justify-content: space-around;
+    }
+    .donate {
+        display: flex;
+        align-items: center;
+        color: #47CF73;
+        background-color: #fff;
+        border-radius: 3px;
+    }
+    .heart {
+        background-color: #47CF73;
+        border-radius: 3px;
+    }
+}
+
+@media screen and (min-width:810px){  /* ipad screen */
+    .wrapper::before {
+        content: "810";
+        color: pink;
+    }
+    body {
+        display: flex;
+    }
+    .wrapper {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        width: 100%;
+    }
+    header {
+        display: flex;
+        max-height: 500px;
+        height: 15%;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .paw {
+        height: 35%;
+    }
+    .logo {
+        order: 2;
+        flex: 2;
+        width: 32%;
+        height: 50%;
+    }
+    .search {
+        height: 35%;
+        order: 3;
+    }
+    article {
+        width: 30%;
+    }
+    .wrapper aside {
+        width: 60%;
+    }
+    .pup {
+        display: flex;
+    }
+    aside img {
+        display: flex;
+        width: 100%;
+        height: 550px;
+    }
+    .footericons {
+        width: 300px;
+    }
+    .footericons img {
+        width: 50px;
+    }
+}
+@media screen and (min-width:1210px){  /* laptop screen */
+    .wrapper::before {
+        content: "1210";
+        color: gold;
+    }
+     .donate {
+        width: 15%;
+        flex: 0 1 15%;
+    }
+    .heart {
+        display: flex;
+        width: 40%;
+        flex: 1 1 40%;
+    }
+    .heart img {
+        justify-content: center;
+        width: 100%;
+    }
+    .donate div {
+        flex: 1 1 100%;
+        text-align: center; 
+    }
+}
