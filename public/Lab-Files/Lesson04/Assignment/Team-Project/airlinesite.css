@@ -1,0 +1,171 @@
+
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/185649/airline.jpg) no-repeat center center fixed;
+  background-size: cover;
+  background-color: #1d4356;
+}
+
+body {
+	font-family: 'Roboto', sans-serif;
+}
+
+nav,
+main {
+  /* the padding and border is calculated into the width and height of the <nav> and <main> elements automatically by the browser */
+  box-sizing: border-box;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color:#193a55;
+  color: #fff;
+  height: 82px;
+  border: 0 solid #fff;
+  border-bottom-width: 1px;
+}
+
+.links ul {
+  list-style: none;
+}
+
+.links ul li {
+  margin: 10px;
+  display: inline;
+}
+
+.active {
+  color: #03b5a3;
+}
+
+.links ul li img {
+  margin-right: 5px;
+}
+
+main {
+  height: calc(100vh - 82px);
+  position: relative;  /* create a coordinate system */
+}
+
+section {
+  width: 542px;
+  height: 386px;
+  background: #193a55;
+  border-radius: 5px;
+  position: absolute;  /* can be positioned in the <main> coordinate system */
+  top: 50px;
+  left: 50px;
+}
+
+.tabs {
+  display: flex;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.tab1,
+.tab2,
+.tab3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: calc(100% / 3); /* take up 1 third each */
+  height: 60px;
+  background: #018D80;
+}
+
+.tab1 {
+  background: #0063B7;  /* overrides what was set previously */
+  border-top-left-radius: 5px;
+}
+
+.tab3 {
+  border-top-right-radius: 5px;
+}
+.line1, .line2{
+  display:flex;
+  justify-content:space-around;
+}
+
+.line1{
+  margin-top: 50px;
+}
+.line2{
+  margin-top:20px;
+}
+.box1, .box2, .box3, .box4{
+  display:flex;
+  align-items:center;
+  padding-left:20px;
+  border-radius:5px;
+  width:200px;
+  height:45px;
+}
+.box1, .box2{
+  border:1px solid white;
+  color:#707f92;
+}
+.box3, .box4{
+  border:1px solid white;
+  color:white;
+}
+.line3{
+  display:flex;
+  flex-direction:row;
+  margin-top:20px;
+  align-items:center;
+}
+.one-way,.number,.return,.passenger{
+  display:flex;
+  align-items:center;
+  height:45px;
+  color:white;
+}
+.passenger{
+  margin-left: 20px;
+  padding-left: 5px;
+  width:130px;
+  
+}
+.number{
+  width:70px;
+  padding-left:20px;
+  border:1px solid white;
+  border-radius: 5px;
+}
+.arrow-down{
+  margin-left:40px;
+  width: 0;
+  height: 0;
+  border-left:5px solid white;
+}
+.return {
+	margin-left: 50px;
+	width: 80px;
+}
+			
+.one-way {
+  margin-left: 10px;
+	width: 80px;
+}
+input {
+	 margin-right: 5px;
+}
+			
+.search-flights {
+	display: flex;
+	height: 45px;
+  background: #2166bb;
+	margin: 20px;
+	justify-content: center;
+  align-items: center;
+	color: white;
+  
+}
