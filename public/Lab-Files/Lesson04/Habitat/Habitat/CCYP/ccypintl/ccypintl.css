@@ -1,0 +1,107 @@
+/* STYLE SHEET FOR CCYPINTL.HTML */
+
+body {
+	margin:0px;
+	font-family: Arial, Helvetica, Geneva, Swiss, sans-serif;
+     } 
+
+p {
+   	margin-top: 9px; 
+   	font-size: 80%;
+   	margin-bottom: 9px;
+   }
+
+img { 
+	border: 0; 
+    }
+
+H2 {
+	margin-top: 9px; 
+	font-weight: bold; 
+	font-size: 120%;
+	color:#cc3333;
+	margin-bottom: 10px; 
+    }
+
+A {
+   color: #093
+   }
+
+
+img.floatright {
+	float:right; 
+	margin:5px;
+    	       }
+
+
+#container {
+			width: 600px;
+			border-top: 8px solid #f90;
+			padding: 0px;
+		   }
+
+#banner {
+		 padding: 0;
+		 margin-bottom: 0;
+		 background-color: #fff;
+		}
+		
+#head  {
+		margin:0px;
+        	padding:0px;
+		border:0px;
+		height:62px;
+		background: #fff url(intlheaders_01.gif) no-repeat left;
+		}
+		
+#navbar {
+		margin:0px;
+		padding:0px;
+		border:0px;
+		height:22px;
+		}
+		
+#subnav {
+		 margin:0px;
+		 padding:0px;
+		 border:0px;
+		 height:16px;}
+
+#content {
+		   padding: 0;
+		   margin-left: 165px;
+		   background-color: #fff;
+		  }
+
+#sidebar {
+			float: left;
+			width: 165px;
+			margin:0;
+			padding: 0;
+			padding-bottom:210px;
+			background: #fc3 url(navbg_04.gif) repeat-y top right;
+		}
+
+#footer {
+		 clear: both;
+		 text-align:center;
+		 font-size: 70%;
+		 padding: 0;
+		 margin-top: 36px;
+		 background-color: #fff;
+		}
+		
+#photoblock {
+			background: #fff url(mainphoto_01.jpg) no-repeat left;
+			padding:36px 0px;
+			}
+	
+#photoblock div {
+				 width:140px;
+				 padding-left:275px;
+				}
+			 
+#photoblock p {
+			   font-size:90%;
+			   font-weight:bold;
+			  }

@@ -1,0 +1,72 @@
+table{
+	font-family:'Open Sans', sana-serif;
+	border-collapse: collapse;
+	border-color:white;
+	width:700px;
+	height:700px;
+	text-align:center;
+	overflow-y: hidden;
+	
+}	
+i{
+	padding:1px;
+	margin-top:20px;
+	margin-bottom: 15px;
+}
+th .fa{
+	font-size:10px;
+}
+td .fa{
+	display: block;
+	font-size:30px;
+}
+td .left-icon{
+	display:inline-block;
+}
+.top_row{
+	background-color:#2f313a;
+	color:white;
+	font-weight:400;
+	border-color: #51525b;
+	width:auto;
+	font-size:22px;
+	
+}
+
+.left{
+	
+	background-color:#2686e0;
+	color:white;
+	font-size:20px;
+	font-weight: 400;
+}
+
+.column1 .fa{
+	padding-top: 15px;
+	color:#e03871;
+}
+.column2 .fa{
+	color:#29c47b;
+	
+}
+.column3 .fa{
+	color:#1480e5;
+	
+}
+.signup1{
+	background-color:#e03871;
+	color:#dee6ed;
+	font-size:15px;
+
+}
+.signup2{
+	background-color: #29c47b;
+	color: #dee6ed;
+	font-size:15px;
+}
+.signup3{
+	background-color:#1480e5;
+	color:#dee6ed;
+	font-size:15px;
+}
+

@@ -1,0 +1,151 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+/* see: http://nicolasgallagher.com/micro-clearfix-hack */
+/* .clearfix::before,
+.clearfix::after {
+  content: " ";
+  display: table;
+}
+.clearfix::after {
+  clear: both;
+} */
+
+body {
+  font-family: sans-serif;  
+  color: #000;
+  font-weight: 700;
+}
+.page {
+  width: 80%;
+  margin: 0 auto;
+}
+
+header {
+  text-align: center;
+  line-height: 100px;
+  background: #98BEC1;
+  height: 100px;
+  
+}
+
+nav {
+  display:inline-block;
+  text-align: center;
+  line-height: 200px;
+  width:100%;
+  height: 400px;
+  background: #8B7F97;
+  margin-top: 20px;
+}
+
+main {
+  background: #C9D3D2;  
+  margin-top: 20px;
+  padding: 1rem;
+}
+
+.featured {
+  text-align: center;
+  line-height: 500px;
+  height: 400px;
+  background: #94A6B4;
+}
+
+article {
+  display:inline-block;
+  height: auto;
+  width:100%;
+  margin-top: 1rem;
+  background: #94A6B4;
+  text-align: center;
+  line-height: 200px;
+}
+
+footer {
+  height: 100px;
+  background: #98BEC1;
+  margin-top: 10px;
+  text-align: center;
+  line-height: 100px;
+}
+
+
+/**
+ * Media Queries
+ **/
+@media screen and (min-width: 320px) {
+  .page::before {
+    content: "320px";
+    font-family: Arial, sans-serif;
+    color: green;
+    position: fixed;
+    top: 0;
+    left: 0;
+    font-weight: 700;
+    margin: 5px;
+    font-size: 2rem;
+    z-index: 9999;
+  }
+@media screen and (min-width: 480px) {
+  .page::before {
+    content: "480px";
+    color: violet;
+}
+  nav {
+  display:inline-block;
+    height:250px;
+  }
+ article {
+  display:inline-block;
+   width:49%;
+   height:150px;
+  
+}
+@media screen and (min-width: 620px) {
+  .page::before {
+    content: "620px";
+    color: orange;
+  }
+  @media screen and (min-width: 810px) {
+  .page::before {
+    content: "810px";
+    color: lightcoral;
+  }
+    nav{
+      display:inline-block;
+      float:left;
+      height:450px;
+      width:20%;
+    }
+    .featured{
+      display:inline-block;
+      width:80%;
+      height:300px;
+      margin-left:5px;
+    }
+    article{
+      display:inline-block;
+      width:241px;
+      height:130px;
+      margin:5px;
+      float:right;
+      text-align:center;
+      
+    }
+@media screen and (min-width: 1200px) {
+  .page::before {
+    content: "1200px";
+    color: yellowgreen;
+  }
+  article{
+    display:inline-block;
+    hight:100px;
+    width:180px;
+    margin:4px;
+    
+  }
+  
+    }
