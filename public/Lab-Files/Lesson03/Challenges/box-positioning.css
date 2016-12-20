@@ -1,0 +1,78 @@
+/* box-posititioning css */
+
+.box1, .box3, .box5 {  
+    width: 50px;
+    height: 50px;
+    margin: 30px;
+    padding: 10px;
+    border: 1px solid black;
+    background-color: #000;
+    vertical-align: text-top;
+    text-align: center;
+    color: white;
+    font: bold;
+}
+    
+.box2, .box4, .box6 {  
+    width: 50px;
+    height: 50px;
+    margin: 30px;
+    padding:10px;
+    border: 1px solid black;
+    font: bold;
+    vertical-align: text-top;
+    text-align: center;
+}
+
+.box1, .box2, .box3, .box5, .box6 {
+    float: left;
+}
+
+.box6 {
+    float:left;
+    clear: right;
+}
+
+.box4 {
+ float: left;
+ clear: left;
+}
+
+/* start of css for bonus box positioning challenge */
+
+hr {
+    clear: left;
+    
+}
+.boxA, .boxC, .boxE {  
+    width: 50px;
+    height: 50px;
+    margin: 30px;
+    padding: 10px;
+    border: 1px solid black;
+    background-color: #000;
+    vertical-align: text-top;
+    text-align: center;
+    color: white;
+    font: bold;
+}
+.boxB, .boxD, .boxF {  
+    width: 50px;
+    height: 50px;
+    margin: 30px;
+    padding:10px;
+    border: 1px solid black;
+    font: bold;
+    vertical-align: text-top;
+    text-align: center;
+}
+.boxA, .boxC, .boxE {
+    float: left;
+}
+.boxB, .boxD, .boxF {
+    float: left;
+    clear: right;
+}
+.boxC, .boxE {
+    clear: left;
+}

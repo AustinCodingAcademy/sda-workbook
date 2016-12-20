@@ -1,0 +1,162 @@
+/* CSS for Team Day Project2 */
+*{
+    border: 0;
+    margin: 0; /* reset html */
+}
+/* tells browser what measurements to use */
+nav, main {
+    box-sizing: border-box;
+}
+/* header */
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #193a55;
+    color: #fff;
+    height: 82px;
+    border: 0px solid #fff;
+    border-bottom-width: 1px;
+}
+
+.navbar ul {
+    list-style: none;
+}
+
+.navbar ul, li {
+    display: inline;
+    margin: 10px;
+}
+
+.home {
+    color: #03b5a3;
+}
+/* to align the nav icons - is there a different way in html to align icons? */
+navbar ul, li, img {
+    margin-right: 5px;
+}
+
+/* article */
+main {
+    height: 100vh;
+    position: relative;
+    background-image: url("../img2/airline.jpg");
+}
+
+article {        /* setup container for navbox */
+    border: 1px solid white;
+    height: 450px;
+    width: 390px;
+    background-color: #193a55;
+    border-radius: 5px;
+    position: absolute;
+    top: 50px;
+    left: 50px;
+}
+
+.navbox {
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.box1, .box2, .box3 {  /* first row of navbox */
+    display: flex;
+    flex-grow: 1;     /* right way to take up free space? */
+    height: 110px;
+    width: 33%;
+    background-color: #018D80;
+    align-items:center;
+    justify-content: center;
+}
+
+.box1 {
+    background-color: #0063B7;
+    border-top-left-radius: 5px;
+}
+
+.box3 {
+    border-top-right-radius: 5px;
+}
+
+.depart, .arrive, .date1, .date2 { /* 2nd & 3rd row of navbox */
+    display: flex;
+    height: 90px;
+    width: 186px;
+    padding: 2px;
+    justify-content: center;
+    align-items: center;
+    margin: 1px;
+    flex-grow: 1; 
+}
+
+.depart div, .arrive div, .date1 div, .date2 div {
+    display: flex;
+    border: 1px solid white;
+    margin: 15px;
+    border-radius: 3px;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.depart p, .arrive p {
+    color: white;
+    margin: 10px;
+    color: gray;
+    padding: 5px 50px 5px 50px;
+}
+
+.date1 p, .date2 p {
+    margin: 10px;
+    color: white;
+    padding: 5px 30px 5px 30px;
+}
+
+.pass, .box, .return, .oneway { /* 4th & 5th row of navbox */
+    display: flex;
+    flex-grow: 1;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    width: 95px;
+    height: 90px;
+}
+
+.pass p {
+    margin-left: 6px;
+}
+
+.oneway {
+    margin-right: 6px;
+}
+
+input{
+    margin-right: 3px;
+}
+
+.box p {
+    padding: 10px;
+    border: 1px solid white;
+    border-radius: 3px;
+}
+
+.box img {
+    margin-left: 15px;
+}
+
+.search {  /* last row of navbox */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 61px;
+    width: 388px;
+}
+
+.search p {
+    color: white;
+    background-color: #0063B7;
+    justify-content: center;
+    padding: 10px 130px 10px 130px;
+    margin-bottom: 20px;
+    border-radius: 4px;
+}

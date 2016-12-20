@@ -1,0 +1,97 @@
+/*flex-box-flag-challenge*/
+
+/*wrapper*/
+body {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+/*german-flag*/
+.germany-flag {
+    display: flex;
+    border: 1px black solid;
+    height: 148px;
+    width: 198px;
+    flex-direction: column;
+}
+.color1 {
+    background-color: black;
+    flex-grow: 1;
+}
+.color2 {
+    background-color: red;
+    flex-grow: 1;
+}
+.color3 {
+    background-color: yellow;
+    flex-grow: 1;
+}
+
+/*italy-flag*/
+.italy-flag {
+    display: flex;
+    border: 1px black solid;
+    height: 148px;
+    width: 198px;
+    flex-direction: row;
+}
+.color4 {
+    background-color: green;
+    flex-grow: 1;
+}
+.color5 {
+    background-color: white;
+    flex-grow: 1;
+}
+.color6 {
+    background-color: red;
+    flex-grow: 1;
+}
+
+/*france-flag*/
+.france-flag {
+    display: flex;
+    border: 1px solid black;
+    height: 148px;
+    width: 198px;
+}
+
+.color7 {
+    background-color: blue;
+    flex-grow: 1;
+}
+
+.color8 {
+    background-color: white;  
+    flex-grow: 1;
+} 
+
+.color9 {
+     background-color: red;
+     flex-grow: 1;
+}
+
+/*colombia-flag*/
+.colombia-flag {
+    border: 1px solid black;
+    height: 148px;
+    width: 198px;
+    display: flex;
+    flex-direction: column;
+}
+
+.color10 {
+    background-color: yellow;
+    flex-grow: 1;
+}
+
+.color11 {
+    background-color: blue;
+    flex-grow: 1;
+}
+
+.color12 {
+     background-color: red;
+     flex-grow: 1;
+}

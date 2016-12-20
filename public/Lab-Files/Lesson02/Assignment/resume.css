@@ -1,0 +1,29 @@
+
+div.sections {
+    text-align: left;
+    color: blue;
+}    
+hr {
+    height: 2px;
+    background-color: red;
+    margin-right: 600px;
+}
+h5 {
+    color: blue;
+    text-align: left;
+    margin: 0px;
+}
+div.summary {
+    text-align: left;
+    font-size: 18px;
+    padding-bottom: 17px;
+}
+
+div.education {
+    text-align: left;
+    font-size: 17px;
+    padding-bottom: 10px;
+}
+img {
+    padding-left: 25%;
+}

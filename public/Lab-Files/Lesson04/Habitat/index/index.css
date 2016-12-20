@@ -1,0 +1,177 @@
+body {
+      margin:0px;
+      padding:0px;
+	  }
+	  
+a  {
+   	color: #006;
+   }
+
+img { 
+	border:0px; 
+    } 
+
+
+#head1 #head2 {
+        	margin:0px;
+		padding:0px;
+		border:0px;
+		} 
+		
+#head3 {
+        margin:0px;
+		padding:0px;
+		border:0px;
+		width:700px;
+		} 
+		
+.lefthead3 {
+            background:#f90;
+            width:150px;
+			float:left;
+			border:0px;
+			margin:0px;
+			padding:0px;
+			}
+	
+.righthead3 {		
+			background:#fc6;
+			width:550px;
+			float:right;
+			border:0px;
+			margin:0px;
+			padding:0px;
+			}
+   
+.navbcsmall {
+            color: #000;
+            font-size: 70%; 
+			font-family: Arial, Helvetica, Geneva, Swiss, sans-serif;
+			}
+			
+.navshsmall {
+             color:#000;
+             font-weight: bold;
+			 font-size: 70%;
+			 font-family: Arial, Helvetica, Geneva, Swiss, sans-serif;
+			 }
+
+.searchbox {
+            font-weight: bold;
+			font-size: 85%;
+			font-family: Arial, Helvetica, Geneva, Swiss, sans-serif;
+			}
+			  
+
+		 
+ul.listcompact {
+               list-style-type:circle;
+			   margin-top: 0px;
+			   margin-bottom: 5px;
+			   margin-left: 10px;
+			   padding-left: 10px;
+			   }
+			   
+li.listcompact {
+               padding-bottom: 10px; 
+               }
+			   
+#container {
+			width: 700px;
+			border: 0px;
+			margin: 0px;
+			padding: 0px; 
+		    }
+
+#banner {
+		 padding: 10px;
+		 margin-bottom: 0;
+		 background-color: #fff;
+		 }
+
+#content {
+		  padding:10px; 
+		  margin-left: 165px;
+		  margin-right: 230px;
+		  background-color: #fff;
+		  }
+		
+#content h4 {
+             margin-bottom:3px;
+             margin-top:3px;
+		
+			 color:#006;
+			 font-weight: bold;
+			 font-size: 15px;
+			 font-family: Arial, Helvetica, Geneva, Swiss, sans-serif;
+			}
+			
+#content p {
+            margin-top:10px;
+			color: #000;
+			font-size: 12px;
+			font-family: Arial, Helvetica, Geneva, Swiss, sans-serif;
+			}
+
+#sidebar-a {
+			float: left;
+			width: 155px;  
+			\width: 175px;  
+			w\idth: 155px; 
+			margin: 0;
+			margin-right: 0;
+			padding: 10px 5px;
+			background: url(sidenailbg.jpg) repeat-y; 
+			border:0px;
+		    }
+
+#sidebar-b {
+			float: right;
+			width: 200px; 
+			\width: 220px;
+			w\idth: 200px; 
+			margin: 0;
+			margin-left: 0;
+			padding: 10px 5px;
+			background-color: #fff;
+			color: black;
+			font-size: 12px;
+			font-family: Arial, Helvetica, Geneva, Swiss, sans-serif;
+		    }
+
+#footer {
+		 text-align: center;
+		 clear: both;
+		 padding-left: 170px;
+		 margin-top: 0;
+		 background-color: #fff;
+		 font-size: 11px;
+		 font-family: Arial, Helvetica, Geneva, Swiss, sans-serif;
+		}
+
+		
+/* left menu link box */
+
+div#links1 {width: 135px;
+            height: 150px;
+			font-family: Arial, Helvetica, Geneva, sans-serif;
+			font-size:11px;
+			z-index: 100;
+			}
+			
+div#links1 a {display: block; 
+			  text-align: center; 
+			  padding: 4px 6px;
+			  margin:0px;
+			  text-decoration: none;
+			  color: #000080;
+			  font-weight:bold;
+			  background: #ccccff;
+			  border-top: 1px solid #000066;
+			  border-right: 1px solid #000066;
+			  border-left: 1px solid #000066;
+			  }
+			  
+div#links1 a:hover {color: #FFF;
+                    background:#9999cc;
+					}

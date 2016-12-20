@@ -1,0 +1,25 @@
+/* CSS file for date.html */
+
+
+body 
+{
+margin:10px;
+}
+
+p 
+{
+margin-top: 9px; 
+font-size: 80%;
+margin-bottom: 9px;
+font-family: Arial, Helvetica, Geneva, Swiss, sans-serif;
+}
+
+h2 
+{
+margin-top: 9px; 
+font-weight: bold; 
+font-size: 120%;
+margin-bottom: 10px; 
+font-family: Arial, Helvetica, Geneva, Swiss, sans-serif;
+color: purple;
+}

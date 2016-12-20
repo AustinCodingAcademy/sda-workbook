@@ -1,0 +1,50 @@
+body {
+  background-color: #000;
+}
+
+.box1, .box3, .box5 {
+  width: 150px;
+  height: 50px;
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid white;
+  color: white;
+  font-weight: bold;
+  display: block;
+ }
+ 
+.box2, .box4, .box6 {  
+  width: 150px;
+  height: 50px;
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid white;
+  background-color: white;
+  font-weight: bold;
+  display: block;
+ }
+
+ .box2 {
+    position: relative;
+    left: 50px;
+ }
+ 
+ .box3 {
+    position: relative;
+    left: 100px;
+ }
+ 
+ .box4 {
+    position: relative;
+    left: 200px;
+ }
+ 
+ .box5 {
+    position: relative;
+    left: 250px;
+ }
+ 
+  .box6 {
+    position: relative;
+    left: 300px;
+ }
