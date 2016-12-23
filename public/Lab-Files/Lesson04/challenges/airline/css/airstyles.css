@@ -1,0 +1,218 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto'); /* watch bit.ly/2fn591n */
+
+
+* {
+  /* the simplest css reset possible, can cause performance issues on very complex HTML Documents */
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  background: url(../img/airline.jpg) no-repeat center center fixed;
+  background-size: cover;
+  background-color: #1d4356;
+}
+
+body {
+	font-family: 'Roboto', sans-serif;
+}
+
+main {
+  /* the padding and border is calculated into the width and height of the <nav> and <main> elements automatically by the browser */
+  box-sizing: border-box;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #193a55;
+  color: #fff;
+  height: 82px;
+  border: 0 solid #fff;
+  border-bottom-width: 1px;
+}
+
+.links ul {
+  list-style: none;
+}
+
+.links ul li {
+  margin: 10px;
+  display: inline;
+}
+
+.active {
+  color: #03b5a3;
+}
+
+.links ul li img {
+  margin-right: 5px;
+}
+
+main {
+  height: calc(100vh - 82px);
+  position: relative;  /* create a coordinate system */
+}
+
+section {
+  width: 542px;
+  height: 386px;
+  background: #193a55;
+  border-radius: 5px;
+  position: absolute;  /* can be positioned in the <main> coordinate system */
+  top: 50px;
+  left: 50px;
+}
+
+.tabs {
+  display: flex;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.tab1,
+.tab2,
+.tab3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: calc(100% / 3); /* take up 1 third each */
+  height: 60px;
+  background: #018D80;
+}
+
+.tab1 {
+  background: #0063B7;  /* overrides what was set previously */
+  border-top-left-radius: 5px;
+}
+
+.tab3 {
+  border-top-right-radius: 5px;
+}
+
+form{
+  color:white;
+}
+
+.depart{
+  margin-top:30px;
+}
+
+.depart1{
+  display:inline;
+  margin-left:40px;
+}
+.arrive{
+  display:inline;
+  margin-left:40px;
+}
+  input[type=text] {
+  background-color:transparent;
+  height:45px;
+  border: 2px solid white;
+  border-radius: 4px;
+  width:200px;
+  color: white;
+}
+
+::-webkit-input-placeholder {
+ font-size: 14px;
+ color: white;
+ text-align: left;
+ font-weight:100;
+}
+
+.dates{
+  margin-top:30px;
+}
+
+.date1{
+  display:inline;
+  margin-left:40px;
+}
+
+.date2{
+  display:inline;
+  margin-left:40px;
+}
+
+input[type=date]{
+  height:45px;
+  width:200px;
+  background-color:transparent;
+  border: 2px solid white;
+  border-radius: 4px;
+  font-size:12px;
+  font-family:
+}
+
+::-webkit-datetime-edit-text{
+  color:white;
+}
+::-webkit-datetime-edit-month-field{
+  color:white;
+}
+::-webkit-datetime-edit-day-field{
+  color:white;
+}
+::-webkit-datetime-edit-year-field{
+  color:white;
+}
+
+.passenger{
+  margin-top:15px;
+  color:white;
+  margin-left:40px;
+  margin-right:40px;
+}
+
+select{
+  background-color:transparent;
+  border:2px solid white;
+  width:50px;
+  height:35px;
+  color:white;
+}
+
+.pass1{
+  margin-left:10px;
+  display:inline;
+  font-size:18px;
+  font-weight:lighter;
+ 
+}
+
+.radio{
+  margin-left:90px;
+  display:inline;
+}
+
+input[type=radio]{
+  margin-right:5px;
+  margin-left:5px;
+}
+
+.submit{
+  text-align:center;
+}
+
+input[type=submit]{
+  background-color:#0063B7;
+  width:90%;
+  height:50px;
+  margin-top:35px;
+  color:white;
+  font-size:15px;
+  border:none;
+  }
+
+  
+  
+/*input[placeholder=Arrive]{
+  color:white;*/
+
+/*input[type=text]::placeholder{
+text-decoration-color:white;}*/
+
+/* this goes in the external CSS file */

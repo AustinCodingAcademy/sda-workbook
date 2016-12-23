@@ -1,0 +1,63 @@
+
+.box1
+{
+    background-color: black;
+    color:white;
+    border-style:solid;
+    border:1px;
+    border-color:black;
+}
+.box2
+{
+    color:black;
+    background-color: white;
+    border-style:solid;
+    border:1px;
+    border-color:black;
+
+}
+.box3
+{
+    background-color: black;
+    color:white;
+    border-style:solid;
+    border:1px;
+    border-color:black;
+}
+.box4
+{
+    clear: left;
+    background-color: white;
+    border-style: solid;
+    border:1px;
+    border-color:black;
+}
+.box5
+{
+    background-color: black;
+    color:white;
+    border-style:solid;
+    border:1px;
+    border-color:black;
+}
+.box6
+{
+    background-color: white;
+    border-style:solid;
+    border:1px;
+    border-color:black;
+   
+}
+
+[class^="box"]{
+    float: left;
+    font-weight: bold;
+    height: 50px;
+    width: 50px;
+    border: 1px 1px 1px 1px;
+    margin: 30px 30px 30px 30px;
+    padding: 10px;
+    border-style:solid;
+    
+}
+

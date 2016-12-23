@@ -1,0 +1,141 @@
+/*CSS Rules*/
+
+/*{
+ border: 1px solid red; 
+}*/
+
+
+table {
+  width: 100%;
+  color: blue;
+  font-family: Arial, Helvetica, Geneva, Swiss, sans-serif;
+  /*font-size: 70%;*/
+  /*width:90%;*/
+  text-align:center;
+  border-collapse:collapse;
+  height:500px;
+  width:600px;
+  border:white;
+}
+
+.star1{
+  color:#ff005d;
+}
+
+.star2{
+  color:#00b848;
+}
+
+.star3{
+  color:#00a7fa;
+}
+
+.Row1 {
+  color: white;
+  background-color: #3d464d;
+  /*vertical-align:top;*/
+ /* height: 50px;*/
+}
+
+.storage {
+ color: black;
+ background-color: #eef8ff;
+ /* height:50%;*/
+  
+}
+
+.bandwidth {
+  color: black;
+/*  background-color: #eef8ff;*/
+
+}
+.left2{
+  background-color:#548fff;
+  color:white;
+}
+
+.security {
+  color: black;
+  background-color: #eef8ff;
+  }
+
+
+/*.left3 {
+  background-color:#548fff;
+  color:white;
+}*/
+
+.left3 .fa{
+  color:#ff005d;
+}
+
+.left4 .fa{
+  color:#00b848;
+}
+
+.left5 .fa{
+  color:#00a7fa;
+}
+
+/*.right5 .fa{
+  color:#ff005d;
+}*/
+
+.support {
+  color: black;
+/*  background-color: #eef8ff;*/
+}
+
+/*.left4{
+  background-color:#548fff;
+  color:white;
+}*/
+
+.signup{
+  color:white;
+}
+
+.pink{
+  background-color:#ff005d;
+}
+
+.green{
+  background-color:#00b848;
+}
+
+.blue{
+  background-color:#00a7fa;
+}
+
+.signup2{
+  background-color:#548fff;
+}
+
+.band{
+  display:inline;
+}
+
+.sto{
+  display:inline;
+}
+
+.sec{
+  display:inline;
+}
+
+.sup{
+  display:inline;
+}
+
+.fa-envelope-o{
+  color:#00a7fa;
+}
+
+.fa-times{
+  color:#ff005d;
+}
+
+.fa-phone{
+  color:#00b848;
+}
+
