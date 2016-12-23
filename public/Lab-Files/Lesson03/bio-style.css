@@ -1,0 +1,46 @@
+body {
+    background-color: #F5F5F5;
+}
+
+h1 {
+    font-family: Arial Black;
+    color: #CF6766;
+    text-align: center;
+}
+
+
+h2 {
+    font-family: Courier; 
+    text-align:center;
+}
+
+
+.portrait-image {
+    border: 7px solid #8EAEBD;
+}
+
+
+h3 {
+    font-family: Courier;
+    margin-left: 200px;
+}
+
+
+ul {
+    font-family: Arial;
+    font-size: 16px;
+    color: #30415D;
+    margin-left: 200px;
+}
+
+.images {
+    border: 7px solid #8EAEBD;
+    display: inline;
+    margin: 0px;
+    margin-left: 50px;
+    padding: 0px;
+}
+
+#container {
+    margin-left: 200px;
+}

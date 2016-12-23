@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Open Sans;
+    text-transform: uppercase;
+}
+
+.container {
+    display: flex;
+    
+}
+
+table {
+    height: 500px;
+    width: 80%;
+    border-collapse: collapse;
+    margin: 0 auto;
+}
+
+td, th {
+    border: 1px solid #d4d4d4;
+    text-align: center;
+}
+
+td {
+    font-size: 13px;
+}
+
+th {
+    padding: 5px;
+    color: white;
+    background-color: #5c99f4;
+}
+
+.storage {
+    background-color: #f0f8fe;
+}
+
+.security {
+    background-color: #f0f8fe;
+}
+.pricing {
+    background-color: #2f2f2f;
+    font-size: 18px;
+}
+
+.sign1 {
+    background-color: #ff1d8e;
+    color: white;
+    font-size: 12px;
+}
+
+.sign2 {
+    background-color: #41ae5d;
+    color: white;
+    font-size: 12px;
+}
+
+.sign3 {
+    background-color: #5c99f4;
+    color: white;
+    font-size: 12px;
+}
+
+
+@media only screen and (max-width: 620px) {
+    body::after 
+    table-responsive {
+        max-width: 80%;
+        overflow-y: hidden;
+        
+    }
+}

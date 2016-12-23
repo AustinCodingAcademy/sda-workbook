@@ -1,0 +1,176 @@
+/** {
+    I can't figure out how to get the footer text to be side by side with the checkmark. I used a 
+    div to try and group them together so I could manipulate them in sections but it wouldn't work.
+    I've tried both floats and flexbox and for some reason I can get them to cooporate!*/
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+
+h1 {
+    text-align: center;
+    font-size: 30px;
+    color: gray;
+    margin: 20px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.intro {
+    height: 100px;
+    width: 700px;
+    
+}
+
+nav {
+    text-align: center;
+    margin-left: 250px;
+    margin-right: 250px;
+    color: gray;
+    
+    
+}
+main {
+    margin: 0 auto;
+    height: 400px;
+    width:1000px;
+}
+
+article {
+    float: left;
+    width: 450px
+    height: 355px;
+    margin: 20px;
+    
+}
+
+.section1 {
+    display:flex;
+    flex-direction: column;
+    background-color: #ededed;
+    height: 355px;
+    width: 450px;
+    color:gray;
+    border-radius: 5px;
+
+
+}
+
+.read {
+    float: right;
+    padding: 10px;
+}
+
+.lefttext {
+    display: flex;
+    padding: 10px 20px 20px 20px;
+}
+
+
+.rightbox {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 450px;
+    height: 400px;
+
+    
+}
+
+
+.box1, .box2, .box3 {
+    display: flex;
+    width: 450px;
+    height: 500px;
+    background-color: #ededed;
+    border-radius: 5px;
+    justify-content: center;
+    
+}
+
+.box1 {
+    margin: 20px 20px 5px 20px;
+}
+
+.box2 {
+    margin: 5px 20px 5px 20px;
+}
+
+.box3 {
+    margin:5px 20px 20px 20px;
+}
+
+
+.img1 {
+    max-width: 100%;
+    height: auto;
+    padding: 20px 20px 0px 20px;
+
+}
+
+
+
+.img2 {
+    display: flex;
+    width: 20%;
+    height: auto;
+    padding: 10px;
+}
+
+
+
+.img3 {
+    width: 20%;
+    height: auto;
+    padding: 10px;
+}
+
+
+
+.img4 {
+    width: 20%;
+    height: auto;
+    padding: 10px;
+}
+
+p {
+    display:flex;
+    color: gray;
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.righttext {
+    display: flex;
+    padding: 10px;
+}
+
+footer {
+    display: flex;
+
+}
+
+h4 {
+    width: 100%;
+}
+
+.foot1, .foot2, .foot3 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items:center;
+    width: 30%;
+    font-family: 'Open Sans', sans-serif;
+    padding: 20px 5px 5px 20px;
+    
+}
+
+.foot3 {
+    display: flex;
+    flex-direction: column;
+}
+
+    
+    
+
+.check {
+    width: 15px;
+    height: 15px;
+}
