@@ -1,0 +1,101 @@
+/*CSS Rules*/
+table{
+    font-family: 'Open Sans', sans-serif;
+    border-collapse:collapse;
+    border-color: white;
+    width:700px;
+    height:700px;
+    text-align:center;
+    margin: 0px auto;
+}
+
+i{
+    margin-top:20px;
+    margin-bottom:10px;
+}
+
+th .fa {
+    font-size: 14px;
+}
+
+td .fa {
+    font-size: 30px;
+}
+
+
+.top-row{
+    background-color:#2F313A;
+    color:#EBEDF3;
+    font-weight: 500;
+    border-color: #42434c;
+    font-size: 22px;
+}
+
+.left{
+    background-color:#5F97FB;
+    color:#EBEDF3;
+    font-weight:500;
+    font-size: 20px;
+    width: 25%;
+}
+
+.left .fa {
+    padding-right: 10px;
+}
+
+.light-blue{
+    background-color: #f0f8ff;
+}
+
+.col1{
+    color:#E91E63;
+}
+
+.col2{
+    color:#4CAF50;
+}
+
+.col3{
+    color:#03A9F4;
+}
+
+.sign1{
+    background-color:#E91E63;
+    color:#EBEDF3;
+    font-size: 12px;
+}
+
+.sign2{
+    background-color:#4CAF50;
+    color:#EBEDF3;
+    font-size: 12px;
+}
+
+.sign3{
+    background-color:#03A9F4;
+    color:#EBEDF3;
+    font-size: 12px;
+}
+
+/* Media Query */
+@media screen and (min-width: 320px) {
+  .page::before {
+    content: "320px";
+    position: fixed;
+    top: 0;
+    left: 0;
+    color: red;
+    font-weight: 700;
+  }
+
+.table-responsive {
+    overflow-y: hidden;
+}
+}
+
+@media screen and (min-width: 480px) {
+    .page::before {
+        content: "480px";
+        color: purple;
+    }
+}

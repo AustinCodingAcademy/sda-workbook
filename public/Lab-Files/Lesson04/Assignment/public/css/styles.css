@@ -1,0 +1,126 @@
+/*CSS Rules*/
+/** {
+    border: 1px solid red;
+}*/
+body {
+    font-family: sans-serif;
+}
+
+header {
+    text-align: center;
+    background-color: #FFF;
+    height: 100px;
+}
+
+h1, h3 {
+    font-weight: normal;
+}
+
+.h1-text {
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+article {
+    width: 45%;
+    height: 500px;
+    float: left;
+    margin-top: 50px;
+    margin-left: 20px;
+    clear: right;
+    background: #f7f7f7;
+    margin-bottom: 80px;
+    padding: 20px;
+}
+
+.art-img {
+    width: 100%;
+    height: auto;
+    margin: auto;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+.read {
+    display:block;
+    text-align: right;
+    padding-right: 20px;
+}
+
+aside {
+    width:45%;
+    height: auto;
+    float: right;
+    clear: right;
+    margin-top: 50px;
+    margin-right: 20px;
+    margin-bottom: 80px;
+}
+
+.aside-box1, .aside-box2, .aside-box3 {
+    padding: 20px;
+    background: #f7f7f7;
+    height: 125px;
+}
+
+.aside-box1, .aside-box2 {
+    margin-bottom: 22px;
+}
+
+
+.asideimg {
+    width: 45%;
+    float: left;
+    padding-right: 10px;
+}
+
+.aside-txt {
+    clear: right;
+    margin-top: 0px;
+}
+
+
+
+
+footer {
+    clear: both;
+}
+
+
+.profession, .features, .price {
+    width: 25%;
+    height: 150px;
+    float: left;
+    margin-top: 20px;
+    padding-left: 50px;
+
+
+}
+
+.profession, .features {
+    border-right: 1px solid;
+    list-style-type: none;
+    padding-right: 40px;
+}
+
+ul {
+    list-style-image: url('../img/green_checkmark_small.png');
+}
+
+.check {
+    width: 8%;
+    height: auto;
+    margin-top: 5px;
+}
+
+a {
+    color:green;
+    
+}
+.price {
+    display: block;
+    text-align: right;
+}
