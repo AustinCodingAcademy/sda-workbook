@@ -1,0 +1,76 @@
+body {
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.germany-flag {
+    width:200px;
+    height:150px;
+    border:1px solid;
+    display:flex;
+    flex-direction:column;
+}
+
+.italy-flag {
+    width:200px;
+    height:150px;
+    border:1px solid;
+    display:flex;
+    flex-direction:row;
+}
+
+.france-flag {
+    width:200px;
+    height:150px;
+    border:1px solid;
+    display:flex;
+    flex-direction:row;
+}
+
+.columbia-flag {
+    width:200px;
+    height:150px;
+    border:1px solid;
+    display:flex;
+    flex-direction:column;
+}
+
+.black {
+    height:100%;
+    width:100%;
+    background-color:black;
+    
+}
+
+.yellow {
+    height:100%;
+    width:100%;
+    background-color:yellow;
+}
+
+
+.red {
+    height:100%;
+    width:100%;
+    background-color:red;
+}
+
+.green {
+    height:100%;
+    width:100%;
+    background-color:green;
+}
+
+.white { 
+    height:100%;
+    width:100%;
+    background-color:white;
+}
+
+.blue {
+    height:100%;
+    width:100%;
+    background-color:blue;
+}

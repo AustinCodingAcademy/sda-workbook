@@ -1,0 +1,148 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+/* see: http://nicolasgallagher.com/micro-clearfix-hack */
+/* .clearfix::before,
+.clearfix::after {
+  content: " ";
+  display: table;
+}
+.clearfix::after {
+  clear: both;
+} */
+
+body {
+  font-family: sans-serif;  
+  color: #000;
+  font-weight: 700;
+}
+.page {
+  width: 80%;
+  margin: 0 auto;
+}
+
+header {
+  text-align: center;
+  line-height: 100px;
+  background: #98BEC1;
+  height: 100px;
+}
+
+nav {
+  text-align: center;
+  line-height: 200px;
+  height: 200px;
+  background: #8B7F97;
+  margin-top: 20px;
+}
+
+main {
+  background: #C9D3D2;  
+  margin-top: 20px;
+  padding: 1rem;
+}
+
+.featured {
+  text-align: center;
+  line-height: 500px;
+  height: 500px;
+  background: #94A6B4;
+}
+
+article {
+  height: 200px;
+  margin-top: 1rem;
+  background: #94A6B4;
+  text-align: center;
+  line-height: 200px;
+}
+
+footer {
+  height: 100px;
+  background: #98BEC1;
+  margin-top: 10px;
+  text-align: center;
+  line-height: 100px;
+}
+
+
+/**
+ * Media Queries
+ **/
+@media screen and (min-width: 320px) {
+  .page::before {
+    content: "320px";
+    font-family: Arial, sans-serif;
+    color: green;
+    position: fixed;
+    top: 0;
+    left: 0;
+    font-weight: 700;
+    margin: 5px;
+    font-size: 2rem;
+    z-index: 9999;
+  }
+}
+
+@media screen and (min-width: 480px) {
+  .page::before {
+    content: "480px";
+    color: maroon;
+  }
+}
+
+@media screen and (min-width: 620px) {
+  .page::before {
+    content: "620px";
+    color: orange;
+  }
+  
+  article {
+    float: left;    
+    width: 48.2%;
+    margin-right: 3.5%;
+    box-sizing: border-box;    
+    position: relative;
+  }
+  article:nth-of-type(even){
+    margin-right: 0;
+  }    
+}
+
+@media screen and (min-width: 810px) {
+  .page::before {
+    content: "810px";
+    color: black;
+  }
+  nav {
+    float: left;
+    width: 20%;
+    height: 700px;
+    position: relative;
+    line-height: 700px;
+  }
+
+  main {
+    margin-left: 21.35%;
+  }
+}
+
+@media screen and (min-width: 1400px) {
+  .page::before {
+    content: "1400px";
+    color: red;
+  }
+  article {
+    width: 23.39%;
+    margin-right: 2.1%;
+  }
+  article:nth-of-type(even){
+    margin-right: 2.1%;
+  }
+  article:nth-of-type(4),
+  article:nth-of-type(8) {
+    margin-right: 0;
+  }
+}
