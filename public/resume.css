@@ -5,15 +5,16 @@ body h1 {font-family: 'Noto Serif', serif;}
 body h2 {color:#007FA5;}
 body p {color:#4e4f51;}
 body li {color:#4e4f51;}
-body #item {color:#848484;}
+body #item1 {color:#848484;}
+body #item2 {color:#848484;}
 .container {padding:50px;width:800px;margin:0 auto;background:white;-webkit-box-shadow: 0px 1px 3px 1px rgba(107,107,107,0.71);
 -moz-box-shadow: 0px 1px 3px 1px rgba(107,107,107,0.71);
 box-shadow: 0px 1px 3px 1px rgba(107,107,107,0.71);}
 .heading {text-align:center;padding-top:35px;background:white;}
+.heading h1 {color:black;}
 
 
-
-#item1, #item2 {display:inline;color:#848484;}
+#item1, #item2 {display:inline;}
 #item2 {float:right;}
 
 .objective p {padding-left: 40px;width:740px;font-family: 'Lato', sans-serif;}
