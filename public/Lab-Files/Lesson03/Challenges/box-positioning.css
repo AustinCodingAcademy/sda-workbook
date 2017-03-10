@@ -1,52 +1,18 @@
 .box {
-    border: 1px solid;
-    margin: 30px;
-    padding: 10px;
-    width: 50px;
-    height:50px;
+  border: 1px solid;
+  margin: 30px;
+  padding: 10px;
+  width: 50px;
+  height:50px;
+  font-weight: bold;
+  float: left;
 }
 
-.box1 {
-    background-color: black;
-    color: white;
-    font-weight: bold;
-    float:left;
+body div:nth-child(odd){
+  background: black;
+  color: white;
 }
 
-.box2 {
-    background-color: white;
-    color: black;
-    font-weight: bold;
-    float:left;
-}
-
-
-.box3 {
-    background-color: black;
-    color: white;
-    font-weight: bold;
-    float:left;
-}
-
-.box4 {
-    background-color: white;
-    color: black;
-    font-weight: bold;
-    clear:left;
-    float:left;
-}
-
-
-.box5 {
-    background-color: black;
-    color: white;
-    font-weight: bold;
-    float: left;
-}
-
-.box6 {
-    background-color: white;
-    color: black;
-    font-weight: bold;
-    float:left;
+body div:nth-child(2n+1) {
+  clear: left;
 }
