@@ -1,0 +1,54 @@
+.box {
+	width: 50px;
+	height: 50px;
+	margin:30px;
+	padding:10px;
+	border:1px;
+	font-style: bold;
+}
+
+.box1 { 
+		background: black; 
+		float: left;
+		clear: left;
+		color:white;
+}
+
+.box2{ 
+		background: white; 
+		float: left;
+		clear: right;
+		border-color: black;
+		border-style: solid;
+}
+
+.box3{ 
+		background: black; 
+		float: left;
+		clear: right;
+		color:white;
+}
+
+.box4{ 
+		background: white; 
+		float: left;
+		clear: right;
+		border-style: solid;
+		clear: both;
+}
+
+.box5{ 
+		background: black; 
+		float: left;
+		clear: right;
+		color:white;
+}
+
+.box6{ 
+		background: white; 
+		float: left;
+		clear: right;
+		border-style: solid;
+}
+
+
