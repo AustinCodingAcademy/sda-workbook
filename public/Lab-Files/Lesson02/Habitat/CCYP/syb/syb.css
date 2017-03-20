@@ -1,0 +1,106 @@
+/* STYLE SHEET FOR SYB.HTML */
+
+body 
+{
+margin:10px;
+background-image:url('background.jpg');
+}
+
+p 
+{
+margin-top: 9px; 
+font-size: 80%;
+margin-bottom: 9px;
+font-family: Arial, Helvetica, Geneva, Swiss, sans-serif;
+}
+
+h2 
+{
+margin-top: 9px; 
+font-weight: bold; 
+font-size: 120%;
+margin-bottom: 10px; 
+font-family: Arial, Helvetica, Geneva, Swiss, sans-serif;
+}
+
+h3 
+{
+margin-top: 17px; 
+font-weight: bold; 
+font-size: 100%;
+margin-bottom: 10px; 
+font-family: Arial, Helvetica, Geneva, Swiss, sans-serif;
+}
+
+/*
+a 
+{
+color: #093
+}
+*/
+
+header 
+{		
+display:block;
+width:600px;
+padding:0;
+margin-bottom:0;
+background-color:#fff;
+}
+		
+#head  
+{	
+padding:0px; 
+margin:0px;
+border:0px;
+height:62px;
+background:#fff url(sybheaders_01.jpg) no-repeat left;
+}
+		
+#navbar	 
+{
+margin:0px;
+padding:0px;
+border:0px;
+height:22px;
+}
+		
+#subnav 
+{
+margin:0px;
+padding:0px;
+border:0px;
+height:16px;}
+
+article 	
+{			
+padding:0;
+margin-left:165px;
+width:435px;
+background-color:#fff;
+display:block;
+height:602px;
+}
+
+nav 
+{
+display:block;
+float:left;
+width:165px;
+background:#fc3 url(navbg_04.gif) repeat-y top right;
+height:602px;
+}
+
+footer 
+{
+clear:both;
+width:600px;
+display:block;
+text-align:center;
+font-family:Arial, Helvetica, Geneva, Swiss, sans-serif;
+font-size:80%;
+padding:0;
+margin-top:0;
+background-color:#fff;
+}
+
