@@ -1,4 +1,3 @@
-
 .box {
   border: 1px solid;
   margin: 30px;
@@ -9,7 +8,7 @@
   float: left;
 }
 
-body div:nth-child(odd){
+body div:nth-child(odd) {
   background: black;
   color: white;
 }
@@ -18,7 +17,6 @@ body div:nth-child(3n+1) {
   clear: left;
 }
 
-a{
+a {
   position: absolute;
 }
-
