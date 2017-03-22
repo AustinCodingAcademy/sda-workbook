@@ -1,0 +1,87 @@
+/*CSS Rules*/
+/* this goes in the external CSS file */
+
+
+* {
+  /* the simplest css reset possible, can cause performance issues on very complex HTML Documents */
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/185649/airline.jpg) no-repeat center center fixed;
+  background-size: cover;
+  background-color: #1d4356;
+}
+
+nav, main {
+  box-sizing: border-box; /* the padding and border is calculated into the width and height of the <nav> and <main> elements automatically by the browser */
+}
+
+nav {
+  display:flex;
+  background-color: #193a55;
+  height: 81px;
+/*   border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: #fff; */
+  border: 0 solid #fff;
+  border-bottom-width: 1px;
+  justify-content:space-between;
+}
+
+.button {
+    display: flex;
+    list-style: none;
+    align-content: flex-end;*/
+    align-self: baseline;
+    color:white;
+    font-family:sans-serif;
+    margin:30px;
+}
+
+
+main {
+  height: calc(100vh - 80px);
+  position: relative; /* create a coordinate system */
+  display:flex;
+}
+
+section {
+  width: 542px;
+  height: 386px;
+  background: #193a55;
+  border-radius: 5px;
+  position: absolute; /* can be positioned in the <main> coordinate system */
+  top: 50px;
+  left: 50px;
+}
+
+.formbutton li {
+    flex-grow:1;
+    background:#0E65B4;
+    text-align:center;
+}
+
+.formbutton li:nth-child(1) {
+    background: #148C80;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    justify-content:space-between;
+}
+
+input {
+    border: 2px solid white;
+    font-size: 1.2rem;
+    background:transparent;
+    border-radius: 4px;
+}
+
+.depart, .arrive {
+    justify-content: space-around;
+    margin:20px;
+    display:flex;
+}
