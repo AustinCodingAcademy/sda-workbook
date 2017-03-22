@@ -8,7 +8,7 @@ gulp.task('serve', function(){
         ui: { port: 8081 }
     };
     browserSync.init(options);
-    gulp.watch('public/*.*/*.*').on('change', browserSync.reload);
+    gulp.watch('public/**/*.*').on('change', browserSync.reload);
 });
 
 gulp.task('default', ['serve']);
