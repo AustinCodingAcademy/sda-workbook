@@ -1,0 +1,63 @@
+/*CSS Rules*/
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size:1.6rem;
+}
+
+table {
+    width:100%;
+    border-collapse:collapse;
+    text-transform:uppercase;
+    table-layout:fixed;
+}
+
+tr td {
+    padding: 6%;
+    text-align:center;
+    border:1px solid #e7e7e7;
+}
+
+.header, .header .empty {
+    background-color:#30323A;
+    color: white;
+}
+
+.top{
+    display:block;
+    width:100%;
+}
+
+td:first-child {
+    background-color:#6299F8;
+    color:white;
+}
+
+.data-red {
+    background-color:#E62565;
+    color:white;
+}
+
+.data-green {
+    background-color:#50AD55;
+    color:white;
+}
+
+.data-blue {
+    background-color:#1EAAF1;
+    color:white;
+}
+
+td .pink {
+    color:#E62565;
+}
+
+td .green {
+    color:#50AD55;
+}
+
+td .blue{
+    color:#1EAAF1;
+}
