@@ -1,0 +1,63 @@
+
+div
+{
+	
+}
+
+.bx
+{
+    height:50px;
+	width:150px;	
+	border-style:solid;
+	border-color:black;
+	border-width:1px;
+	padding:10px;
+	margin-bottom:5px;
+	margin-top:5px;
+}
+
+.blk
+{
+    color:white;
+    background-color:black;
+}
+
+.box1
+{
+	/* 000 */
+}
+
+.box2
+{
+	/* 030 */
+	margin-left:30px;
+	
+}
+
+.box3
+{
+    /* 060 */
+	margin-left:60px;
+	
+}
+
+.box4
+{
+	/* 090 */
+	margin-left:90px;
+	
+}
+
+.box5
+{
+	/* 120 */
+	margin-left:120px;
+	
+}
+
+.box6
+{
+	/* 150 */
+	margin-left:150px;
+	
+}
