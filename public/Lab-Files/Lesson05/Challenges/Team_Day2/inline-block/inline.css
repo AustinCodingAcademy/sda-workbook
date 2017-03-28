@@ -1,0 +1,194 @@
+html {
+    height: 100%;
+    width: 100%;
+    font-size: 62.5%;
+}
+
+body * {
+    box-sizing: border-box;
+    font-family: Verdana, Arial, sans-serif;
+    font-size: 2.0rem;
+    font-weight: inherit;
+    margin: 0px;
+    padding: 0px;
+    vertical-align: baseline;
+    /*border: 1px solid red;*/
+}
+
+
+
+body {
+    height: 100%;
+    margin: 0px;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    color: #333;
+    /*color: blue;*/
+}
+
+h1 {
+    font-size: 2.4rem;
+}
+
+h2 {
+    font-size: 2.3rem;
+    margin-bottom: 1rem;
+}
+
+h3 {
+    font-size: 2.2rem;
+}
+
+h4 {
+    font-size: 2.1rem;
+}
+
+/*.clear {*/
+/*    border: none;*/
+/*    clear: both;*/
+/*}*/
+
+#container {
+    display: block;
+    height: 100%;
+    margin: 0 auto;
+    width: 75%;
+}
+
+header,
+footer {
+    background-color: #99BEC3;
+    border: 4px solid #88A9AD;
+}
+
+header {
+    margin-bottom: 1.2rem;
+    min-height: 10rem;
+    padding: .75rem 1.5%;
+    text-align: left;
+}
+
+nav,
+section {
+    display: inline-block;
+    min-height: 10rem;
+    vertical-align: top;
+}
+
+nav {
+    background-color: #8B7F97;
+    border: 1px solid #70687A;
+    float: left;
+    padding: 1rem 1%;
+    min-height: 59.5rem;
+    text-align: center;
+    width: 20%;
+    height: 100%;
+}
+
+section {
+    background-color: #C9D3D1;
+    border: 1px solid #B2BAB8;
+    margin-left: 21.35%;
+    padding: 1.5rem 1.7%;
+    text-align: left;
+    width: 78.65%;
+}
+
+section div {
+    background-color: #94A5B3;
+    border: 1px solid #7A8893;
+}
+
+.featured_story {
+    min-height: 27rem;
+    padding: .75rem 1.5%;
+    text-align: left;
+}
+
+.story_container {
+    background-color: transparent;
+    /*border: 2px solid blue;*/
+}
+
+
+.story {
+	display: inline-block;
+	margin-right:1.46%;
+	margin-top:1rem;
+	position: relative;
+	min-height: 13.5rem;
+	text-align: center;
+	width: 23.1%;
+}
+
+
+
+.story_container .story:nth-of-type(4),
+.story:nth-of-type(8) {
+    margin-right: 0px;
+}
+
+footer {
+    font-size: 87%;
+    margin-top: 1.8rem;
+    min-height: 10rem;
+    padding: .75rem 1.5%;
+    text-align: center;
+    clear: both;
+}
+
+
+@media (min-width: 320px) {
+    .page::before {
+        content: "320px";
+        font-family: Arial, sans-serif;
+        color: green;
+        position: fixed;
+        top: 20px;
+        left: 20px;
+        font-weight: 700;
+        margin: 5px;
+        font-size: 2rem;
+        z-index: 9999;
+    }
+}
+
+@media (min-width: 480px) {
+    .page::before {
+        content: "480px";
+        color: maroon;
+    }
+}
+
+@media (min-width: 620px) {
+    .page::before {
+        content: "620px";
+        color: orange;
+    }
+}
+
+@media (min-width: 810px) {
+    .page::before {
+        content: "810px";
+        color: black;
+    }
+}
+
+@media (min-width: 1200px) {
+    .page::before {
+        content: "1200px";
+        color: CornflowerBlue;
+    }
+}
+
+@media (min-width: 1400px) {
+    .page::before {
+        content: "1400px";
+        color: red;
+    }
+}
