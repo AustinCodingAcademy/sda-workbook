@@ -1,0 +1,73 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta http-equiv="Content-Style-Type" content="text/css">
+  <title>Basic Form</title>
+  <meta name="Description" content="For the CIW Web Foundations Associate courses">
+  <meta name="Keywords" content="CIW, Web Foundations Associate, Example">
+  <meta name="Generator" content="Cocoa HTML Writer">
+  <meta name="CocoaVersion" content="1404.47">
+  <style type="text/css">
+    span.s1 {font-kerning: none}
+  </style>
+</head>
+<body>
+<h1 style="margin: 0.0px 0.0px 16.1px 0.0px; line-height: 28.0px; font: 24.0px Times; color: #000000; -webkit-text-stroke: #000000"><span class="s1"><b>Basic Form</b></span></h1>
+    <form
+ method="post"
+ action="http://ss1.ciwcertified.com/cgi-bin/process.pl">
+Enter Your Name: <input type="text" name="Name" size="40"/>
+<br/>
+<br/>
+Enter Your E-mail: <input type="text" name="Email" size="40"/>
+<br/>
+<br/>
+<br/>
+        
+    Should we add you to our mailing list?<br/>
+<input type="radio" name="AddToList" value="yes" checked="checked"/>Yes
+<input type="radio" name="AddToList" value="no"/>No
+<br/> 
+        
+        What skills do you have that can help us at Habitat for Humanity? (check all
+that apply):<br/>
+<input type="checkbox" name="Carpentry"/> Carpentry<br/>
+<input type="checkbox" name="Plumbing"/> Plumbing<br/>
+<input type="checkbox" name="Financing"/> Financing<br/>
+<br/>
+<br/>
+        
+        How often would you like to receive an e-mail from Habitat for Humanity? <br/>
+<select name="EmailFreq">
+<option>Once a week</option>
+<option>Once or twice a month </option>
+<option>Once a month </option>
+<option value="Remove">Never </option>
+</select>
+<br/>
+<br/>
+        
+        Where would you like to work? (choose all that apply):
+<br/>
+<select name="work" multiple="multiple" size="4">
+<option>Australia</option>
+<option>Japan</option>
+<option>India</option>
+<option>England</option>
+<option>United States</option>
+</select>
+<br/>
+<br/>
+        
+        Comments:<br/>
+<textarea name="comments" cols="30" rows="3">
+</textarea>
+<br/>
+<br/> 
+        
+<input type="submit"/>
+<input type="reset"/> 
+    
+</body>
+</html>
