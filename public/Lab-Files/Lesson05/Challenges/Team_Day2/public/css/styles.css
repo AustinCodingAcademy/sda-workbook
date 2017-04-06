@@ -11,33 +11,6 @@ html {
     font-size: 62.5%;
 }
 
-
-/*body * {*/
-
-
-/*    box-sizing: border-box;*/
-
-
-/*    font-family: Verdana, Arial, sans-serif;*/
-
-
-/*    font-size: 2.0rem;*/
-
-
-/*    font-weight: inherit;*/
-
-
-/*    margin: 0px;*/
-
-
-/*    padding: 0px;*/
-
-
-/*    vertical-align: baseline;*/
-
-
-/*}*/
-
 body {
     font-size: 1.6rem;
     /*16px*/
@@ -118,26 +91,24 @@ footer {
         content: "620px";
         color: orange;
     }
-    .story-container{
-        padding:3%;
+    .story-container {
+        padding: 3%;
     }
     .stories {
-        display:flex;
-        align-items:flex-start;
+        display: flex;
+        align-items: flex-start;
         justify-content: space-between;
         flex-wrap: wrap;
-        
     }
-    .story{
-        width:300px;
+    .story {
+        width: 300px;
         /*padding-bottom:0;*/
-        margin-bottom:0;
-        margin-right:21px;
-        flex-grow:1;
+        margin-bottom: 0;
+        margin-right: 21px;
+        flex-grow: 1;
     }
-    
-    .story:nth-child(even){
-        margin-right:0;
+    .story:nth-child(even) {
+        margin-right: 0;
     }
 }
 
@@ -147,22 +118,18 @@ footer {
         color: black;
     }
     main {
-        display:flex;
+        display: flex;
     }
-    
     nav {
-       width:25%;
-       margin-right:20px;
-       height: 600px;
-     
+        width: 25%;
+        margin-right: 20px;
+        height: 600px;
     }
-    
     .story-container {
-        width:75%;
+        width: 75%;
     }
-    
     .story {
-        width:239px;
+        width: 239px;
     }
 }
 
@@ -171,22 +138,18 @@ footer {
         content: "1200px";
         color: CornflowerBlue;
     }
-    .story-contatiner{
-        padding:2%;
+    .story-contatiner {
+        padding: 2%;
     }
-    
-     .story {
-        width:169px;
-        
+    .story {
+        width: 169px;
     }
     .story:nth-child(2) {
-        margin-right:20px;
+        margin-right: 20px;
     }
-    
-     .story:nth-child(6) {
-        margin-right:20px;
+    .story:nth-child(6) {
+        margin-right: 20px;
     }
-    
 }
 
 @media (min-width: 1400px) {
