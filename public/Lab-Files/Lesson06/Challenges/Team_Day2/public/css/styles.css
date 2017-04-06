@@ -1,0 +1,283 @@
+/*CSS Rules
+Blue: #0087c6
+LightGray:#f7f7f7
+*/
+
+html {
+       /*font-size: 62.5%;*/
+}
+
+body {
+    margin: 0 auto;
+}
+
+h1 {
+    font-family: 'Black Ops One', cursive;
+}
+
+h2 {
+    font-family: 'Black Ops One', cursive;
+    text-align: center;
+}
+
+h3 {
+    font-family: 'Black Ops One', cursive;
+}
+
+p {
+    text-align: center;
+}
+
+header {
+    border-top: 3rem solid #0087c6;
+    text-align: center;
+}
+
+.nav-container {
+    border-top: 1rem solid #0087c6;
+    border-bottom: 1rem solid #0087c6;
+    display: flex;
+    justify-content:flex-end;
+   
+}
+
+.site-nav {
+    display:flex;
+    justify-content:flex-end;
+    background-color: #fdfdfd;
+    border: 1px solid #e8e8e8;
+    border-radius: 5px;
+    text-align: right;
+    margin-top: .5rem;
+    margin-bottom: .5rem;
+}
+
+.site-nav .menu-icon {
+    /*display: flex;*/
+    /*align-content:flex-end;*/
+    width: 36px;
+    height: 26px;
+    padding-top: 10px;
+    text-align: center;
+}
+
+.site-nav .trigger {
+    /*clear: both;*/
+    /*display: flex;*/
+    /*justify-content: space-around;*/
+    display:none;
+}
+
+.site-nav:hover .trigger {
+    display: block;
+    padding-bottom: 5px;
+}
+
+.site-nav .page-link {
+    color: #111;
+    display: block;
+    padding: 5px 10px;
+    margin-left: 20px;
+}
+
+.site-nav .page-link:hover {
+    text-decoration: underline;
+}
+
+table {
+    max-width: 100%;
+    margin:0 auto;
+}
+
+table img {
+    max-width: 100%;
+    height: auto;
+    text-align: center;
+}
+
+.testimonials {
+    text-align: center;
+
+}
+.test-p
+{
+    margin-bottom:0;
+}
+.designer
+{
+    color:#0087c6;
+    margin-top:0;
+    }
+.prev-next-button {
+    text-align: center;
+    margin-top:1rem;
+    margin-bottom: 3rem;
+}
+
+.prev-next-button a {
+    background: #dbdbdb;
+    color: white;
+    border-radius: 35%;
+    text-decoration: none;
+    padding: 5px 10px;
+}
+
+
+.meetteam {
+    text-align: center;
+}
+
+.name {
+    font-weight: bold;
+    margin-bottom:0;
+}
+.title {margin-top:0;}
+
+input {
+    height: 20px;
+    width: 300px;
+    color: gray;
+}
+.button {
+    background-color: #302f30;
+    color: white;
+}
+
+footer {
+    border-top: .3rem solid #dbdbdb;
+    background-color: #f7f7f7;
+    text-align: center;
+    border-bottom: 50px #0087C6 solid;
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+}
+
+.footer-icons i {
+    font-size: 2rem;
+}
+
+
+
+.team-members img {
+    border-radius: 50%;
+    border: .5rem double #dbdbdb;
+    min-width:40%;
+    max-width:50%;
+    margin:0 auto;
+}
+
+
+/**
+* Media Queries
+**/
+
+@media screen and (min-width: 320px) {
+    .page::before {
+        content: "320px";
+        font-family: Arial, sans-serif;
+        color: green;
+        position: fixed;
+        top: 0;
+        left: 0;
+        font-weight: 700;
+        margin: 5px;
+        font-size: 2.4rem;
+        z-index: 9999;
+    }
+}
+
+@media screen and (min-width: 480px) {
+    .page::before {
+        content: "480px";
+        color: maroon;
+    }
+}
+
+@media screen and (min-width: 620px) {
+    .page::before {
+        content: "620px";
+        color: orange;
+    }
+    /* Responsive Navigation Styles */
+   
+   .nav-container {
+       display: flex;
+       justify-content: space-around;
+   }
+    .site-nav {
+
+        background-color: #fff;
+        border: 0;
+        border-radius: 0;
+        /*float: right;*/
+        line-height: 56px;
+    }
+   .site-nav .trigger {
+        display: flex ;
+    }
+    .site-nav .menu-icon {
+        display: none;
+    }
+    .site-nav .page-link {
+        /*display: flex;*/
+        color: #111;
+        line-height: 1.5;
+    }
+    .site-nav .page-link:not(:last-child) {
+        margin-right: 20px;
+    }
+    
+    
+}
+
+@media (min-width: 810px) {
+    .page::before {
+        content: "810px";
+        color: black;
+    }
+    
+    .team-members {
+    display:flex;
+    flex-direction:row;
+    /*flex-wrap:wrap;*/
+    justify-content: space-around;
+    height: 100%;
+    }
+    
+   .about{
+       max-width:200px;
+   }
+   
+   
+   footer {
+       display:flex;
+       justify-content:space-around;
+       /*flex-wrap:wrap;*/
+       }
+   }
+
+
+@media (min-width: 1200px) {
+    .page::before {
+        content: "1200px";
+        color: CornflowerBlue;
+    }
+    .team-members {
+    display:flex;
+    flex-direction:row;
+    /*flex-wrap:wrap;*/
+    justify-content: space-around;
+    height: 100%;
+    }
+    
+    .person{
+        display:flex;
+    }
+}
+
+@media (min-width: 1400px) {
+    .page::before {
+        content: "1400px";
+        color: red;
+    }
+}
