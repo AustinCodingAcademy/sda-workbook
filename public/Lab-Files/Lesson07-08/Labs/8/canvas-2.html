@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="Keywords" content="CIW, Web Foundations Associate, Example"/>
+<meta name="Description" content="For the CIW Web Foundations Associate courses"/>
+<meta charset="utf-8"/>
+<title>HTML5 Canvas API Example</title>
+
+<style type="text/css">
+canvas 
+{
+border: 1px solid #000000;
+}
+</style>
+</head>
+
+<body>
+
+<canvas id="myCanvas" width="300" height="300">
+Your browser does not support the canvas element.
+</canvas>
+
+<script type="text/javascript">
+
+var c=document.getElementById("myCanvas");
+var ctx=c.getContext("2d");
+ctx.fillStyle="#FF0000";
+ctx.fillRect(0,0,150,75);
+
+</script>
+
+</body>
+</html>

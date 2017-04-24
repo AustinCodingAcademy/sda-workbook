@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Yellow Team - Home</title>
+    <link rel="stylesheet" href="css/styles.css" type="text/css" />
+</head>
+
+<body>
+
+    <script>
+        //Arrays exercise
+        var colors = ["red", "blue", "yellow", "purple"];
+
+        document.write("The first color of the array is " + colors[0] + "<br>");
+        document.write("There are " + colors.length + " items in the array." + "<br>");
+        document.write("My favorite color from the list is " + colors[1] + ".");
+    </script>
+
+    <br>
+    <br>
+
+    <script>
+    //object exercise
+        var car = new Object();
+        car.make = "Honda ";
+        car.model = "Civic ";
+        car.year = "2016 ";
+        car.honk = function() {
+            alert("Honk!");
+        }
+
+        // car.honk()
+
+        document.write(car.make, car.model, car.year)
+    </script>
+
+    <input type="button" value="Generate a Random Quote" onClick= generateQuote()>
+    <br>
+    <div id="quote"></div>
+
+    <script type="text/javascript" src="js/script.js"></script>
+</body>
+
+</html>
