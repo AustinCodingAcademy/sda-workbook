@@ -1,0 +1,105 @@
+*{
+    font-family:"Tahoma", Geneva, sans-serif;
+}
+
+header{
+    margin:auto;
+    text-align:center;
+    
+}
+
+.headp{
+    text-align:center;
+    margin:auto;
+    width:50%;
+    padding-top:30px;
+    padding-bottom:50px;
+    
+}
+
+.one{
+    display: block;
+    margin:auto;
+    width:600px;
+    padding:10px;
+}
+
+.left{
+    float:left;
+    width:45%;
+    padding:15px;
+    margin:auto;
+    line-height: 200%;
+    height:550px;
+    background-color:#F7F7F7;
+}
+
+a{
+    color:green;
+    float:right;
+    
+}
+
+.right{
+    float:right;
+    width:50%;
+    margin:auto ;
+    height: 580px;
+}
+
+div{
+    padding:5px;
+}
+
+.text{
+    line-height:30px;
+}
+
+.text2{
+    float:right;
+    width:55%;
+    line-height:30px;
+}
+
+/*This controls the size of the pictures on the right*/
+.rightside {
+    width:40%;
+    height:40%;
+    padding:10px;
+}
+
+.footer{
+    width:30%;
+    padding:20px;
+    float:left;
+    margin-top:70px;
+    margin-bottom:70px;
+    border-top:1px solid #EBE9EE;
+    border-bottom:1px solid #EBE9EE;
+    
+}
+
+.two{
+    border-left:1px dashed #EBE9EE;
+}
+
+.three{
+    border-left:1px dashed #EBE9EE;
+    height: 192px;
+}
+
+.a{
+    background-color:#F7F7F7;
+}
+.b{
+    background-color:#F7F7F7;
+    margin:23px 0px 23px 0px;
+}
+.c{
+    background-color:#F7F7F7;
+}
+
+img{
+    max-width:100%
+    height auto;
+}

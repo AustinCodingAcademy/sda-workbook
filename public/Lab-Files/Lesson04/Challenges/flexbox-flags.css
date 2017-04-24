@@ -1,0 +1,67 @@
+div {
+    display: flex;
+    justify-content: space-between;
+}
+
+.germany {
+    width: 200px;
+    height: 150px;
+    border: 1px solid black;
+    flex-direction: column;
+    display: flex;
+}
+
+.black {
+    background-color: black;
+    flex-grow: 1;
+}
+
+.red {
+    background-color: red;
+    flex-grow: 1;
+}
+
+.yellow {
+    background-color: yellow;
+    flex-grow: 1;
+}
+
+.italy {
+    width: 200px;
+    height: 150px;
+    border: 1px solid black;
+    display: flex;
+}
+
+.green {
+    background-color: green;
+    flex-grow: 1;
+}
+
+.white {
+    background-color: white;
+    flex-grow: 1;
+}
+
+.france {
+    width: 200px;
+    height: 150px;
+    border: 1px solid black;
+    display: flex;
+}
+
+.blue {
+    background-color: blue;
+    flex-grow: 1;
+}
+
+.colombia {
+    width: 200px;
+    height: 150px;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+}
+
+
+/* Could possibly condense .germany .colombia together, and then .italy .france togeter to get cleaner code. */

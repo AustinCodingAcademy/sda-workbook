@@ -1,0 +1,163 @@
+/* this goes in the external CSS file */
+
+* {
+    /* the simplest css reset possible, can cause performance issues on very complex HTML Documents */
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background: url("img/airline.jpg") no-repeat fixed center;
+    background-size: cover;
+    background-color: #1d4356;
+}
+
+nav {
+    background-color: #193A55;
+    height: 81px;
+    /*   border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: #fff; */
+    border: 0 solid #fff;
+    border-bottom-width: 1px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.links {
+    display: flex;
+    padding: 40px 30px 0px 0px;
+}
+
+nav li {
+    display: inline;
+    font-family: 'Noto Sans', sans-serif;
+    color: white;
+    font-size: 16px;
+    padding: 0px 10px 0px 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+}
+
+nav a:hover {
+    color: #008D81;
+}
+
+.home{
+    color:#008D81;
+}
+
+.logo {
+    padding-left: 30px;
+    max-width: 100%;
+    height: auto;
+}
+
+main {
+    height: calc(100vh - 80px);
+    position: relative;
+    /* create a coordinate system */
+}
+
+.topbutton {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.topbutton div {
+    flex-grow: 1;
+    text-align: center;
+}
+
+.planeico {
+    background: #0065B1;
+    border-top-left-radius: 5px;
+}
+
+.hotelico {
+    background: #008D81;
+}
+
+.carico {
+    background: #008D81;
+    border-top-right-radius: 5px;
+}
+
+section {
+    width: 542px;
+    height: 386px;
+    background: #193a55;
+    border-radius: 5px;
+    position: absolute;
+    /* can be positioned in the <main> coordinate system */
+    top: 50px;
+    left: 50px;
+}
+
+form {
+    padding: 12px 12px 12px 12px;
+}
+
+input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    color: white;
+    background: #193A55;
+    border: 2px solid white;
+    border-radius: 5px;
+    font-family: 'Noto Sans', sans-serif;
+}
+.box{
+    display:flexbox;
+    flex-wrap:wrap;
+    flex-grow:1;
+    justify-content:center;
+    
+}
+.formsquares {
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+}
+
+.formbutton {
+
+    color: white;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 14px;
+    padding-left: 18px;
+    padding-right: 110px;
+    display: flex;
+    justify-content:space-between;
+    align-items:baseline;
+    align-content:stretch;
+    
+}
+
+.mydropdown option {
+    color: white;
+    background: #193A55;
+    border: 2px solid white;
+    border-radius: 5px;
+}
+
+.search {
+    background: #0065B1;
+    border-radius: 5px;
+    text-align: center;
+    color: white;
+    width: 100%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin: auto;
+    width: 95%;
+    font-family: 'Noto Sans', sans-serif;
+    display:flexbox;
+    justify-content:space-around;
+}
