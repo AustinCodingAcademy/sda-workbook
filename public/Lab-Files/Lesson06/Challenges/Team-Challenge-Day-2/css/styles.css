@@ -1,0 +1,287 @@
+/*CSS Rules*/
+@import url('https://fonts.googleapis.com/css?family=Black+Ops+One');
+
+.blue {
+    width: 100%;
+    height: 3rem;
+    background-color: #0087C6;
+}
+
+.blacko{
+    text-align: center;
+    font-family: 'Black Ops One', cursive;
+    margin-right:15px;
+    margin-left:15px;
+}
+.title{
+    margin-bottom: 0;
+}
+
+.tag{
+    margin-top:0;
+}
+
+.navigation {
+    border-top:5px solid #0087C6;
+    border-bottom:5px solid #0087C6;
+    /*height: 100px;*/
+    display:flex;
+    justify-content:flex-end;
+}
+
+
+/* Responsive Navigation Styles */
+.site-nav {  
+  /*position: absolute;*/
+  /*top: 9px;*/
+  /*right: 15px;*/
+  background-color: #fdfdfd;
+  border: 1px solid #e8e8e8;
+  border-radius: 5px;
+  text-align: right;
+  margin: 10px 0px;
+}
+
+.site-nav .menu-icon {
+  display: block;
+  /*float: right;*/
+  width: 36px;
+  height: 26px;
+  padding-top: 10px;
+  text-align: center;
+}
+
+.site-nav .trigger {
+  clear: both;
+  display: none;
+}
+
+.site-nav:hover .trigger {
+  display: block;
+  padding-bottom: 5px;
+}
+
+.site-nav .page-link {
+  color: #111;
+  display: block;
+  padding: 5px 10px;
+  margin-left: 20px;
+}
+.site-nav .page-link:hover {
+  text-decoration: underline;
+}
+
+.mission {
+    text-align: center;
+    margin-right:15px;
+    margin-left:15px;
+    /*border:1px solid red;*/
+}
+
+table {
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+
+table img {
+    max-width: 100%;
+    height: auto;
+}
+
+.testimony {
+    text-align: center;
+    margin-right:15px;
+    margin-left:15px;
+    /*border:1px solid red;*/
+}
+
+.designer1 {
+    text-align: center;
+    margin-right:15px;
+    margin-left:15px;
+    color: #0087C6;
+    font-weight: bold;
+}
+
+.hidden_1, .hidden_2 {
+  display: none;
+}
+
+.button{
+  text-align:center;
+}
+
+.button button{
+  border-radius:35%;
+  color:white;
+  text-align:center;
+  border:0;
+}
+
+.teamname {
+    font-weight: bold;
+}
+
+section {
+    text-align: center;
+}
+
+.imgborder, .imgborder img {
+    
+    border-radius: 50%;
+    border:2px solid black;
+}
+
+.imgborder img{
+  display:block;
+}
+
+.imgborder {
+    text-align: center;
+    display:inline-block;
+    padding:5px;
+}
+
+.footer {
+    background-color:#F7F7F7;
+}
+
+.about {
+    text-align:center;
+    margin-right:15px;
+    margin-left:15px;
+    font-style: italic;
+}
+
+input {
+  width:80%;
+}
+
+.form {
+  text-align: center;
+}
+
+.subscribe {
+  text-align: center;
+}
+
+.button_1{
+    text-align:center;
+    background-color: #302F30;
+    color: white;
+    cursor: pointer;
+}
+
+.socialmedia {
+  text-align:center;
+}
+
+.fa {
+  font-size:xx-large;
+  margin:0.5rem;
+}
+
+/*Media Queries*/
+@media (min-width: 320px) {
+  body::before {
+    content: "320px";
+    font-family: Arial, sans-serif;
+    color: green;
+    position: fixed;
+    top: 0;
+    left: 0;
+    font-weight: 700;
+    margin: 5px;
+    font-size: 2rem;
+    z-index: 9999;
+  }
+}
+
+@media (min-width: 480px) {
+  body::before {
+    content: "480px";
+    color: maroon;
+  }
+  .hidden_1 {
+    display: inline;
+  }
+}
+
+@media (min-width: 620px) {
+  body::before {
+    content: "620px";
+    color: orange;
+  }
+    .site-nav {
+    background-color: #fff;
+    border: 0;
+    border-radius: 0;
+    float: right;
+    line-height: 56px;
+  }
+  .site-nav .trigger {
+    display: block;
+    text-align: center;
+  }
+  .site-nav .menu-icon {
+    display: none;
+  }
+  .site-nav .page-link {
+    display: inline;
+    color: #111;
+    line-height: 1.5;
+  }
+  .site-nav .page-link:not(:last-child) {
+    margin-right: 20px;
+  }
+  
+}
+
+@media (min-width: 810px) {
+  body::before {
+    content: "810px";
+    color: black;
+  }
+  
+  .hidden, .hidden_1{
+    display:none;
+  }
+  
+  .hidden_2 {
+    display:inline;
+  }
+
+}
+
+@media (min-width: 1200px) {
+  body::before {
+    content: "1200px";
+    color: CornflowerBlue;
+  }
+  
+  section {
+    width:100%;
+  }
+
+  .teammembers {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .footer {
+    display: flex;
+  }
+  
+  .about, .newsletters, .follow{
+    flex:1;
+  }
+  
+}
+
+@media (min-width: 1400px) {
+  body::before {
+    content: "1400px";
+    color: red;
+  }
+}

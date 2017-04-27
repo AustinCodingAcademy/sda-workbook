@@ -1,0 +1,160 @@
+body {
+    box-sizing: border-box;
+    height: 100%;
+}
+
+header {
+    margin: 0 auto;
+    width: 90%;
+    height: 6rem;
+    background: #97BEC3;
+}
+
+nav {
+    margin: 1rem auto;
+    width: 90%;
+    height: 9rem;
+    background: #8B7F95;
+}
+
+.story-container {
+    margin: 0 auto;
+    width: 90%;
+    height: 20%;
+    background: #CAD3D1;
+    padding: .1rem;
+    padding-bottom:1rem;
+
+}
+
+.featured-story {
+    margin: 1rem;
+    height: 24rem;
+    background: #93A6B2;
+    padding: .1rem;
+    padding-left:.5rem;
+
+}
+
+.other-stories {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.story {
+    background-color: #94A6B4;
+    width: 85%;
+    height: 10rem;
+    padding: 1rem;
+    margin: .3rem .3rem;
+    text-align:center;
+    /*flex-grow:1;*/
+    /*border: 1px solid black;*/
+}
+
+footer {
+    margin: 0 auto;
+    width: 90%;
+    height: 10rem;
+    background: #97BEC3;
+}
+
+
+/**
+ * Media Queries
+ **/
+
+@media (min-width: 320px) {
+    body::before {
+        content: "320px";
+        font-family: Arial, sans-serif;
+        color: green;
+        position: fixed;
+        top: 0;
+        left: 0;
+        font-weight: 700;
+        margin: 5px;
+        font-size: 2rem;
+        z-index: 9999;
+    }
+}
+
+@media (min-width: 480px) {
+    body::before {
+        content: "480px";
+        color: maroon;
+    }
+    .other-stories {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        flex-wrap: wrap;
+        height: 100%;
+        margin: 0 auto;
+    }
+    .story {
+        width: 40%;
+        flex-grow:1;
+        margin-left:1rem;
+        margin-right:1rem;
+        
+    }
+}
+
+@media (min-width: 620px) {
+    body::before {
+        content: "620px";
+        color: orange;
+    }
+}
+
+@media (min-width: 810px) {
+    body::before {
+        content: "810px";
+        color: black;
+    }
+
+    .story {
+    width:30%;
+}
+
+.content-body {
+    display: flex;
+    width: 90%;
+    margin: 0 auto;
+ /*   justify-content: space-between;*/
+}
+
+nav {
+    height: 50rem;
+    width: 18em;
+    margin:.5rem;
+}
+.story-container{
+    margin:.5rem;
+}
+}
+
+
+@media (min-width: 1200px) {
+    body::before {
+        content: "1200px";
+        color: CornflowerBlue;
+    }
+    .story {
+    width:25%;}
+}
+
+
+
+
+
+@media (min-width: 1400px) {
+    body::before {
+        content: "1400px";
+        color: red;
+    }
+}

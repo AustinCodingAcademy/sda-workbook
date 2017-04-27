@@ -1,0 +1,97 @@
+body {
+    display:flex;
+}
+
+.flag {
+    border: 1px solid;
+    display:flex;
+    margin:20px;
+    justify-content: space-between;
+}
+
+/* Controls the color's height and width */
+
+.color1, .color2, .color3 {
+    width:100%;
+    height:100%;
+}
+
+/*Germany Flag*/
+
+.germany-flag{
+    display: flex;
+    width:200px;
+    height:150px;
+    flex-direction:column;
+}
+
+.germany-flag .color1{
+    background-color: black;
+}
+
+.germany-flag .color2{
+    background-color: red;
+}
+
+.germany-flag .color3{
+    background-color: yellow;
+}
+
+/*Italy Flag*/
+
+.italy-flag{
+    display: flex;
+    width:200px;
+    height:150px;
+    justify-content:flex-start;
+}
+
+.italy-flag .color1{
+    background-color: green;
+}
+
+.italy-flag .color2{
+    background-color: white;
+}
+
+.italy-flag .color3{
+    background-color: red;
+}
+
+/*France Flag*/
+
+.france-flag{
+    display: flex;
+    width:200px;
+    height:150px;
+}
+
+.france-flag .color1{
+    background-color: blue;
+}
+
+.france-flag .color2{
+    background-color: white;
+}
+
+.france-flag .color3{
+    background-color: red;
+}
+
+/*Colombia Flag*/
+
+.colombia-flag{
+    width:200px;
+    height:150px;
+    flex-direction:column;
+}
+
+.colombia-flag .color1{
+    background-color: yellow;
+}
+.colombia-flag .color2{
+    background-color: blue;
+}
+.colombia-flag .color3{
+    background-color: red;
+}

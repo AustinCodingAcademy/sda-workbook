@@ -1,0 +1,85 @@
+/*CSS Rules*/
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size:1.6rem;
+}
+
+.table-responsive{
+    max-width:80%;
+    margin: 0 auto;
+}
+
+table {
+    min-width:937px;
+    border-collapse:collapse;
+    text-transform:uppercase;
+    table-layout:fixed;
+}
+
+tr td {
+    padding: 5%;
+    text-align:center;
+    border:1px solid #e7e7e7;
+}
+
+.header, .header .empty {
+    background-color:#30323A;
+    color: white;
+}
+
+.basic-border {
+    border-top:5px solid green;
+}
+
+.top{
+    display:block;
+    width:100%;
+}
+
+td:first-child {
+    background-color:#6299F8;
+    color:white;
+    
+}
+
+.background-blue {
+    background-color: #F0F8FF;
+}
+
+.data-red {
+    background-color:#E62565;
+    color:white;
+}
+
+.data-green {
+    background-color:#50AD55;
+    color:white;
+}
+
+.data-blue {
+    background-color:#1EAAF1;
+    color:white;
+}
+
+td .pink {
+    color:#E62565;
+}
+
+td .green {
+    color:#50AD55;
+}
+
+td .blue{
+    color:#1EAAF1;
+}
+
+@media only screen and (max-width:937px) {
+    .table-responsive {
+        max-width:80%;
+        overflow-y:hidden;
+    }
+    
+}
