@@ -45,6 +45,10 @@ td:first-child {
     
 }
 
+.background-blue {
+    background-color: #F0F8FF;
+}
+
 .data-red {
     background-color:#E62565;
     color:white;
