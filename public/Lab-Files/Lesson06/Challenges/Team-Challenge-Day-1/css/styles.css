@@ -1,0 +1,124 @@
+body {
+  height: 100%;
+}
+
+header {
+  background-color:#DBA339;
+  width:100%;
+}
+
+.logo {
+  text-align:center;
+  padding-top:0.9rem;
+}
+
+.underlogo {
+  display: flex;
+  justify-content: space-between;
+  color: white;
+}
+
+.menu {
+  display: flex;
+  /*padding-left: 1rem;*/
+  padding-bottom:0.5rem;
+  flex:1;
+  justify-content:space-around;
+}
+
+.search {
+  display:flex;
+  justify-content: space-around;
+  background-color: #875D12;
+  width: 30%;
+  height: 3rem;
+  margin-bottom: 0.5rem;
+  margin-right: 0.5rem;
+  margin-left: 0.5rem;
+  flex:1;
+  align-items:center;
+}
+
+.searchicon {
+  background-color:#6A4B11;
+  width: auto;
+}
+
+main {
+  height: 320px;
+}
+
+.gingerleft {
+  width: 100%;
+  height: 320px;
+}
+
+.info {
+  background-color: #DC742D;
+  margin: 0 auto;
+  text-align: center;
+  color: white;
+}
+
+.info h1 {
+  margin: 0 auto;
+  font-weight: normal;
+}
+
+.infoicons  {
+  display:flex;
+  justify-content: space-around;
+}
+
+/*Media Queries*/
+@media (min-width: 320px) {
+  body::before {
+    content: "320px";
+    font-family: Arial, sans-serif;
+    color: green;
+    position: fixed;
+    top: 0;
+    left: 0;
+    font-weight: 700;
+    margin: 5px;
+    font-size: 2rem;
+    z-index: 9999;
+  }
+}
+
+@media (min-width: 480px) {
+  body::before {
+    content: "480px";
+    color: maroon;
+  }
+}
+
+@media (min-width: 620px) {
+  body::before {
+    content: "620px";
+    color: orange;
+  }
+  
+}
+
+@media (min-width: 810px) {
+  body::before {
+    content: "810px";
+    color: black;
+  }
+
+}
+
+@media (min-width: 1200px) {
+  body::before {
+    content: "1200px";
+    color: CornflowerBlue;
+  }
+}
+
+@media (min-width: 1400px) {
+  body::before {
+    content: "1400px";
+    color: red;
+  }
+}
