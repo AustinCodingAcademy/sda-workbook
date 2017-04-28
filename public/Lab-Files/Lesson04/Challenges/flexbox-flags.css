@@ -1,0 +1,116 @@
+body {
+    display: flex;
+}
+
+.germany-flag {
+    width: 200px;
+    height: 150px;
+    border: 1px solid #c7c7c7;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.germany-flag .color1 {
+    background: black;
+    height: 100%;
+    width: 100%;
+}
+
+.germany-flag .color2 {
+    background: red;
+    height: 100%;
+    width: 100%;
+}
+
+.germany-flag .color3 {
+    background: yellow;
+    height: 100%;
+    width: 100%;
+}
+
+.ireland-flag {
+    width: 200px;
+    height: 150px;
+    border: 1px solid #c7c7c7;
+    margin: auto;
+    display: flex;
+}
+
+.ireland-flag .color1 {
+    background: green;
+    height: 100%;
+    width: 100%;
+}
+
+.ireland-flag .color2 {
+    background: white;
+    height: 100%;
+    width: 100%;
+}
+
+.ireland-flag .color3 {
+    background: red;
+    height: 100%;
+    width: 100%;
+}
+
+.italy-flag {
+    width: 200px;
+    height: 150px;
+    border: 1px solid #c7c7c7;
+    margin: auto;
+    display: flex;
+}
+
+.italy-flag .color1 {
+    background: blue;
+    height: 100%;
+    width: 100%;
+}
+
+.italy-flag .color2 {
+    background: white;
+    height: 100%;
+    width: 100%;
+}
+
+.italy-flag .color3 {
+    background: red;
+    height: 100%;
+    width: 100%;
+}
+
+.country-flag {
+    width: 200px;
+    height: 150px;
+    border: 1px solid #c7c7c7;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.country-flag .color1 {
+    background: yellow;
+    height: 100%;
+    width: 100%;
+}
+
+.country-flag .color2 {
+    background: blue;
+    height: 100%;
+    width: 100%;
+}
+
+.country-flag .color3 {
+    background: red;
+    height: 100%;
+    width: 100%;
+}
+
+.backbutton {
+    border: 1px solid black;
+    border-radius: 20%;
+    padding: 10px 20px;
+    text-decoration: none;
+}

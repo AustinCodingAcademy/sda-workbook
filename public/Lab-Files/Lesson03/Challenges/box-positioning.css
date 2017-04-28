@@ -1,13 +1,19 @@
-body {
-  box-sizing: border-box;
+.box {
+      padding:10px;
+      display:inline-block;
+      border:1px solid black;
+      width:50px;
+      height:50px;
+      margin:10px;
+      font-weight:bold;
+      float:left;
 }
-.row1 div,
-.row2 div {
-  padding:10px;display:inline-block;border:1px solid black;width:50px;height:50px;margin:10px;font-weight:bold;
+.box:nth-child(3n+1)
+  {
+    clear:left;
 }
-
-.box1,
-.box3,
-.box5 {
-  background:black;color:white;
+.box:nth-child(2n+2)
+  {
+    background:black;
+    color:white;
 }

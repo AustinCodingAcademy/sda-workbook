@@ -1,0 +1,315 @@
+body {
+    background: black;
+}
+
+h2 {
+    font-size: 1.4rem;
+}
+
+.main {
+    background: white;
+    width: 65%;
+    margin: auto;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+header {
+    margin: auto;
+    margin-top: 3%;
+    padding-top: 4%;
+    padding-bottom: 2.9%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.navleft {
+    width: 40%;
+    text-align: left;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    margin: auto;
+}
+
+.navleft ul {
+    padding-left: 7%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+
+.navleft li {
+    display: inline-block;
+    padding-right: 5%;
+}
+
+.navleft li a {
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+    font-family: 'Open Sans', sans-serif;
+    font-size: .9rem;
+}
+
+.navleft li a:hover {
+    color: #0099CC;
+}
+
+.navright {
+    width: 40%;
+    margin: auto;
+    text-align: right;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+.navright ul {
+    padding-right: 7%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+
+.navright li {
+    display: inline-block;
+}
+
+.navright li a {
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+    font-family: 'Open Sans', sans-serif;
+    font-size: .9rem;
+}
+
+.navright li a:hover {
+    color: #0099CC;
+}
+
+.banner {
+    text-align: center;
+    background: black;
+    color: white;
+    border-radius: 50%;
+    width: 140px;
+    height: 140px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 8.4px double;
+}
+
+.bannerlink {
+    text-decoration: none;
+}
+
+.bannerlink:hover p {
+    color: #00bdfc;
+}
+
+.bannerlink:hover h2 {
+    color: #0099CC;
+}
+
+.banner p {
+    margin-bottom: 0%;
+    font-family: 'Josefin Slab', serif;
+    font-size: 1.3rem;
+}
+
+.banner h2 {
+    margin-top: 0%;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.subheader {
+    width: 100%;
+    background: #F5F5F5;
+    height: 80px;
+    margin: auto;
+}
+
+section {
+    padding: 4% 5% 0% 0%;
+}
+
+.bodysection h1 {
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 1.8rem;
+    margin-bottom: .5%;
+}
+
+.bodysection h6 {
+    font-family: 'Noto Sans', sans-serif;
+    font-size: .7rem;
+    margin: 1%;
+}
+
+.bodysection a {
+    text-decoration: none;
+    color: #0099CC;
+}
+
+.bodysection p {
+    font-family: 'Noto Sans', sans-serif;
+    font-size: .9rem;
+}
+
+.bodysection li {
+    font-family: 'Noto Sans', sans-serif;
+    font-size: .9rem;
+}
+
+.bodyaside {
+    display: flex;
+    height: 100%;
+}
+
+.bodysection {
+    width: 66%;
+}
+
+aside {
+    width: 34%;
+}
+
+.asidebod {
+    margin: 2% 0% 2% 0%;
+}
+
+aside h3 {
+    background: black;
+    color: white;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: .8rem;
+    text-align: center;
+    padding: 7% 0% 7% 0%;
+    width: 80%;
+    margin-left: 10%;
+}
+
+aside p {
+    font-family: 'Noto Sans', sans-serif;
+    font-size: .7rem;
+    text-align: left;
+    padding: 7% 0% 7% 0%;
+    width: 80%;
+    margin-left: 10%;
+}
+
+aside li {
+    display: block;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: .75rem;
+    text-align: left;
+    padding: 2% 0% 2% 0%;
+    width: 80%;
+    margin-left: 10%;
+}
+
+aside ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+aside a {
+    border-bottom: 1px gray dotted;
+    text-decoration: none;
+    color: black;
+}
+
+aside a:hover {
+    color: #0099CC;
+    border-bottom: 1px #0099CC dotted
+}
+
+aside a:visited {
+    color: black;
+    border-bottom: 1px #0099CC dotted
+}
+
+.lowaside {
+    border: 1px solid black;
+    margin: -15% 0% 2% 0%;
+    padding-top: 10%;
+}
+
+.fa-file-pdf-o {
+    color: red;
+    text-decoration: none;
+}
+
+.fa-file-o {
+    color: gray;
+}
+
+.fa-file-powerpoint-o {
+    color: gray
+}
+
+article hr {
+    border: 0;
+    height: 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    width: 90%;
+}
+
+.art2 li {
+    padding-left: 5%;
+    display: block;
+}
+
+.art3 li {
+    padding-left: 5%;
+    display: block;
+}
+
+.art4 li {
+    padding-left: 5%;
+    display: block;
+}
+
+.art5 li {
+    padding-left: 5%;
+    display: block;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer p {
+    font-family: 'Noto Sans', sans-serif;
+    font-size: .7rem;
+}
+
+.footer li {
+    list-style: none;
+    padding-left: 0;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: .7rem;
+}
+
+.foot1 li,
+.foot2 li {
+    padding: 2% 0%;
+}
+.foot3 ul {padding-top:2%;}
+
+.footercol {
+    width: 33.3%;
+    text-align: left;
+    
+}
+.footercol li a {
+    text-decoration: none;
+    color: black;
+    font-family: 'Open Sans', sans-serif;
+    font-size: .7rem;
+}
+.footercol li a:hover {
+    color: #0099CC;
+}

@@ -1,0 +1,204 @@
+body {
+  margin: 0 auto;
+  width: 100%;
+  height: auto;
+}
+
+header {
+  margin: 0 auto;
+  width: 100%;
+  height: auto;
+  background: #DFA245;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.menu-bar {
+  display: flex;
+  align-items: center;
+  color: white;
+}
+
+.head-left {
+  width: 50%;
+  padding: .5rem .5rem;
+}
+
+.head-left img {
+  padding: .2rem;
+}
+
+.head-right {
+  width: 50%;
+}
+
+.search {
+  border: none;
+  background: black;
+  opacity: 0.4;
+  padding: .4rem;
+  width: 70%;
+}
+
+.searchico {
+  background: black;
+  padding: .2rem;
+}
+
+.headright img {
+  margin-top: .2rem;
+}
+
+.dogimagesection {
+  margin: -.24rem
+}
+
+
+/*.paw-icon {width:10%;padding:.2rem;  }*/
+
+.subhead {
+  color: white;
+  padding-bottom: .2rem;
+}
+
+.paw-icon {
+  width: 10%;
+  padding: 0 .4rem;
+}
+
+.dogpic {
+  width: 100%;
+  height: auto;
+}
+
+article {
+  background: #E27233;
+  text-align: center;
+  color: white;
+  padding-bottom: 1rem;
+}
+
+article h2 {
+  margin: 0;
+}
+
+footer {
+  background: #1F1F1F;
+  display: flex;
+  flex-direction: column;
+  color: white;
+  align-items: center;
+  padding-bottom: 1rem;
+}
+
+.form-box {
+  color: white;
+  padding: .5rem;
+  border: none;
+}
+
+.sub-button {
+  color: black;
+  background: orange;
+  border: none;
+  padding: .5rem;
+  border-top-right-radius: 5%;
+  border-bottom-right-radius: 5%;
+}
+
+.email {
+  padding-top: 1rem;
+  height: 3rem;
+}
+
+.icons img {
+  padding: .2rem;
+}
+
+.donate {
+  padding-top: .5rem;
+  display: flex;
+  align-items: center;
+}
+
+.heart {
+  background: green;
+  color: green;
+  padding: .3rem;
+  border-top-left-radius: 10%;
+  border-bottom-left-radius: 10%;
+}
+
+.hearttxt {
+  background: white;
+  color: green;
+  padding: 1.05rem;
+  border-top-right-radius: 10%;
+  border-bottom-right-radius: 10%;
+}
+
+
+/**
+ * Media Queries
+ **/
+
+@media (min-width: 320px) {
+  .page::before {
+    content: "320px";
+    font-family: Arial, sans-serif;
+    color: green;
+    position: fixed;
+    top: 0;
+    left: 0;
+    font-weight: 700;
+    margin: 5px;
+    font-size: 2rem;
+    z-index: 9999;
+  }
+}
+
+@media (min-width: 480px) {
+  .page::before {
+    content: "480px";
+    color: maroon;
+  }
+}
+
+@media (min-width: 620px) {
+  .page::before {
+    content: "620px";
+    color: orange;
+  }
+  
+.logo {display:flex;}
+  
+
+  
+  
+  
+}
+
+@media (min-width: 810px) {
+  .page::before {
+    content: "810px";
+    color: black;
+  }
+}
+
+@media (min-width: 1200px) {
+  .page::before {
+    content: "1200px";
+    color: CornflowerBlue;
+  }
+}
+
+@media (min-width: 1400px) {
+  .page::before {
+    content: "1400px";
+    color: red;
+  }
+}

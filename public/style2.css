@@ -1,0 +1,94 @@
+html{
+    font-size: 62.5%;
+}
+
+body{
+    font-size: 1.6rem;
+}
+
+.table-container {
+    max-width:80%;
+    margin:0 auto;
+
+}
+
+table {
+    min-width:645px;
+}
+
+table,
+tr,
+td,
+th  {
+    border-collapse: collapse;
+    border: 1px solid #c6cdd1;
+}
+
+th {
+    background: #30323A;
+    color: white;
+    text-transform: uppercase;
+    
+    
+}
+ 
+td {
+    text-align: center;
+} 
+.tdd1 {background:#03A9F4;
+    color:white;}
+    
+h1 {
+    font-size: 1.6rem;
+    font-weight: normal;
+}
+
+[class|="fa fa-star"]{
+    font-size:1.0rem;
+    
+}
+[class|="fa fa-star"]:nth-child(1)
+
+td:nth-child(1) {
+    background:#6299F8;
+    color:white;
+}
+
+.odd {
+    background-color: #F0F8FF;
+}
+
+.free i{
+    color: #E62565;
+}
+
+.signup1 {
+    background: #E62565;
+    color: white;
+}
+
+.basic i {
+    color: #4CAF50 ;
+}
+
+.basictitle {border-top:3px solid #4CAF50;}
+
+.signup2{
+    background:#4CAF50;
+    color:white;
+}
+
+.business i{
+    color: #03A9F4;
+}
+
+.signup3{
+    background:#03A9F4;
+    color:white;
+}
+
+@media (max-width: 645px) {
+  .table-container {
+   overflow-y:hidden;
+   max-width:645px;
+}}
