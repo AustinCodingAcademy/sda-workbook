@@ -1,0 +1,143 @@
+/*COLORS:
+Header / Footer :#8dc0c2
+Navigation:#8f7c97
+Featured Story/Stories:#90a6b5
+Container:#c6d4d2
+*/
+
+body {
+  font-family: helvetica;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width:75%;
+    margin: 0 auto;
+}
+
+header, footer {
+    background-color: #8dc0c2;
+    flex: 1 100%;
+    margin-bottom: 1.3rem;
+    min-height: 10rem;
+}
+footer {
+    text-align:center;
+    margin-top: 1.2rem;
+    
+}
+.content {
+    display:flex ;
+    flex: 1 auto;
+    flex-flow:column nowrap;
+    justify-content:space-between;
+}
+nav {
+    background-color: #8f7c97;
+    margin-bottom: 1.3rem;
+    flex: 1 100%;
+    padding: 1 rem;
+    text-align: center;
+    min-height: 30rem;
+    margin-bottom: 1.3rem;
+}
+section {
+    background-color: #c6d4d2;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content:space-between;
+    flex:3.7 auto;
+    padding: 1rem;
+    
+}
+.feature, .story {
+    background-color: #90a6b5
+    }
+.feature {
+    flex:4 100%;
+    padding: 1rem;
+    min-height: 30rem;
+    margin: 0.75rem;
+}
+.story {
+    flex: 1 100%;
+    min-height: 13rem;
+    justify-content: space-between;
+    margin-top: 1rem;
+    text-align: center;
+    margin: 0.75rem;
+}
+/**
+ * Media Queries
+ **/
+@media (min-width: 320px) {
+  .container::before {
+    content: "320px";
+    font-family: Arial, sans-serif;
+    color: green;
+    position: fixed;
+    top: 0;
+    left: 0;
+    font-weight: 700;
+    margin: 5px;
+    font-size: 2rem;
+    z-index: 9999;
+  }
+}
+
+@media (min-width: 480px) {
+  .container::before {
+    content: "480px";
+    color: maroon;
+  }
+}
+
+@media (min-width: 620px) {
+  .container::before {
+    content: "620px";
+    color: orange;
+  }
+  .story {
+    flex: 1 44%;
+  }
+  
+}
+
+@media (min-width: 810px) {
+  .container::before {
+    content: "810px";
+    color: black;
+  }
+  
+
+}
+
+@media (min-width: 1200px) {
+  .container::before {
+    content: "1200px";
+    color: CornflowerBlue;
+  }
+  .content {
+     flex-flow: row; 
+  }
+  nav {
+      flex: 1 30%;
+      margin-right: 2rem;
+      min-height: 20rem;
+      max-height: 40rem;
+  }
+}
+
+@media (min-width: 1400px) {
+  .container::before {
+    content: "1400px";
+    color: red;
+  }
+  .story{
+      flex: 1 20%;
+      max-height: 15rem;
+      min-height: 10rem;
+  }
+}

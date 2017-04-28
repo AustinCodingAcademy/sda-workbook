@@ -1,0 +1,100 @@
+/*
+header color:  #e5a500
+footer color:  #ee6c00
+*/
+
+body 
+{
+    margin:0 auto;
+    
+}
+header 
+{
+    
+    text-align: center;
+    background-color: #e5a500;
+}
+.paw {
+    position: left;
+}
+
+.ginger-bio
+
+{
+    background-color:  #ee6c00;
+    font-family: Verdana;
+}
+.name
+{
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.name, .title, .bio
+{
+    color: white;
+    text-align: center;
+    font-family: Verdana;
+}
+footer {
+
+    background-color: #30313b;
+    text-align: center;
+    border-bottom: 50px #30313b solid;
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+
+
+/*
+Media Queries*/
+@media (min-width: 320px) {
+  .page::before {
+    content: "320px";
+    font-family: Arial, sans-serif;
+    color: green;
+    position: fixed;
+    top: 0;
+    left: 0;
+    font-weight: 700;
+    margin: 5px;
+    font-size: 2rem;
+    z-index: 9999;
+  }
+}
+
+@media (min-width: 480px) {
+  .page::before {
+    content: "480px";
+    color: maroon;
+  }
+}
+
+@media (min-width: 620px) {
+  .page::before {
+    content: "620px";
+    color: orange;
+  }
+  
+}
+
+@media (min-width: 810px) {
+  .page::before {
+    content: "810px";
+    color: black;
+  }
+
+}
+
+@media (min-width: 1200px) {
+  .page::before {
+    content: "1200px";
+    color: CornflowerBlue;
+  }
+}
+
+@media (min-width: 1400px) {
+  .page::before {
+    content: "1400px";
+    color: red;
+  }
+}
