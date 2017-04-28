@@ -1,0 +1,37 @@
+.box {
+    border: 1px solid black;
+    width: 172px;
+    height: 72px;
+    margin: 10px;
+    padding: 10px;
+    font-weight: bold;
+}
+
+.box:nth-child(odd) {
+    background: black;
+    color: white;
+}
+
+.box:nth-child(1) {
+    margin-left: 30px;
+}
+
+.box:nth-child(2) {
+    margin-left: calc(30px + 30px);
+}
+
+.box:nth-child(3) {
+    margin-left: calc(30px + 30px + 30px);
+}
+
+.box:nth-child(4) {
+    margin-left: calc(30px + 30px + 30px + 30px);
+}
+
+.box:nth-child(5) {
+    margin-left: calc(30px + 30px + 30px + 30px + 30px);
+}
+
+.box:nth-child(6) {
+    margin-left: calc(30px + 30px + 30px + 30px + 30px + 30px);
+}

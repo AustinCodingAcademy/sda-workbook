@@ -1,0 +1,125 @@
+.container
+{
+    display:flex;
+    flex-direction:row;
+    flex-wrap:nowrap;
+    justify-content:space-between;
+    max-width: 1000px;
+    max-height: 150px;
+    margin:10px;
+}
+
+.germany 
+{
+    display:flex;
+    flex-direction:column;
+    width: 200px;
+    height: 150px;
+    border:1px solid red;
+    
+}
+.italy
+{
+    display:flex;
+    flex-grow:1;
+    max-width: 200px;
+    height: 150px;
+    border:1px solid red;
+}
+.france{
+    display: flex;
+    flex-grow:1;
+    max-width:200px;
+    height:150px;
+    border: 1px solid red;
+}
+.columbia{
+    display: flex;
+    flex-direction:column;
+    width:200px;
+    height: 150px;
+    border: 1px solid red;
+}
+.box{
+    color:transparent;
+    font-size: 45px;
+}
+.box1
+{
+    background:black;
+    flex-grow:1;   
+    height: 33%;
+}
+.box2
+{
+    background:red;
+    flex-grow:1;
+    height: 33%;
+}
+.box3
+{
+    background:yellow;
+    flex-grow:1;
+    height: 33%;
+}
+
+
+.box4
+{
+    background:green;
+    flex-grow:1;
+}
+.box5
+{
+    background: white;
+    flex-grow:1;
+}
+.box6
+{
+    background:red;
+    flex-grow:1;
+}
+.box7
+{
+    background:blue;
+    align-self:stretch;
+    flex-grow:1;
+    width:33%;
+}
+.box8
+{
+    background:white;
+    align-self:stretch;
+    flex-grow:1;
+    width:33%;
+}
+.box9
+{
+    background:green;
+    align-self:stretch;
+    flex-grow:1;
+    width:33%;
+}
+.box10
+{
+    background:yellow;
+    flex-grow:1;
+    height: 33%;
+}
+.box11
+{
+    background:blue;
+    flex-grow:1;
+    height:33%;
+}
+.box12
+{
+    background:red;
+    flex-grow:1;
+    height:33%;
+}
+
+
+
+
+

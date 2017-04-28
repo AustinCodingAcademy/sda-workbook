@@ -1,0 +1,82 @@
+/*COLOR PALETTE:
+
+    Gray: #2F313B
+    Blue: #5d8eff
+    Pink: #FF0059
+    Green:#00b852
+    Light-Blue: #00a6f8
+    Light-Gray:#eff8ff
+
+*/
+
+html {
+    font-size: 62.5%;  /* set it to 62.5% so that the sizing is similar to px*/
+}
+
+body {
+    font-size: 1.8rem;
+    text-align:center;/* 16px*/
+    font-family: 'Nunito', sans-serif;
+    
+}
+
+table {
+    width: 100%;
+}
+
+table, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+td {
+    padding: 5%;
+}
+
+.headers {
+    background-color: #2F313B;
+    color: white;
+    font-size:2.3rem;
+}
+
+.pink {
+    color: #FF0059;
+}
+
+.green
+{
+    color:#00b852;
+}
+
+.light-blue
+{
+    color:#00a6f8;
+}
+.blue
+{
+    background-color: #5d8eff;
+    color: white;
+    font-size:2rem;
+}
+.sign1
+{
+    background-color: #FF0059;
+    color: white;
+    font-size:1.6rem;
+}
+.sign2
+{
+    background-color:#00b852;
+    color:white;
+    font-size:1.6rem;
+}
+.sign3
+{
+    background-color: #00a6f8;
+    color: white;
+}
+.basic
+{
+    border-top:5px solid #00b852;
+}
+
