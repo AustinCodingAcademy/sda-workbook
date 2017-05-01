@@ -1,13 +1,3 @@
-
-# 100 Days Of Code - Log
-
-### Day 1: April 27, 2017 
-##### (delete me or comment me out)
-
-**Today's Progress**: Completed the [CIW Site Development Associate] certification exam.  San Antonio Coding Academy instructor Roberto prepares us well.
-
-**Thoughts:**  Struggled with the exam, but, overall, I feel like I did well for the first time. 
-
-
-
-
+[
+  {"name":"public","size":4096,"mtime":1493337673514,"ctime":1493337673514,"mime":"inode/directory","href":"https://vfs-gce-usw-83-4.c9.io/vfs/4713498/9cVrt7VCzv2gIA31/workspace/sda-workbook/public/Lab-Files/Lesson09/Challenges/public/"}
+]
