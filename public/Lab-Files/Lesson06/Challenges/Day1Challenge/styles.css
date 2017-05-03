@@ -1,0 +1,86 @@
+/*CSS Rules*/
+img{
+    max-width: 100%;
+    height: auto;
+}
+
+nav{
+    background: #DCA339;
+    padding-bottom: 10px;
+}
+
+.logo{
+    text-align: center;
+}
+.menu{
+    display:flex;
+    justify-content:space-around;
+}
+h3{
+    color:white;
+    margin-left: 5px;
+    
+}
+.search{
+    background: #875D12;
+    border:none;
+    color:white;
+    border-radius:5px;
+}
+.bar{
+    background:#6A4B11;
+    border-radius:5px;
+}
+/**
+ * Media Queries
+ **/
+
+@media (min-width: 320px) {
+    .page::before {
+        content: "320px";
+        font-family: Arial, sans-serif;
+        color: green;
+        position: fixed;
+        top: 0;
+        left: 0;
+        font-weight: 700;
+        margin: 5px;
+        font-size: 2rem;
+        z-index: 9999;
+    }
+}
+
+@media (min-width: 480px) {
+    .page::before {
+        content: "480px";
+        color: maroon;
+    }
+}
+
+@media (min-width: 620px) {
+    .page::before {
+        content: "620px";
+        color: orange;
+    }
+}
+
+@media (min-width: 810px) {
+    .page::before {
+        content: "810px";
+        color: black;
+    }
+}
+
+@media (min-width: 1200px) {
+    .page::before {
+        content: "1200px";
+        color: CornflowerBlue;
+    }
+}
+
+@media (min-width: 1400px) {
+    .page::before {
+        content: "1400px";
+        color: red;
+    }
+}
