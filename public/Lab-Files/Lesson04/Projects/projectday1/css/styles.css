@@ -1,0 +1,128 @@
+body {
+    background: white;
+}
+
+article {
+    background: #E4E4E2;
+    border: 5px solid #E4E4E2;
+    width: 50%;
+    height: auto;
+    float: right;
+    width: 450px;
+    padding: 20px;
+    display:inline-block;
+}
+
+article p {
+    color: gray;
+    font-family: 'Noto', sans-serif;
+    font-size: 14px;
+}
+
+article a {
+    color: green;
+}
+
+.keyboard {
+    border-radius: 10px;
+    width: 430px;
+}
+
+h2 {
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+    font-weight: 100;
+}
+
+h1 {
+    font-family: 'Lato', sans-serif;
+    position: center;
+    text-align: center;
+}
+
+.subhead {
+    text-align: center;
+    color: gray;
+}
+
+aside img {
+    width: 172px;
+}
+aside {display:inline-block;}
+
+article {
+    float: left
+}
+
+footer {
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+}
+
+footer a {
+    color: green;
+}
+
+footer p {
+    color: gray;
+    font-family: 'Noto', sans-serif;
+    font-size: 14px;
+}
+
+footer li {
+    color: gray;
+    font-family: 'Noto', sans-serif;
+    font-size: 14px;
+}
+
+.box1 img {
+    float: left;
+    border-radius: 10px;
+}
+
+.box1txt {
+    float: right;
+}
+
+.box2 img {
+    float: left;
+    border-radius: 10px;
+}
+
+.box2txt {
+    float: right;
+}
+
+.box3 img {
+    float: left;
+    border-radius: 10px;
+}
+
+.box3txt {
+    float: right;
+}
+
+.box1 {
+    background: #F7F7F7;
+}
+
+.box2 {
+    background: #F7F7F7;
+}
+
+.box3 {
+    background: #F7F7F7:
+}
+
+.column1 {
+    border-left: 1px solid #F7F7F7;
+}
+
+.column2 {
+    border-left: 1px solid #F7F7F7;
+}
+
+.column3 {
+    border-left: 1px solid #F7F7F7;
+}

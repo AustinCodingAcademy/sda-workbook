@@ -1,0 +1,23 @@
+div {
+    height: 50px;
+    width: 150px;
+    margin: 10px;
+    border: 1px solid black;
+    font-weight: bold;
+    padding: 10px;
+    background: black;
+    color: white;
+}
+
+div:nth-child(2n+2) {
+    background: white;
+    color: black;
+}
+
+.box2 {margin-left:30px;}
+.box3 {margin-left:60px;}
+.box4 {margin-left:90px;}
+.box5 {margin-left:120px;}
+.box6 {margin-left:160px;}
+
+.backbutton {border:1px solid black;border-radius:20%;padding:10px 20px;text-decoration:none;}
