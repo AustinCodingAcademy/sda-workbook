@@ -1,0 +1,118 @@
+/*CSS Rules*/
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size:1.6rem;
+}
+
+
+.table-container {
+    max-width:80%;
+    margin: 0 auto;
+
+}
+
+
+table {
+    min-width:937px;
+    border-collapse:collapse;
+    text-transform:uppercase;
+    table-layout:fixed;
+}
+
+tr td {
+    padding: 6%;
+    text-align:center;
+    border:1px solid #e7e7e7;
+    font-size:1.8rem;
+    
+    
+}
+
+i {
+    margin-bottom: 20%;
+}
+
+.header, .header .empty {
+    background-color:#30323A;
+    color: white;
+}
+
+.top{
+    display:block;
+    width:100%;
+}
+
+td:first-child {
+    background-color:#6299F8;
+    color:white;
+}
+
+.data-red {
+    background-color:#E62565;
+    color:white;
+}
+
+.data-green {
+    background-color:#50AD55;
+    color:white;
+}
+
+.data-blue {
+    background-color:#1EAAF1;
+    color:white;
+}
+
+td .pink {
+    color:#E62565;
+}
+
+td .green {
+    color:#50AD55;
+}
+
+td .blue{
+    color:#1EAAF1;
+}   
+  .table-container {
+   max-width:80%;
+   overflow-y:scroll;
+   
+}
+    
+@media (min-width: 480px) {
+    .page::before {
+        content: "480px";
+        color: maroon;
+    }
+}
+
+@media (min-width: 620px) {
+    .page::before {
+        content: "620px";
+        color: orange;
+    }
+}
+
+@media (min-width: 810px) {
+    .page::before {
+        content: "810px";
+        color: black;
+    }
+}
+
+@media (min-width: 1200px) {
+    .page::before {
+        content: "1200px";
+        color: CornflowerBlue;
+    }
+}
+
+@media (min-width: 1400px) {
+    .page::before {
+        content: "1400px";
+        color: red;
+    }
+}

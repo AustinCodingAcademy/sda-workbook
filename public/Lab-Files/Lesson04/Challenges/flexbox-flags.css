@@ -1,0 +1,162 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    max-width: 1000px;
+    max-height: 150px;
+    margin: 10px;
+}
+
+.germany {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    height: 150px;
+    border: 1px solid red;
+}
+
+/*
+Using the google inspect tools I discoved the following
+1.  Unchecking the box for the follwing elements: a) flex-direction: row  b) justify-content: space-between did not affect the sizing or behavior of the flags and the requirements for sizing of 250x150 were still met. 
+2.  I commented out the two elements and saved css.
+*/
+
+
+.italy {
+    display: flex;
+    flex-grow: 1;
+    /*flex-direction: row;*/
+    /*justify-content: space-between;*/
+    max-width: 200px;
+    height: 150px;
+    border: 1px solid red;
+}
+
+.france {
+    display: flex;
+    flex-grow: 1;
+    /*flex-direction: row;*/
+    /*justify-content: space-between;*/
+    max-width: 200px;
+    height: 150px;
+    border: 1px solid red;
+}
+
+.columbia {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    height: 150px;
+    border: 1px solid red;
+}
+
+
+/*
+I was trying to consolidate code from box 1-12 using the parent element .box.  
+ 
+ 1.  Commented out from box 1-3, 10-12 the following elements: a) flex-grow:1 b) height:33%.
+ 2.  Commented out from box 4-9 the following elements: a) flex-grow:1 b) height:33% c) align-self:stretch .
+ 3.  Added a)flex-grow:1 b) height:33%  c) align-self:stretch to "parent .box". 
+ 4.  Tested changes with following results:  I realized that a)box 1-3 & b)box 10-12 needed the two properties in order to meet the 250x150 requirement size using flexbox.  Box 4-9 needed flex-grow:1 in order to meet the 250x150 requirement as well.  
+ 
+ Note:In a normal software test/production environment these would normally be removed entirely, but wanted to keep in order to better understand why they were essential when using flexbox toolse
+ */
+
+.box {
+    color: transparent;
+    font-size: 45px;
+    /*flex-grow:1;*/
+    /*height: 33%;*/
+    /*align-self: stretch;*/
+}
+
+.box1 {
+    background: black;
+    flex-grow: 1;
+    height: 33%;
+}
+
+.box2 {
+    background: red;
+    flex-grow: 1;
+    height: 33%;
+}
+
+.box3 {
+    background: yellow;
+    flex-grow: 1;
+    height: 33%;
+}
+
+.box4 {
+    background: green;
+    /*align-self: stretch;*/
+    flex-grow: 1;
+    /*width: 33%;*/
+}
+
+.box5 {
+    background: white;
+    /*align-self: stretch;*/
+    flex-grow: 1;
+    /*width: 33%;*/
+}
+
+.box6 {
+    background: red;
+    /*align-self: stretch;*/
+    flex-grow: 1;
+    /*width: 33%;*/
+}
+
+.box7 {
+    background: blue;
+    /*align-self: stretch;*/
+    flex-grow: 1;
+    /*width: 33%;*/
+}
+
+.box8 {
+    background: white;
+    /*align-self: stretch;*/
+    flex-grow: 1;
+    /*width: 33%;*/
+}
+
+.box9 {
+    background: green;
+    /*align-self: stretch;*/
+    flex-grow: 1;
+    /*width: 33%;*/
+}
+
+.box10 {
+    background: yellow;
+    flex-grow: 1;
+    height: 33%;
+}
+
+.box11 {
+    background: blue;
+    flex-grow: 1;
+    height: 33%;
+}
+
+.box12 {
+    background: red;
+    flex-grow: 1;
+    height: 33%;
+}
+
+
+/*Used the select all wild card to place border around all elements*/
+
+
+/** {*/
+
+
+/*    border: 1px solid black;*/
+
+
+/*}*/

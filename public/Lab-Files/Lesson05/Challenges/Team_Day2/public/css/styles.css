@@ -1,0 +1,160 @@
+/*CSS Rules*/
+
+
+/**
+ * Media Queries
+ **/
+
+html {
+    height: 100%;
+    width: 100%;
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.6rem;
+    /*16px*/
+    width: 90%;
+    margin: 0 auto;
+}
+
+header {
+    height: 100px;
+    background: #99BEC4;
+    margin-bottom: 10px;
+    padding: 10px 0px 0px 10px;
+}
+
+nav {
+    height: 200px;
+    background: #8B7F96;
+    margin-bottom: 10px;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.main {
+    background: #94A6B4;
+    height: 220px;
+    padding: 10px 0px 0px 10px;
+}
+
+.story-container {
+    background: #C0CBC9;
+    /*height:400px;*/
+    padding: 5%;
+}
+
+.story:last-child {
+    margin-bottom: 0;
+}
+
+.story {
+    background: #94A6B4;
+    height: 200px;
+    margin: 20px 0;
+    text-align: center;
+}
+
+footer {
+    background: #99BEC4;
+    text-align: center;
+    margin-top: 5px;
+    min-height: 50px;
+    padding: 10px 0px 0px 10px;
+}
+
+@media (min-width: 320px) {
+    body::before {
+        content: "320px";
+        font-family: Arial, sans-serif;
+        color: green;
+        position: fixed;
+        top: 0;
+        left: 0;
+        font-weight: 700;
+        margin: 5px;
+        font-size: 2rem;
+        z-index: 9999;
+    }
+}
+
+@media (min-width: 480px) {
+    body::before {
+        content: "480px";
+        color: maroon;
+    }
+}
+
+@media (min-width: 620px) {
+    body::before {
+        content: "620px";
+        color: orange;
+    }
+    .story-container {
+        padding: 3%;
+    }
+    .stories {
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    .story {
+        width: 300px;
+        /*padding-bottom:0;*/
+        margin-bottom: 0;
+        margin-right: 21px;
+        flex-grow: 1;
+    }
+    .story:nth-child(even) {
+        margin-right: 0;
+    }
+}
+
+@media (min-width: 810px) {
+    body::before {
+        content: "810px";
+        color: black;
+    }
+    main {
+        display: flex;
+    }
+    nav {
+        width: 25%;
+        margin-right: 20px;
+        height: 600px;
+    }
+    .story-container {
+        width: 75%;
+    }
+    .story {
+        width: 239px;
+    }
+}
+
+@media (min-width: 1200px) {
+    body::before {
+        content: "1200px";
+        color: CornflowerBlue;
+    }
+    .story-contatiner {
+        padding: 2%;
+    }
+    .story {
+        width: 169px;
+    }
+    .story:nth-child(2) {
+        margin-right: 20px;
+    }
+    .story:nth-child(6) {
+        margin-right: 20px;
+    }
+}
+
+@media (min-width: 1400px) {
+    body::before {
+        content: "1400px";
+        color: red;
+    }
+}

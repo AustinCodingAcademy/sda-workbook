@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Green Team - Home</title>
+    <link rel="stylesheet" href="css/styles.css" type="text/css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href='//fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
+</head>
+
+<body>
+    <nav>
+        <div class="back_btn"> <a href="../../../../../index.html"> Back </a> </div>
+
+        <div class="logo"><img src="img/logo.png" alt="pic of logo" /></div>
+        <div class="nav_menu">
+            <ul class="nav_btn">
+                <li><img src="img/home-icon.png" alt="pic of home icon" />Home</li>
+                <li><img src="img/deal-icon.png" alt="pic of deals" />Travel Deals</li>
+                <li><img src="img/schedule-icon.png" alt="pic of schedule" />Flight Schedule</li>
+                <li><img src="img/login-icon.png" alt="pic of login" />Register/Login</li>
+            </ul>
+        </div>
+    </nav>
+
+    <main>
+        <section>
+
+            <div class="mode_menu">
+
+                <!--<ul class="form_btn">-->
+                <div class="plane_background">
+                    <img src="img/plane-icon.png" alt="pic of plane">
+                </div>
+
+                <img src="img/hotel-icon.png" alt="pic of hotel">
+                <img src="img/car-icon.png" alt="pic of car">
+                <!--</ul>-->
+
+            </div>
+
+            <div class="form">
+
+                <div class="depart">
+                    <input class="from_destination" type="text" placeholder="Depart">
+                    <input class="datedepart" type="text" placeholder="mm/dd/yyyy">
+                </div>
+
+                <div class="arrive">
+                    <input class="to_destination" type="text" placeholder="Arrive">
+                    <input class="datearrive" type="text" placeholder="mm/dd/yyyy">
+                </div>
+
+            </div>
+            <div class="widgets">
+                <div class="form_passengers_drop-down">
+                    <label class="label">Passengers</label>
+                    <select name="#ofpassengers">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        
+                    </select>
+                </div>
+
+                <div class="radio_btn">
+                    <input class="return" type="radio" name="return" value="Return" checked> Return
+                    <input class="one way" type="radio" name="one_way" value="One Way"> One-Way
+                </div>
+
+            </div>
+            <div>
+                <div class="search">
+                    <div class="form_search_btn">
+                        <button type="button" onclick="alert('Searching!')">Search Flights</button>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+    </main>
+    <div class="fa">
+        <i class="fa fa-spinner fa-spin"></i>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <i class="fa fa-refresh fa-spin"></i>
+        <i class="fa fa-cog fa-spin"></i>
+        <i class="fa fa-spinner fa-pulse"></i>
+    </div>
+
+</body>
+
+</html>

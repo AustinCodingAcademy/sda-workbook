@@ -1,0 +1,17 @@
+body {
+background-color:#FFFFCC;
+}
+
+img {
+    max-width: 75%;
+    height: auto;
+    border-style: solid;
+    border-color: black;
+    
+    
+}
+
+a {
+    font-style: oblique; 
+    font-size: x-large;
+}

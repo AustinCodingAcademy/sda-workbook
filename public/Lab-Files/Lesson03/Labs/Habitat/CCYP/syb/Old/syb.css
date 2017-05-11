@@ -1,0 +1,54 @@
+/*STYLE SHEET FOR SYB.HTML*/
+
+
+body             
+{			
+font-family:arial, verdana, helvetica; 
+color:black; 
+font-size:14px; 
+background-color:#white;
+
+}
+
+
+#return
+{
+position: absolute;
+}
+
+h1             
+{
+font-family:"coureir new", sans-serif; 
+color:black; 
+font-size:32px;
+} 
+
+
+
+h2             
+{			
+font-family:arial, sans-serif; 
+color:black; 
+font-size:27px;
+} 
+
+
+
+h3             
+{
+font-family:arial, sans-serif; 
+color: blue; 
+font-size:16px;
+} 
+.center
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.floatright
+{
+    float: right;
+    margin:5px;
+}

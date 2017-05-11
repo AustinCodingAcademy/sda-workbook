@@ -1,0 +1,283 @@
+/**
+ * Media Queries
+ **/
+
+html {
+  background: #DBA339;
+}
+
+body {
+  margin: 0 auto;
+  max-width: 100%;
+}
+
+.logo {
+  display: block;
+  margin: 0 auto;
+  margin-top: 5px;
+  width: 140px;
+  height: 45px;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  align-items: center;
+  margin: 5px;
+}
+
+.menu {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.paw {
+  display: flex;
+  width: 30px;
+  height: 20px;
+  margin-right: 20px;
+}
+
+.dropbtn {
+  display: flex;
+  color: white;
+  background: transparent;
+  border: 0;
+  margin 15px;
+  padding: 5px;
+}
+
+.dropbtn:hover {
+  background-color: #4CAF50;
+  /* Green */
+  color: white;
+}
+
+.dropdown-content {
+  display: none;
+}
+
+.expand_logo {
+  display: none;
+}
+
+.input {
+  display: flex;
+}
+
+.search {
+  background: #1D5B23;
+  opacity: .5;
+  border: none;
+  height: 30px;
+  color: white;
+  text-align: left;
+}
+
+.search-icon {
+  width: 20px;
+  height: 20px;
+  background: #124F0E;
+  padding: 6px;
+}
+
+.large_image {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  max-width: 100%;
+}
+
+.ginger_image {
+  /*margin:0 auto;*/
+  /*width:auto;*/
+  /*height: auto;*/
+  height: 70%;
+  width: 100%;
+}
+
+figure {
+  max-width: 100%;
+  margin: 0 auto;
+  height: 375px;
+}
+
+.caption {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  /*height: 50%;*/
+  color: white;
+  font-family: sans-serif;
+}
+
+.caption p {
+  margin: 0 auto;
+  margin-bottom: 3px;
+}
+
+p:first-of-type {
+  font-size: 28px;
+  line-height: 40px;
+}
+
+p:last-of-type {
+  line-height: 25px;
+  width: 230px;
+  letter-spacing: 1px;
+}
+
+.inside {
+  display: none;
+}
+
+.contact_type {
+  display: flex;
+  justify-content: space-around;
+  margin: 0 auto;
+  margin-bottom: 10px;
+}
+
+.contact_type img {
+  width: 50px;
+  height: 50px;
+}
+
+footer {
+  display: none;
+}
+
+@media (min-width: 320px) {
+  .page::before {
+    content: "320px";
+    font-family: Arial, sans-serif;
+    color: green;
+    position: fixed;
+    top: 0;
+    left: 0;
+    font-weight: 700;
+    margin: 5px;
+    font-size: 2rem;
+    z-index: 9999;
+  }
+}
+
+@media (min-width: 480px) {
+  .page::before {
+    content: "480px";
+    color: maroon;
+  }
+}
+
+@media (min-width: 620px) {
+  .page::before {
+    content: "620px";
+    color: orange;
+  }
+}
+
+@media (min-width: 810px) {
+  .page::before {
+    content: "810px";
+    color: black;
+  }
+  .expand {
+    display: flex;
+    justify-content: center;
+  }
+  .logo {
+    display: none;
+  }
+  .expand_logo {
+    display: inline;
+  }
+  .nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 2px;
+  }
+  .dropbtn {
+    font-size: 20px;
+  }
+  .search {
+    width: 182px;
+  }
+  .large_image {
+    flex-grow: 1;
+  }
+  .inside {
+    display: inline;
+    align-self: center;
+  }
+  .inside-page {
+    margin: 0 auto;
+    display: flex;
+  }
+  .inside-page-png {
+    margin: 0 auto;
+    max-width: 100%;
+  }
+  footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 auto;
+    height: 80px;
+    background: #443030;
+  }
+  .inside .subscribe .social {
+    align-self: flex-start;
+  }
+  .subscribe {
+    color: white;
+    padding: 2px;
+  }
+  .input-subscribe {
+    background: black;
+    border: 0;
+    width: 155px;
+    height: 50px;
+    text-align: center;
+  }
+  .btn_subscribe {
+    color: white;
+    background: red;
+    border: 0;
+    width: 82px;
+    height: 50px;
+  }
+  .cls-donate {
+    display: flex;
+  }
+  .img-heart {
+    background: green;
+    border: 0;
+    width: 82px;
+    height: 50px;
+  }
+  .btn-donate {
+    background: white;
+    color: green;
+    border: 0;
+    width: 82px;
+    height: 50px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .page::before {
+    content: "1200px";
+    color: CornflowerBlue;
+  }
+}
+
+@media (min-width: 1400px) {
+  .page::before {
+    content: "1400px";
+    color: red;
+  }
+}

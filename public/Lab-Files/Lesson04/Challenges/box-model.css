@@ -1,0 +1,42 @@
+.box {
+    height: 50px;
+    width: 150px;
+    border: 1px solid black;
+    margin: 10px;
+    padding: 10px;
+    font-weight: bold;
+}
+
+.box1 {
+    background-color: black;
+    color: white;
+}
+
+.box2 {
+    position: relative;
+    left: 30px;
+}
+
+.box3 {
+    background-color: black;
+    color: white;
+    position: relative;
+    left: 60px;
+}
+
+.box4 {
+    position: relative;
+    left: 90px;
+}
+
+.box5 {
+    background-color: black;
+    color: white;
+    position: relative;
+    left: 120px;
+}
+
+.box6 {
+    position: relative;
+    left: 150px;
+}
