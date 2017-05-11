@@ -21,3 +21,25 @@
  **Today's Progress**:  Storyboarding in UX Design http://flip.it/oP.k05   #becoding #100daysofcoding
  	
  **Thoughts:**  Thoughts of storyboarding.
+ 
+  ### Day 4:  May 7, 2017	
+		
+ 		
+ **Today's Progress**:  Started the jquery challenges
+ 
+ #becoding #100daysofcoding
+ 	
+ **Thoughts:** Yeah JQuery!
+ 
+   ### Day 5:  May 8, 2017	
+		
+ 		
+ **Today's Progress**:  Continuing JQuery challenges
+ 
+ #becoding #100daysofcoding
+ 	
+ **Thoughts:** JQuery is very useful for front-end development!
+ 
+ 
+ 
+ 
