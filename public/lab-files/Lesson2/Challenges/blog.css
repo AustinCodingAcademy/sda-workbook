@@ -1,0 +1,14 @@
+* {
+    font-family: Trebuchet MS;
+    font-size: 25px;
+    text-align: center;
+    color: black;
+}
+
+body {
+    background-color: #68cc5b;
+}
+
+p {
+    text-align: left;
+}
