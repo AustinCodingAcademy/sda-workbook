@@ -1,0 +1,23 @@
+div * {
+    width: auto;
+    height: auto;
+    border:black;
+    border:10px;
+   /* padding:50px;*/
+    
+}
+
+.two {
+    background-color: pink;
+    
+   /* width:auto;*/
+}
+
+p {
+    background-color: lightblue;
+    width:400px;
+}
+
+.container {
+  display: flex; /* or inline-flex */
+}
