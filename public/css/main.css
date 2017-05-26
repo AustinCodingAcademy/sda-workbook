@@ -1,0 +1,35 @@
+a {
+    text-decoration: none;
+}
+
+h2 {
+    text-indent: .5em;
+}
+
+h3 {
+    text-indent: 1em;
+}
+
+ul {
+    text-align: top;
+    list-style-type: none;
+    text-indent: -.3em;
+}
+
+.Lesson2 {
+    background-color: #58aade;
+    color:#212121;
+}
+
+.Lesson2 a {
+    color:#fff000;
+}
+
+.Lesson3 {
+    background-color: #2f6b1f;
+    color:#000000
+}
+
+.Lesson3 a {
+    color:#d06d14;
+}
