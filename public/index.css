@@ -1,11 +1,43 @@
-header {
+/*header {
     background-color: #044b76;
     font-family: cursive;
     padding-left: 30px;
     color: white;
-}
-
-
-/*body {
-    background-color: #98ddfd;
 }*/
+video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: 1;
+}
+.Content{
+    z-index: 2;
+    top: 25%;
+    left: 0%;
+    position: absolute;
+    background: rgb(245,245,245);
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    
+}
+/*.text{
+    z-index: 2;
+    position: absolute;
+    font-family: cursive;
+    font-size: 3rem;
+    background:rgba(200,0,0,0.7);
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding-left: 60px;
+    color: white;
+}*/
+
