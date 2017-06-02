@@ -3,19 +3,20 @@ a {
 }
 
 h2 {
-    text-indent: .5em;
+    text-indent: 0px;
 }
 
 h3 {
-    text-indent: 1em;
+    text-indent: 10px;
 }
 
 ul {
     list-style-type: none;
-    text-indent: -.3em;
+    text-indent: -10px;
 }
 
 .Lesson2 {
+    padding: 3px;
     background-color: #58aade;
     color:#212121;
 }
@@ -25,6 +26,7 @@ ul {
 }
 
 .Lesson3 {
+    padding: 3px;
     background-color: #2f6b1f;
     color:#000000
 }
