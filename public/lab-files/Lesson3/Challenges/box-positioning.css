@@ -1,0 +1,21 @@
+.box {
+    background-color: black;
+    color: white;
+    margin: 30px;
+    padding: 10px;
+    border: 1px solid black;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    font-weight: bold;
+    float: left;
+}
+
+.box:nth-child(3n) {
+    clear: left;
+}
+
+.box:nth-child(even) {
+    background-color: white;
+    color: black;
+}
