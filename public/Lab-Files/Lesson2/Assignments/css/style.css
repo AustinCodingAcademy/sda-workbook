@@ -1,0 +1,89 @@
+/* Responsive */
+@-ms-viewport{
+  width: device-width;
+}
+
+
+
+/*Don't show underline in hyperlink*/
+a{
+  text-decoration: none;
+  color: #000099;
+  display:block;
+  
+  }
+
+a:active{
+  background-color: #D7D6EB; 
+  text-decoration:none;
+}
+
+.anchor{
+  display: block;
+  height: 115px; /*same height as header*/
+  margin-top: -115px; /*same height as header*/
+  visibility: hidden;
+}
+
+/*Main */
+
+Body{
+	background-color: #f2f2f2;
+	
+
+}
+
+header{
+	background-color: #D7D6EB;
+		width: 100%; 
+	 overflow: hidden;
+	 position: fixed;
+	 		}
+
+h1{
+  text-align: center;
+  color: #282740;
+  font-size:300%;
+   
+}
+
+h3{
+ color: #282740;
+ font-family: Verdana;
+ text-align: center;
+}
+
+.navi{
+margin-left: auto;
+margin-right: auto;
+font-size:110%;
+}
+	  
+.experience{
+color: #282740;
+}	  
+	  
+div{
+  color: #000099;
+  padding-right: 32px;
+  padding-left: 32px;
+  
+  }
+
+div>p{
+  color: #282740;
+}
+
+div>ul{
+  color: #282740;
+}
+
+
+/*footer*/
+footer{
+   text-align: center;
+   color: #000099;
+   background-color: #D7D6EB;
+    padding: 0px 1px 0px 5px;
+
+}
