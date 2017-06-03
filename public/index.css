@@ -17,7 +17,7 @@ video {
 }
 .Content{
     z-index: 2;
-    top: 25%;
+    top: 50%;
     left: 0%;
     position: absolute;
     background: rgb(245,245,245);
@@ -27,17 +27,18 @@ video {
     height: auto;
     
 }
-/*.text{
+.text{
     z-index: 2;
-    position: absolute;
-    font-family: cursive;
+    position: fixed;
+    font-family: fantasy;
     font-size: 3rem;
-    background:rgba(200,0,0,0.7);
+    background:rgba(0,0,0,0.5);
     top: 0;
     bottom: 0;
     left: 0;
     right: 0;
     padding-left: 60px;
     color: white;
-}*/
+    text-align: justify;
+}
 

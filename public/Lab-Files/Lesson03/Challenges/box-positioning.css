@@ -1,6 +1,6 @@
 .box {
-    background-color: white;
-    color: black;
+    background-color: black;
+    color: white;
     border: 1px solid black;
     margin: 30px;
     padding: 10px;
@@ -10,10 +10,10 @@
 }
 
 div:nth-child( 2n+1) {
-    background: black;
-    color: white;
+    background: white;
+    color: black;
 }
 
-div:nth-child(5n+1) {
+div:nth-child(6n+1) {
     clear: left
 }
