@@ -1,9 +1,13 @@
+body {}
+
+
 /*header {
     background-color: #044b76;
     font-family: cursive;
     padding-left: 30px;
     color: white;
 }*/
+
 video {
     position: absolute;
     top: 50%;
@@ -15,30 +19,51 @@ video {
     height: auto;
     z-index: 1;
 }
-.Content{
+
+.Content {
     z-index: 2;
     top: 50%;
     left: 0%;
     position: absolute;
-    background: rgb(245,245,245);
+    background: rgb(245, 245, 245);
     min-width: 100%;
     min-height: 100%;
     width: auto;
     height: auto;
-    
+    background-image: url("linen.jpg");
+    background-repeat: repeat;
+    color: #dedede;
 }
-.text{
+
+/* unvisited link */
+
+a:link {
+    color: #4995df;
+    text-decoration: none;
+}
+
+
+/* visited link */
+
+a:visited {
+    color: #468dd4;
+}
+
+.text {
     z-index: 2;
     position: fixed;
-    font-family: fantasy;
+    font-family: serif;
     font-size: 3rem;
-    background:rgba(0,0,0,0.5);
+    background: rgba(0, 0, 0, 0.5);
     top: 0;
     bottom: 0;
     left: 0;
     right: 0;
     padding-left: 60px;
-    color: white;
+    color: #468dd4;
     text-align: justify;
 }
 
+h1 {
+    color: #468dd4;
+}
