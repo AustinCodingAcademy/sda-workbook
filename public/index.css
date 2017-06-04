@@ -1,12 +1,7 @@
-body {}
-
-
-/*header {
-    background-color: #044b76;
-    font-family: cursive;
-    padding-left: 30px;
-    color: white;
-}*/
+a : img {
+      width: 25%;
+      height: 25%;
+}
 
 video {
     position: absolute;
@@ -18,6 +13,7 @@ video {
     width: auto;
     height: auto;
     z-index: 1;
+
 }
 
 .Content {
@@ -32,7 +28,7 @@ video {
     height: auto;
     background-image: url("linen.jpg");
     background-repeat: repeat;
-    color: #dedede;
+    color: #35a6fc;
 }
 
 /* unvisited link */
@@ -46,10 +42,10 @@ a:link {
 /* visited link */
 
 a:visited {
-    color: #468dd4;
+    color: #35a6fc;
 }
-
-.text {
+/* header text */
+/*.text {
     z-index: 2;
     position: fixed;
     font-family: serif;
@@ -60,10 +56,10 @@ a:visited {
     left: 0;
     right: 0;
     padding-left: 60px;
-    color: #468dd4;
+    color: #35a6fc;
     text-align: justify;
 }
-
+*/
 h1 {
-    color: #468dd4;
+    color: #35a6fc;
 }
