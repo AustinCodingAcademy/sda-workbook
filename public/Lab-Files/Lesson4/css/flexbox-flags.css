@@ -1,0 +1,74 @@
+/* Both the wrapper and each individual flag should be flex containers*/
+body {
+    display:flex;
+}
+
+/*Each flag is 200px wide by 150px high.*/
+div{
+    width: 200px;
+    height: 150px;
+    /* dashes helps with verifying width and height ratio
+    border: 1px dashed;
+    */
+  
+}
+
+/* flags should be evenly distributed in the line- Same amount of space around them*/
+.flag {
+    border: 1px solid;
+    display:flex;
+    margin:20px;
+    justify-content: space-between;
+}
+
+/*Horizontal Direction*/
+.germany{
+      flex-direction:column;
+      }
+      
+   .germany-color1{
+    background-color: black;
+    }
+    .germany-color2{
+    background-color:red;
+    }
+    .germany-color3{
+    background-color: yellow;
+    }
+
+ /*italy*/
+    .italy-color1{
+    background-color: green;
+    }
+    .italy-color2{
+    background-color:white;
+    }
+    .italy-color3{
+    background-color: red;
+    }
+
+/*france*/
+ .france-color1{
+    background-color: blue;
+    }
+    .france-color2{
+    background-color:white;
+    }
+    .france-color3{
+    background-color: red;
+    }
+
+/*Horizontal Direction*/
+.colombia{
+    flex-direction:column;
+}
+
+   .colombia-color1{
+    background-color: yellow;
+    }
+    .colombia-color2{
+    background-color:blue;
+    }
+    .colombia-color3{
+    background-color: red;
+    }
