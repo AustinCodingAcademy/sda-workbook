@@ -1,0 +1,148 @@
+/*container - for main sections*/
+.container{
+  display: flex;
+  justify-content: center;
+}
+
+/*main displays section-left and section-subright side by side*/
+.main{
+    display: flex;
+}
+
+
+/*div - general characteristics*/
+div{
+  padding: 8px 8px 8px 8px;
+
+}
+.secspace{
+  padding-top: 10px;
+  margin-top:10px;
+  background-color: #FFF;
+  }
+
+
+
+
+/*h1, h2 h3*/
+h1, h2, h3{
+  font-weight: lighter;
+}
+
+h1{
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  text-align: center;
+  font-size: 260%;
+      }
+h3{
+  font-size: 110%;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+/*paragraph*/
+p{
+  font-family: Georgia;
+  font-weight: lighter;
+    color: #57575B;
+    flex-wrap:wrap;
+    width: auto;
+    margin: auto;
+
+}
+
+.ph1{
+  flex-wrap:wrap;
+  width: auto;
+  margin: auto;
+}
+
+.pcenter{
+text-align: center;
+
+}
+
+/*anchor*/
+a{
+  text-decoration: none;
+  color: green;
+}
+
+
+/*Read More | Check Pricing*/
+.float-right {
+  float: right;
+}
+
+/* Sections*/
+.section-left{
+background-color: #F7F7F7;
+margin: 30px;
+float: left;
+width: 35%;
+
+
+
+}
+
+.section-subright{
+  background-color: #F7F7F7;
+  margin: 30px;
+  float: right;
+
+}
+
+
+/*img*/
+img{
+max-width: 100%;
+height: auto;
+
+
+
+}
+.img{
+  float: left;
+
+}
+
+/*
+.main-img{
+vertical-align: text-bottom;
+display: flex;
+
+
+}
+*/
+
+.sub-img{
+  width:220px;
+    height: 130px
+    display: inline-block;
+    float: left;
+    padding-right: 20px;
+
+}
+
+
+
+/*footer*/
+footer{
+  display:flex;
+      justify-content:space-around;
+}
+
+hr{
+  border-bottom: 0px solid gray;
+  max-width: 100%;
+  margin: 15px;
+}
+.vertical-border{
+float: right;
+border-left: 1px solid gray;
+
+}
+.footer{
+  font-family: Georgia;
+  font-weight: lighter;
+    color: #57575B;
+}
