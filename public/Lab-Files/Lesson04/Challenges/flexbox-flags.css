@@ -1,0 +1,106 @@
+body {
+    display: flex;
+    flex-direction: flex;
+}
+
+.flag {
+    border: 1px solid;
+    display: flex;
+    margin: 20px;
+    justify-content: space-between;
+    width: 200px;
+    height: 150px;
+}
+
+.germany-flag {
+    display: flex;
+    flex-direction: column;
+}
+
+.germany-flag .color1 {
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.germany-flag .color2 {
+    background-color: red;
+    width: 100%;
+    height: 100%;
+}
+
+.germany-flag .color3 {
+    background-color: yellow;
+    width: 100%;
+    height: 100%;
+}
+
+.Italy-flag {
+    display: flex;
+    flex-direction: row;
+}
+
+.Italy-flag .color1 {
+    Background-color: green;
+    width: 100%;
+    height: 100%;
+}
+
+.Italy-flag .color2 {
+    background-color: white;
+    width: 100%;
+    height: 100%;
+}
+
+.Italy-flag .color3 {
+    background-color: red;
+    width: 100%;
+    height: 100%;
+}
+
+.France-flag {
+    display: flex;
+    flex-direction: row;
+}
+
+.France-flag .color1 {
+    background-color: blue;
+    height: 100%;
+    width: 100%;
+}
+
+.France-flag .color2 {
+    background-color: white;
+    height: 100%;
+    width: 100%;
+}
+
+.France-flag .color3 {
+    background-color: red;
+    height: 100%;
+    width: 100%;
+}
+
+.Colombia-flag {
+    display: flex;
+    flex-direction: column;
+}
+
+.Colombia-flag .color1 {
+    background-color: yellow;
+    height: 100%;
+    width: 100%;
+}
+
+.Colombia-flag .color2 {
+    background-color: blue;
+    height: 100%;
+    width: 100%;
+}
+
+.Colombia-flag .color3 {
+    background-color: red;
+    height: 100%;
+    width: 100%;
+}
