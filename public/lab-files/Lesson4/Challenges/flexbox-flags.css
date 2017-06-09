@@ -1,0 +1,95 @@
+.content-container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    text-align: center;
+    font-size: 25px;
+}
+
+.horizontalflag-container {
+    display: flex;
+    flex-flow: column nowrap;
+    width: 200px;
+    height: 150px;
+    border: 1px solid black;
+}
+
+.verticalflag-container {
+    display: flex;
+    flex-flow: row nowrap;
+    width: 200px;
+    height: 150px;
+    border: 1px solid black;
+}
+
+.german-color1 {
+    height: 50px;
+    width: 100%;
+    background-color: black;
+}
+
+.german-color2 {
+    height: 50px;
+    width: 100%;
+    background-color: red;
+}
+
+.german-color3 {
+    height: 50px;
+    width: 100%;
+    background-color: yellow;
+}
+
+.italy-color1 {
+    height: 100%;
+    width: 33.33%;
+    background-color: green;
+}
+
+.italy-color2 {
+    height: 100%;
+    width: 33.33%;
+    background-color: white;
+}
+
+.italy-color3 {
+    height: 100%;
+    width: 33.33%;
+    background-color: red;
+}
+
+.french-color1 {
+    height: 100%;
+    width: 33.33%;
+    background-color: blue;
+}
+
+.french-color2 {
+    height: 100%;
+    width: 33.33%;
+    background-color: white;
+}
+
+.french-color3 {
+    height: 100%;
+    width: 33.33%;
+    background-color: red
+}
+
+.columbian-color1 {
+    height: 50px;
+    width: 100%;
+    background-color: yellow;
+}
+
+.columbian-color2 {
+    height: 50px;
+    width: 100%;
+    background-color: blue;
+}
+
+.columbian-color3 {
+    height: 50px;
+    width: 100%;
+    background-color: red;
+}

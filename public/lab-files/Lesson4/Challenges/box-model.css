@@ -1,0 +1,36 @@
+.box {
+    background-color: black;
+    color: white;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid black;
+    width: 150px;
+    height: 50px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.box:nth-child(even) {
+    background-color: white;
+    color: black;
+}
+
+.box2 {
+    margin-left: 30px;
+}
+
+.box3 {
+    margin-left: 60px;
+}
+
+.box4 {
+    margin-left: 90px;
+}
+
+.box5 {
+    margin-left: 120px;
+}
+
+.box6 {
+    margin-left: 150px;
+}
