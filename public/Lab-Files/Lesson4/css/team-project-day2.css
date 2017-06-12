@@ -1,0 +1,185 @@
+/* Use google fonts*/
+
+* {
+    font-family: 'Orbitron', sans-serif;
+    color: white;
+    padding: 0;
+    margin: 0;
+}
+
+
+/* add background image*/
+
+body {
+    background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/185649/airline.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #1d4356;
+    background-attachment: fixed;
+}
+
+
+/*Make images responsive using CSS*/
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+/*Displays nav elements as a block-level flex container*/
+
+nav {
+    display: flex;
+    background-color: #193a55;
+    height: 81px;
+    border: 0 solid #fff;
+    border-bottom-width: 1px;
+    justify-content: space-between;
+}
+
+.nav-items {
+    display: flex;
+    padding-top: 30px;
+    padding-right: 10px;
+    margin-left: 50px;
+}
+
+
+/* remove bullet from ul*/
+
+ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+/*form table section*/
+
+.main-container {
+    position: relative;
+    margin-top: 50px;
+    margin-left: 30px;
+    padding-bottom: 10px;
+    width: 542px;
+    height: 400px;
+    background: #193a55;
+    border-radius: 5px;
+}
+
+.form-icons li {
+    flex-grow: 1;
+    background: #148C80;
+    text-align: center;
+}
+
+.form-icons li:nth-child(1) {
+    background: #0E65B4;
+}
+
+
+/* depart arrive section*/
+
+input {
+    border: 2px solid white;
+    font-size: 1.2rem;
+    background: transparent;
+    border-radius: 4px;
+    padding: 15px;
+}
+
+.depart,
+.arrive {
+    justify-content: space-around;
+    margin: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+    display: flex;
+}
+
+.space-between {
+    padding: 10px;
+}
+
+.select-buttons {
+    align-content: flex-end;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: -10px;
+    margin-left: 0px;
+    max-width: 400px;
+    height: 70px;
+}
+
+select {
+    display: flex;
+    width: 30%;
+    margin-bottom: 10px;
+    margin-left: 5px;
+    border: 1px solid white;
+    border-radius: 3px;
+    color: white;
+    background-color: #193a55;
+}
+
+.dp-button {
+    display: flex;
+    align-self: stretch;
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 12px;
+    width: 250px;
+}
+
+.label {
+    display: flex;
+    margin-right: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 8px;
+}
+
+
+/*return and oneway radio button on same line*/
+
+.rbutton {
+    width: 200px;
+    display: flex;
+    padding-top: 10px;
+    font-size: 16px;
+}
+
+
+/* search flight button , allign center*/
+
+.search {
+    margin-left: 85px;
+    border-radius: 20px 20px 25px 25px
+}
+
+.search-button,
+button {
+    justify-content: center;
+    align-self: flex-end;
+}
+
+button {
+    display: flex;
+    background: #1769BC;
+    padding: 20px 20px 20px 20px;
+    width: 360px;
+    font-size: 18px;
+    border-radius: 5px;
+    border-style: none;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    align-self: flex-end;
+}
+
+a {
+    padding-left: 220px;
+    font-weight: bolder;
+    color:blue;
+}
