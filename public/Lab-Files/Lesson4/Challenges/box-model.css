@@ -1,0 +1,41 @@
+.container {
+   flex-wrap: wrap;
+}
+
+.boxes {
+    border: 1px solid black;
+    width: 150px;
+    height: 50px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px; 
+}
+
+.boxes:nth-child(odd){
+    background-color: black;
+    color: white;
+}
+
+.boxes:nth-child(2) {
+    margin-left: 30px;
+}
+
+.boxes:nth-child(3) {
+    margin-left: 60px;
+}
+
+.boxes:nth-child(4) {
+    margin-left: 90px;
+}
+
+.boxes:nth-child(5) {
+    margin-left: 120px;
+}
+
+.boxes:nth-child(6) {
+    margin-left: 180px;
+}
+
+
+

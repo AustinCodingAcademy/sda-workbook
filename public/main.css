@@ -1,0 +1,37 @@
+a {
+    text-decoration: none;
+}
+
+h2 {
+    text-indent: 0px;
+}
+
+h3 {
+    text-indent: 10px;
+}
+
+ul {
+    list-style-type: none;
+    text-indent: -10px;
+}
+
+.Lesson2 {
+    padding: 3px;
+}
+
+.Lesson2 a {
+    color:#fff000;
+}
+
+.Lesson3 {
+    padding: 3px;
+}
+
+.Lesson3 a {
+    color:#d06d14;
+}
+
+
+.Lesson5 {
+    color: green;
+}

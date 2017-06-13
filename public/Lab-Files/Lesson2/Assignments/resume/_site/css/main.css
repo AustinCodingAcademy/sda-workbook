@@ -1,0 +1,75 @@
+/* CSS Styles are defined below */
+/*hyperlink colors*/
+a:link {
+  color: #ba1c00;
+  text-decoration: none; }
+
+a:visited {
+  color: #792313;
+  text-decoration: none; }
+
+a:hover {
+  color: #f82a06;
+  text-decoration: underline; }
+
+a:active {
+  color: #ff4d2d;
+  text-decoration: underline; }
+
+.navigation-block {
+  list-style-type: none;
+  display: inline;
+  position: fixed;
+  left: 0px;
+  top: 5px;
+  height: 25px;
+  width: 100%;
+  overflow: hidden;
+  background-color: #b0b0b0;
+  margin: 0;
+  font: Verdana; }
+
+.navigation-block ul {
+  display: block; }
+
+.navigation-block li {
+  float: left;
+  height: 25px;
+  border-right: 2px solid #FFFFFF; }
+
+.navigation-block li:last-child {
+  border-right: none; }
+
+/*paragraph*/
+.paragraph-head {
+  text-transform: uppercase;
+  font-weight: 900;
+  font-size: 24px;
+  color: #ba1c00; }
+
+.paragraph-info {
+  font-size: 16px;
+  margin: 0; }
+
+.paragraph-subhead {
+  font-weight: 900;
+  font-size: 20px;
+  margin: 0; }
+
+ul.paragraph-list {
+  margin: 0;
+  padding-left: 23px; }
+
+.paragraph-list li {
+  font-size: 16px;
+  border: 0px; }
+
+.paragraph-list-experience {
+  list-style-position: 10px;
+  font-size: 16px;
+  border: 0px;
+  margin: 0;
+  padding-left: 23; }
+
+body {
+  background-color: white; }

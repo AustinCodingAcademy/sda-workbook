@@ -1,0 +1,100 @@
+/*OVERALL CONTAINERS CSS*/
+
+.content-container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+
+.flagname-container {
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+    margin-top: 5px;
+}
+
+
+/*FLAG CONTAINERS CSS*/
+
+.flagandflagname-container {
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+.horizontialflag-container {
+    display: flex;
+    flex-flow: column nowrap;
+    width: 200px;
+    height: 150px;
+    border: 1px solid black;
+}
+
+.verticalflag-container {
+    display: flex;
+    flex-flow: row nowrap;
+    width: 200px;
+    height: 150px;
+    border: 1px solid black;
+}
+
+
+/*FLAG COLOR CONTAINERS*/
+
+/*German Flag Colors*/
+.german-colors {
+    background-color: black;
+    height: 100%;
+}
+
+.german-colors:nth-child(2) {
+    background-color: red;
+}
+
+.german-colors:last-child {
+    background-color: yellow;
+}
+
+
+/*Italy Flag Colors*/
+.italy-colors {
+    background-color: green;
+    width: 100%;
+}
+
+.italy-colors:nth-child(2) {
+    background-color: white;
+}
+
+.italy-colors:last-child {
+    background-color: red;
+}
+
+
+/*France Flag Color*/
+.france-colors {
+    background-color: blue;
+    width: 100%;
+}
+
+.france-colors:nth-child(2) {
+    background-color: white;
+}
+
+.france-colors:last-child {
+    background-color: red;
+}
+
+
+/*Colombia Flag Colors*/
+.colombia-colors {
+    background-color: yellow;
+    height: 100%;
+}
+
+.colombia-colors:nth-child(2) {
+    background-color: blue;
+}
+
+.colombia-colors:last-child {
+    background-color: red;
+}
