@@ -1,0 +1,127 @@
+/* Bonus Use Google font*/
+
+* {
+  font-family: 'Open Sans', sans-serif;
+}
+
+div {
+  display: flex;
+  margin-top: 50px;
+  margin-left: 20%;
+  margin-bottom: 50px;
+}
+
+p {
+  font-size: 200%;
+}
+
+.h3size {
+  font-size: 110%;
+}
+
+table {
+  border: 1px solid #F2F2F2;
+  max-width: 100%;
+  height: auto;
+  min-width: 937px;
+}
+
+.pink {
+  color: #E62565;
+}
+
+.green {
+  color: #50AD55;
+}
+
+.blue {
+  color: #1EAAF1;
+}
+
+th {
+  background-color: #2C2C2E;
+  margin: 1px;
+  color: #FFFFFF;
+  text-align: center;
+  padding-bottom: 15px;
+  width: 200px;
+  height: 150px;
+}
+
+.green-bar {
+  border-top: 4px solid #50AD55;
+}
+
+td {
+  text-align: center;
+  width: 200px;
+  height: 100px;
+}
+
+td:first-child {
+  background-color: #6299F8;
+  color: white;
+}
+
+tr:nth-child(n+2):nth-child(even) {
+  background-color: #F2F2F2;
+}
+
+
+/*footer textarea*/
+
+tfoot {
+  color: #FFFFFF;
+}
+
+
+/*footer background*/
+
+.ftpink {
+  background-color: #E62565;
+}
+
+.ftgreen {
+  background-color: #50AD55;
+}
+
+.ftblue {
+  background-color: #1EAAF1;
+}
+
+@media (min-width: 320px) {
+  .table::before {
+    max-width: 80%;
+    overflow-y: hidden;
+  }
+}
+
+@media (min-width: 480px) {
+  .table::before {
+    max-width: 80%;
+  }
+}
+
+@media (min-width: 620px) {
+  .table::before {
+    max-width: 80%;
+  }
+}
+
+@media (min-width: 810px) {
+  .table::before {
+    max-width: 80%;
+  }
+}
+
+@media (min-width: 1200px) {
+  .table::before {
+    max-width: 80%;
+  }
+}
+
+@media (min-width: 1400px) {
+  .table::before {
+    max-width: 80%;
+  }
+}
