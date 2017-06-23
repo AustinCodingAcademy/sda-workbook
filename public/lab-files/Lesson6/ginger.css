@@ -1,0 +1,187 @@
+/* Global Styles */
+
+* {
+  /* Simple Reset */
+  margin: 0;
+  padding: 0;
+}
+
+
+/* take out when done*/
+
+div {
+  border: 3px red;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font: 400 1.6rem "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+
+/* Responsive Navigation Styles */
+
+.site-nav {
+  position: absolute;
+  top: 9px;
+  right: 15px;
+  background-color: #fdfdfd;
+  border: 1px solid #e8e8e8;
+  border-radius: 5px;
+  text-align: right;
+}
+
+.site-nav .menu-icon {
+  display: block;
+  float: right;
+  width: 36px;
+  height: 26px;
+  padding-top: 10px;
+  text-align: center;
+}
+
+.site-nav .trigger {
+  clear: both;
+  display: none;
+}
+
+.site-nav:hover .trigger {
+  display: block;
+  padding-bottom: 5px;
+}
+
+.site-nav .page-link {
+  color: #111;
+  display: block;
+  padding: 5px 10px;
+  margin-left: 20px;
+}
+
+.site-nav .page-link:hover {
+  text-decoration: underline;
+}
+
+
+/**
+* Media Queries
+**/
+
+@media screen and (min-width: 320px) {
+  .page::before {
+    content: "320px";
+    font-family: Arial, sans-serif;
+    color: green;
+    position: fixed;
+    top: 0;
+    left: 0;
+    font-weight: 700;
+    margin: 5px;
+    font-size: 2.4rem;
+    z-index: 9999;
+  }
+}
+
+@media screen and (min-width: 480px) {
+  .page::before {
+    content: "480px";
+    color: maroon;
+  }
+}
+
+@media screen and (min-width: 620px) {
+  .page::before {
+    content: "620px";
+    color: orange;
+  }
+  /* Responsive Navigation Styles */
+  .site-nav {
+    background-color: #fff;
+    border: 0;
+    border-radius: 0;
+    float: right;
+    line-height: 56px;
+  }
+  .site-nav .trigger {
+    display: block;
+  }
+  .site-nav .menu-icon {
+    display: none;
+  }
+  .site-nav .page-link {
+    display: inline;
+    color: #111;
+    line-height: 1.5;
+  }
+  .site-nav .page-link:not(:last-child) {
+    margin-right: 20px;
+  }
+}
+
+@media screen and (min-width: 810px) {
+  .page::before {
+    content: "810px";
+    color: black;
+  }
+}
+
+@media screen and (min-width: 1400px) {
+  .page::before {
+    content: "1400px";
+    color: red;
+  }
+}
+
+.header {
+  background-color: #DFA329;
+  margin: 0px;
+  display: flex;
+  align-items: center
+}
+
+
+/* a dogs life*/
+
+.image1 {
+  flex: 1;
+  size: auto; 
+}
+
+
+/*dog paw*/
+
+.image2 {
+  flex: 1;
+}
+
+
+/*search*/
+
+.search {
+  padding: 10px 10px 10px 10px;
+  display: flex;
+}
+
+.input {
+  background-color: #b38600;
+  padding: 10px 10px 10px 10px;
+  border: 3px solid #DFA329;
+}
+
+.box {
+  background-color: #663d00;
+  padding: 10px 10px 10px 10px;
+  border: 3px solid #DFA329;
+}
+
+.background {
+  display: flex;
+  flex: 1;
+  padding: 0px;
+}
