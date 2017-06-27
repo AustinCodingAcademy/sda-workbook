@@ -1,0 +1,77 @@
+.logo {
+    min-width: 100%;
+    min-height: 100%;
+    position: fixed;
+    z-index: 1;
+}
+
+img {
+    height: 175px;
+    width: 175px;
+    padding-left: 50px;
+    padding-top: 30px;
+}
+
+video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+}
+
+.Content {
+    z-index: 2;
+    top: 50%;
+    left: 0%;
+    position: absolute;
+    background: rgb(245, 245, 245);
+    width: 100%;
+    height: auto;
+    background-image: url("linen.jpg");
+    background-repeat: repeat;
+    color: #35a6fc;
+    border-top: 2px solid #35a6fc;
+}
+
+
+/* unvisited link */
+
+a:link {
+    color: #35a6fc;
+    text-decoration: none;
+}
+
+
+/* visited link */
+
+a:visited {
+    color: #35a6fc;
+}
+
+
+/* header text */
+
+
+/*.text {
+    z-index: 2;
+    position: fixed;
+    font-family: serif;
+    font-size: 3rem;
+    background: rgba(0, 0, 0, 0.5);
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding-left: 60px;
+    color: #35a6fc;
+    text-align: justify;
+}
+*/
+
+h1 {
+    color: #35a6fc;
+}
