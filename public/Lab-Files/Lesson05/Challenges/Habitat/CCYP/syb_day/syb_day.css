@@ -125,3 +125,7 @@ tr.header-color {
     background-color: #6699FF;
     color: #f6f6f6;
 }
+
+tr.row-color {
+    background-color: #add8e6;
+}
