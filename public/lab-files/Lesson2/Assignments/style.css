@@ -1,0 +1,19 @@
+
+.intro     {
+    text-align:center;
+    font-family: "Times New Roman", Times, serif;
+    line-height: 2px; 
+}
+
+.edu     {
+    text-align: left;
+    font-family: "Times New Roman", Times, serif;
+    line-height: 0px;
+    font-size: 12px;
+}
+
+.experience     {
+    text-align: left;
+    line-height: 12px;
+    font-size: 12px;
+}

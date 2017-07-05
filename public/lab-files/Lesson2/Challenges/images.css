@@ -1,0 +1,23 @@
+* {
+    color: white;
+    text-align: center;
+    font-size: 30px;
+}
+
+div {
+    background-image: url("https://upload.wikimedia.org/wikipedia/en/thumb/b/ba/Flag_of_Germany.svg/220px-Flag_of_Germany.svg.png");
+}
+
+body {
+    background-image: url("https://upload.wikimedia.org/wikipedia/en/thumb/b/ba/Flag_of_Germany.svg/220px-Flag_of_Germany.svg.png");
+    background-image: opacity: 0.3;
+    margin: 0;
+}
+
+main {
+    background-color: rgba(255, 255, 255, 0.25);
+}
+
+h1 {
+    margin: 0;
+}

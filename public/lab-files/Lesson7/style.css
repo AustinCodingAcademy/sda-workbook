@@ -1,0 +1,260 @@
+/* Global Styles */
+
+* {
+    /* Simple Reset */
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font: 400 1.6rem "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+#top {
+    background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/185649/background.png) no-repeat center;
+    background-size: cover;
+    height: 300px;
+}
+
+.navigation {
+    /*   font-family: 'Raleway', sans-serif; */
+    font-family: 'Quicksand', sans-serif;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 65px;
+}
+
+.title {
+    color: #0098E0;
+    margin-left: 15%;
+    font-size: 2rem;
+}
+
+
+/* Responsive Navigation Styles */
+
+.site-nav {
+    position: absolute;
+    top: 12px;
+    right: 15px;
+    background-color: #fdfdfd;
+    border: 1px solid #e8e8e8;
+    border-radius: 5px;
+    text-align: right;
+}
+
+.site-nav .menu-icon {
+    display: block;
+    float: right;
+    width: 36px;
+    height: 26px;
+    padding-top: 10px;
+    text-align: center;
+}
+
+.site-nav .trigger {
+    clear: both;
+    display: none;
+}
+
+.site-nav:hover .trigger {
+    display: block;
+    padding-bottom: 5px;
+}
+
+.site-nav .page-link {
+    color: #111;
+    display: block;
+    padding: 5px 10px;
+    margin-left: 20px;
+}
+
+.site-nav .page-link:hover {
+    text-decoration: underline;
+}
+
+
+/**
+* Media Queries
+**/
+
+@media screen and (min-width: 320px) {
+    body::before {
+        content: "320px";
+        font-family: Arial, sans-serif;
+        color: green;
+        position: fixed;
+        top: 0;
+        left: 0;
+        font-weight: 700;
+        font-size: 2rem;
+        z-index: 9999;
+    }
+}
+
+@media screen and (min-width: 480px) {
+    body::before {
+        content: "480px";
+        color: maroon;
+    }
+}
+
+@media screen and (min-width: 620px) {
+    body::before {
+        content: "620px";
+        color: orange;
+    }
+    /* Responsive Navigation Styles */
+    .site-nav {
+        display: flex;
+        align-items: center;
+        background: none;
+        border: 0;
+        border-radius: 0;
+        float: right;
+        top: 0;
+        right: 0;
+        width: 70%;
+        height: 65px;
+    }
+    .site-nav .trigger {
+        display: block;
+    }
+    .site-nav:hover .trigger {
+        padding-bottom: 0;
+    }
+    .site-nav .menu-icon {
+        display: none;
+    }
+    .site-nav .page-link {
+        height: 65px;
+        display: inline-block;
+        padding-top: 0;
+        padding-bottom: 0;
+        color: #0098e0;
+        line-height: 65px;
+        font-size: 1rem;
+        text-transform: uppercase;
+        margin: 0;
+    }
+    .site-nav .page-link:hover {
+        background: #0098e0;
+        color: #fff;
+        text-decoration: none;
+    }
+}
+
+@media screen and (min-width: 810px) {
+    body::before {
+        content: "810px";
+        color: black;
+    }
+}
+
+@media screen and (min-width: 1400px) {
+    body::before {
+        content: "1400px";
+        color: red;
+    }
+}
+
+.container {
+    display: flex;
+    color: black;
+    flex-wrap: wrap;
+    font-size: 1rem;
+    width: auto; 
+    height: auto;
+    flex-direction: row;
+    justify-content: space-around;
+    border: 2px solid red;
+    margin: 60px;
+    padding: 10px;
+}
+
+.line {
+    color: blue;
+    height: 10px;
+    width: 35px;
+}
+.container div {
+  width: 40%;
+  background: green;
+  height: 30%;
+}
+
+.features {
+    display: flex-wrap;
+    text-align: center;
+    width: auto;
+    height: 30%;
+    border: 2px solid blue;
+    font-size: 15px;
+}
+
+.ideas {
+    display: flex-wrap;
+    height: auto;
+    width: auto;
+    flex-wrap: wrap;
+    text-align: center;
+    border: 2px solid purple;
+}
+
+.fast {
+    display: flex-wrap;
+    height: auto;
+    width: auto;
+    flex-wrap: wrap;
+    text-align: center;
+    border: 2px solid black;
+}
+
+.storage {
+    display: flex-wrap;
+    height: auto;
+    width: auto;
+    flex-wrap: wrap;
+    text-align: center;
+    border: 2px solid mistyrose;
+}
+
+.mobile {
+    display: flex-wrap;
+    height: auto;
+    width: auto;
+    flex-wrap: wrap;
+    text-align: center;
+    border: 2px solid orange;
+}
+
+.layered {
+    display: flex-wrap;
+    height: auto;
+    width: auto;
+    flex-wrap: wrap;
+    text-align: center;
+    border: 2px solid black;
+}
+
+.easy {
+    display: flex-wrap;
+    height: auto;
+    width: auto;
+    flex-wrap: wrap;
+    text-align: center;
+    border: 2px solid black;
+}
