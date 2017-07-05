@@ -1,282 +1,259 @@
 
-
-
 /*div{*/
-  /*border:2px dashed red;*/
+/*border:2px dashed red;*/
 /*}*/
 
+/** Benefits of using rem over em
+* rem = Element font-size is Relative to the ROOT element. The root element is the <html> tag.
+* Remember the root element html is currently set to 62.5% of 16px which is equal to 10px.
+* em = Element font-size is Relative to the font-size of the element or that of the parent's element (if it has one).
+(2em means 2 times the size of the current font)
+**/
+
+a{font-size:2rem;}
+
+/**{box-sizing: border-box;}*/
+
+html{ font-family: 'Eczar', serif;font-size: 62.5%;box-sizing: border-box;}
 
 
-a{
-  font-size:2rem;
-}
+/*APLLIES TO ALL MEDIA SIZE*/
 
-*{
-  box-sizing: border-box;
-
-}
-
-html{
-  font-family: 'Eczar', serif;
-  font-size: 62.5%; /* allows browsers (that supports rem) to use rem fonts sizing, where 62.5% equals 10px or 1rem*/
-  height: 100%;
-  width: 100%;
-
-  /** Benefits of using rem over em
-  * rem = Element font-size is Relative to the ROOT element. The root element is the <html> tag.
-  * Remember the root element html is currently set to 62.5% of 16px which is equal to 10px.
-  * em = Element font-size is Relative to the font-size of the element or that of the parent's element (if it has one).
-  (2em means 2 times the size of the current font)
-  **/
-}
-
-
-/* header section */
-
-header, footer{
-  /*width:80%;*/
-  width:1143px; /* match total image width*/
-  margin: 0 auto;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  padding-left: 30px;
-  padding-right: 30px;
-  display: flex; /* display all header child elements in a row */
-  align-items: center; /* center align all header child elements in their original height and weight */
-}
-
-header{
-  background-color:  #ffad33;
-}
-
-.paw-img{
-  vertical-align: middle;
-  padding-top: 10px;
-  padding-bottom: 10px
-
-
-
-
-}
-.menu-left{
-  color: #fff;
-  font-size: 2rem;
-  /*  position: relative */
-  flex: 1;  /* equally display flex from Header parent */
-
-}
+/*header*/
+header{background-color:  #ffad33;}
+.paw-img{ vertical-align: middle;padding-top: 10px;padding-bottom: 10px;}
+.menu-left{color: #fff;}
 
 /*
-.dropdown-content{
-  display: none;
-  position: absolute;
-
-}
-
-.menu-left:hover .dropdown-content {
-  display: block;
-}
-
-
-/* logo*/
-.logo-center{
-  flex: 1;
-}
+.dropdown-content{ display: none;position: absolute;}
+.menu-left:hover .dropdown-content { display: block;}
+*/
 
 
 /* header . search-bar */
-.search-right{
-  display:flex; /* display search bar and search icon next to each other */
+.search-right{display:flex;} /* display search bar and search icon next to each other */
+input::placeholder {color:#fff;}
+.search-bar{background-color:#b38600; color: white; padding: 10px; border: 2px solid #b38600;}
+.search-icon{background-color: #663d00;padding: 10px;}
 
 
+/*main footer */
+.center{ text-align: center;}
+footer{ background-color: #181818;}
+
+button{font-size: 1.2rem;padding-top: 10px;padding-bottom: 10px;font-weight: bolder;color: green;}
+
+/*subscribe*/
+.subscribe-bar {
+  background-color: black;
+  text-align:center;
+  font-size:1.2rem;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border: 1px solid black;
 }
 
-input .search-bar{
-  font-size: 1.2rem;
-  background: transparent;
-  padding: 15px;
-  color: white;
+.sub-btn{color: black;background-color: #CF5300;border: 1px solid #CF5300;}
+
+/*Social Icons*/
+.icon-right-margin{margin-right: 8px;}
+
+/*Donate*/
+.donate-right{display: flex;padding-left: 10px;padding-top: 2px;padding-bottom: 2px;}
+.green-heart{background-color: green;padding-left: 5px;padding-top: 5px;padding-right: 5px;}
+.donate-btn{color: green;padding-top: 15px;padding-bottom: 15px;}
+
+/*END: APLLIES TO ALL MEDIA SIZE*/
+
+
+/* Medida Queries - Mobile firts*/
+
+/*320 */
+@media only screen and (min-width:320px ) {
+  .desktop-view{display: none;}
+
+  img{
+    max-width: 100%;
+    height: auto;
+  }
+
+  *{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+  /*header*/
+  .moblie-view{
+    display: flex;
+    flex-direction: column;
+    padding: 10px 30px 0px 30px;
+  }
+
+  .sub-logo{display: flex;align-items: center;}
+
+  .mobile-logo-size{
+    width: 60%;
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .paw-img{width: 40%;}
+
+  .menu-left{
+    font-size: 1.6rem;
+    flex:1;
+  }
+
+  .search-right{
+    flex:1;
+
+  }
+  input[type=text]{width: 70%;}
+
+  /*main*/
+
+  .profile-left{display: block;}
+
+  .profile-pic-topleft{
+    background-color:#f26e00;
+    margin-bottom: -20px;
+              }
+.ginger-profile-pic{ /* center ginger across screens*/
+  display:block;
+      margin:auto;
 }
 
-.search-bar{
-  background-color:  #b38600;
-  color: white;
-  padding: 10px;
-  border: 2px solid #b38600;
+  .profile-details-bottomleft{
+    background-color:#f26e00;
+    padding: 10px;
+    color: #fff;
+    font-size:1.5rem;
+    font-family: Garamond;
+  }
 
-
-}
-
-.search-icon{
-  background-color: #663d00;
-
-  padding: 10px;
-}
-
-
-
-/*main */
-
-
-.center{
-  text-align: center;
-}
-
-
-/* place profile-left and profile-right side by side*/
-.main-content{
-  margin: 0 auto;
+  .bottom-left-icons{
   display: flex;
-  justify-content: center;
-  /*width:80%;*/
-  width: 1143px;
-  height: 591px;
-
-}
+  align-items: center;
+  margin-left: 30px;
 
 
+  }
+
+
+/*hide ginger-headshot-pic*/
 .profile-right{
-  flex: 1;
-  width: 784px;
-  height: 619px;
-  
-  /*background-image: url("img/InsidePage-Photo.png");*/
+  display: none;
 }
 
-.profile-left{
-  flex: 1;
-  height: 619px;
- 
+/*footer*/
+footer{
+  padding:10px;
+
+}
+.subscriber-left, .social-icons-center{margin-bottom: 10px;}
+
+.social-icons-center{
+  display: flex;
+ align-items: center;
+
+
+}
+.icon-right-margin{width:10%; flex: 1;}
+
+.donate-right{
+display: flex;
+justify-content: center;
 }
 
-.profile-pic-topleft{
-margin: 0 auto;
- width: 359px;
- height: 338px;
 }
 
-.profile-details-bottomleft { /* Ginger to match topleft pic w*h*/
-  /*border-radius: 1px solid #f26e00 ;*/
-  background-color:#f26e00;
+@media only screen and (min-width:480px){
+
+  .social-icons-center{
+    display: block;
+  padding-left: 30%;
+    }
+
+}
+
+
+@media only screen and (min-width:700px){
+  .moblie-view{display:none;}
+
+  .desktop-view{
+    display: flex;
+    align-items: center;
+    padding:10px;
+  }
+
+  .menu-left{flex:1; order:1;font-size:2rem;}
+  .logo-center{flex:1; order:2;padding-right: 30px;}
+  .mobile-logo-size{width: 70%;}
+  .search-right{flex:1; order:3;}
+
+.bottom-left-icons{padding-left: 20%;}
+
+
+  .paw-img{width: auto;}
+}
+
+/*====================================================*/
+/* Tablet - and Desktop */
+@media only screen and (min-width:1000px){
+
+  /*show ginger-headshot-pic*/
+  .profile-right{
+    display: flex;
+  }
+
+  header, footer{
+    margin: 0 auto;
+    display: flex;
+    /*justify-content: center;*/
+    width:1143px;
+  }
+
+
+
+body{width: 90%;}
+
+
+  /* place profile-left and profile-right side by side*/
+  .main-content{
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    width: 1143px;
+    height: 591px;
+  }
+
+.profile-left{background-color:#f26e00;}
+  .profile-pic-topleft{margin-bottom: 0px;}
+
+.profile-details-bottomleft {
   width: 359px;
   height: 253px;
-  color: #fff;
-  font-size:1.7rem;
-  font-family: Garamond;
-  padding-top: 12px;
-  padding-bottom: 12px;
-  /*margin-top: 0px;
-  margin-bottom: 0px;*/
-  
-
-
 }
 
 .bottom-left-icons{
   display: flex;
   justify-content: center;
-
-}
-
-
-
-
-/*footer */
-
-footer{
-  background-color: #181818;
-  display: flex;
-
-
-
-}
-
-
-button{
-  font-size: 1.2rem;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  font-weight: bolder;
-  color: green;
-}
-
-/*subscribe*/
-
-.subscriber-left{
-flex:1;
-}
-
-
-.subscribe-bar {
-background-color: black;
-text-align:center;
-font-size:1.2rem;
-padding-top: 10px;
-padding-bottom: 10px;
-border: 1px solid black;
-}
-
-.sub-btn{
-color: black;
-background-color: #CF5300;
-border: 1px solid #CF5300;
-}
-
-
-/*Social Icons*/
-.social-icons-center {
-flex:1;
-}
-
-.icon-right-margin{
-  margin-right: 8px;
-
-}
-
-/*Donate*/
-
-.donate-right{
-  display: flex;
-  padding-left: 10px;
-  padding-top: 2px;
-  padding-bottom: 2px;
+  margin-right: 20%;
   }
 
-.green-heart{
-    background-color: green;
-    padding-left: 5px;
-    padding-top: 5px;
-    padding-right: 5px;
+
+.social-icons-center {
+  flex:1;
+  padding-left: 15%;
 }
 
 
-.donate-btn{
-  color: green;
-  padding-top: 15px;
-  padding-bottom: 15px;
+.icon-right-margin{width:auto;}
 
-}
-
-
-
-/* Medida Queries - Mobile firts*/
-
-/*Mobile */
-@media only screen and (min-width:320px ) {
-
-
-}
-
-/* Tablet */
-
-@media only screen and (min-width: 601px) {
-
-
-}
-
-/* Desktop */
-
-@media only screen and (min-width: ) {
-
+/*Donate*/
+.green-heart{margin-bottom: 14px;}
+.donate-btn{padding-right: 5px;}
 
 }
