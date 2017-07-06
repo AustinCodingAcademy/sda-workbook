@@ -1,0 +1,62 @@
+/* General Characteristics for all boxes*/
+.box {
+  border: 1px solid;
+  width: 150px;
+  height:50px;
+  margin: 10px;
+  padding: 10px;
+  font-weight: bold;
+ }
+
+
+
+/* Color odd numbered boxes 1, 3, and 5 black*/
+
+.box:nth-child(odd) {
+    background-color:black;
+    color:white;
+}
+
+
+/* float left the fourth box so that is starts on the next row
+.box:nth-child(2n+1) {
+  clear: left;
+}
+*/
+
+/* box 2  indented 30 pixels*/
+.box2 {
+    margin-left: 30px;
+}
+
+/* Each box after .box2 is indented 30 more pixels than the previous*/
+
+/* box 3 indented 30 pixels + 30 = total 60 pixels*/
+
+.box3 {
+    margin-left:calc(30px + 30px);
+}
+
+
+/* box 4 indented 30 pixels + 30 +30 = total 90 pixels*/
+
+.box4{
+    margin-left:calc(30px + 30px + 30px);
+}
+
+/* box 5 indented 30 pixels + 30 + 30 +30 = total 120 pixels*/
+
+.box5{
+    margin-left:calc(30px + 30px + 30px + 30px);
+}
+
+
+/* box 6 indented 30 pixels + 30 + 30 +30 +30 = total 150 pixels*/
+
+.box6{
+    margin-left:calc(30px + 30px + 30px + 30px + 30px);
+}
+
+
+
+

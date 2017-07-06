@@ -1,0 +1,38 @@
+/* simple reset */
+
+* {
+    margin: 0;
+}
+
+body{
+    font-family: 'Nova Mono', monospace;
+}
+
+/* main*/
+
+header {
+    background-color: #191970;
+    width: 100%;
+    position: fixed;
+}
+
+br {
+    display: block;
+    margin: 20px;
+    line-height: 50px;
+}
+
+h1 {
+    text-align: center;
+    color: #FFF;
+    font-size: 200%;
+    margin-left: 15px;
+}
+
+div {
+    margin: 10px;
+}
+
+footer {
+    text-align: center;
+}
